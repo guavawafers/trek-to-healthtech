@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Companies to Watch — The Trek to Healthtech</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css">
+</head>
+<body class="workspace-page" data-active-page="companies">
+  <main class="company-database-page">
+    <div class="company-database-hero">
+      <div><p class="eyebrow">Opportunity landscape</p><h1>Companies to Watch</h1><p>US-based healthtech companies with active careers pages supporting hiring within the United States.</p></div>
+      <div class="database-meta"><strong id="companyTotal">0 companies</strong><span>Eligibility checked June 8, 2026</span></div>
+    </div>
+    <div class="company-database-toolbar">
+      <label class="library-search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="companySearch" type="search" placeholder="Search companies, sectors, or focus areas…"></label>
+      <div class="company-database-filters" id="companyFilters" role="group" aria-label="Company filters">
+        <button class="database-filter active" data-filter="all">All</button>
+        <button class="database-filter" data-filter="Care Delivery">Care Delivery</button>
+        <button class="database-filter" data-filter="Infrastructure">Infrastructure</button>
+        <button class="database-filter" data-filter="Consumer">Consumer</button>
+        <button class="database-filter" data-filter="Diagnostics">Diagnostics</button>
+        <button class="database-filter" data-filter="Benefits">Benefits</button>
+        <button class="database-filter" data-filter="Pharmacy">Pharmacy</button>
+      </div>
+    </div>
+    <div class="database-summary"><strong id="companyResultCount">0 companies</strong><span>US-based companies with US hiring opportunities</span></div>
+    <div class="company-table company-database-table">
+      <div class="table-row table-header"><span>Company</span><span>Sector</span><span>Stage</span><span>Why It’s Interesting</span><span>Design Fit</span><span>Opportunities</span></div>
+      <div id="companyDatabase"></div>
+    </div>
+    <p class="empty-library" id="emptyCompanies" hidden>No companies match this search yet.</p>
+  </main>
+  <script src="app-shell.js"></script><script src="companies.js"></script>
+</body>
+</html>

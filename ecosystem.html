@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Healthcare Ecosystem — The Trek to Healthtech</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="workspace-page module-workspace-page" data-active-page="learning">
+  <main class="module-page">
+    <div class="module-workspace-bar">
+    <div class="module-top-progress"><strong id="lessonProgressText">0 of 5 lessons</strong><div><span id="lessonProgressBar"></span></div></div>
+    <a class="exit-module" href="learning-path.html">Exit module</a>
+    </div>
+    <div class="module-page-intro">
+      <p class="eyebrow">Foundation 01 · Beginner · 45 min</p>
+      <h1>The Healthcare Ecosystem</h1>
+      <p>Understand the stakeholders, care settings, and competing incentives behind every U.S. healthtech product.</p>
+    </div>
+
+    <div class="lesson-layout module-page-layout">
+      <aside class="lesson-nav">
+        <p>Module lessons</p>
+        <button class="lesson-tab active" data-lesson="lesson-1"><span>01</span>How the system works</button>
+        <button class="lesson-tab" data-lesson="lesson-2"><span>02</span>Key stakeholders</button>
+        <button class="lesson-tab" data-lesson="lesson-3"><span>03</span>Care settings &amp; journeys</button>
+        <button class="lesson-tab" data-lesson="lesson-4"><span>04</span>User vs. buyer</button>
+        <button class="lesson-tab" data-lesson="lesson-5"><span>05</span>Incentives &amp; constraints</button>
+        <button class="lesson-tab" data-lesson="exercise"><span>✎</span>Designer exercise</button>
+        <button class="lesson-tab" data-lesson="knowledge-check"><span>✓</span>Knowledge check</button>
+      </aside>
+
+      <div class="lesson-content">
+        <article class="lesson-page active" id="lesson-1">
+          <span class="lesson-kicker">Lesson 1 of 5</span>
+          <h3>How the U.S. healthcare system works</h3>
+          <p class="lesson-lede">Healthcare is not one system. It is a network of organizations exchanging care, money, information, and rules.</p>
+          <div class="lesson-callout"><strong>The core idea</strong><p>A healthtech product rarely serves just one user. Its experience and success are shaped by everyone who delivers, pays for, regulates, or receives care.</p></div>
+          <div class="flow-diagram"><div><span>Patient</span><small>Receives care</small></div><b>→</b><div><span>Provider</span><small>Delivers care</small></div><b>→</b><div><span>Payer</span><small>Pays claims</small></div><b>→</b><div><span>Regulator</span><small>Sets rules</small></div></div>
+          <div class="learning-block"><h4>Four forces moving through the system</h4><div class="key-term-grid"><div><strong>Care</strong><span>Services delivered to prevent, diagnose, or treat health needs.</span></div><div><strong>Money</strong><span>Premiums, patient payments, claims, and reimbursement.</span></div><div><strong>Information</strong><span>Records, results, orders, and decisions shared across organizations.</span></div><div><strong>Rules</strong><span>Coverage policies, privacy requirements, and clinical standards.</span></div></div></div>
+          <div class="example-box"><span>Real-world example</span><p>A patient books a virtual visit. A clinician delivers care, documents it in an EHR, and submits information used by an insurer to determine payment. The experience crosses several systems even though it feels like one appointment to the patient.</p></div>
+          <h4>Why this matters for product designers</h4>
+          <p>Before designing, identify who uses the product, who chooses it, who pays for it, and whose outcomes determine success. These may all be different people.</p>
+          <div class="designer-takeaway"><strong>Designer takeaway</strong><span>Map care, money, information, and rules before mapping screens.</span></div>
+          <button class="complete-lesson" data-complete="lesson-1">Continue →</button>
+        </article>
+
+        <article class="lesson-page" id="lesson-2">
+          <span class="lesson-kicker">Lesson 2 of 5</span>
+          <h3>Meet the key stakeholders</h3>
+          <p class="lesson-lede">Select each stakeholder to understand their goals, pressures, and influence on the product experience.</p>
+          <div class="stakeholder-map">
+            <div class="stakeholder-buttons"><button class="stakeholder active" data-stakeholder="patients">Patients</button><button class="stakeholder" data-stakeholder="providers">Providers</button><button class="stakeholder" data-stakeholder="payers">Payers</button><button class="stakeholder" data-stakeholder="employers">Employers</button><button class="stakeholder" data-stakeholder="regulators">Regulators</button></div>
+            <div class="stakeholder-detail" id="stakeholderDetail"><span>Patients</span><h4>Need understandable, affordable, and accessible care</h4><p>Patients navigate symptoms, appointments, costs, treatment, and follow-up while often feeling vulnerable or uncertain.</p><strong>Design focus: clarity, trust, access, and agency</strong></div>
+          </div>
+          <div class="learning-block"><h4>Stakeholders influence different parts of the product</h4><div class="key-term-grid"><div><strong>Patient</strong><span>Experiences care and its outcomes.</span></div><div><strong>Provider</strong><span>Delivers care and creates clinical information.</span></div><div><strong>Payer</strong><span>Defines coverage and pays for eligible services.</span></div><div><strong>Purchaser</strong><span>Chooses or funds benefits, often an employer or government.</span></div></div></div>
+          <div class="example-box"><span>Real-world example</span><p>A therapy platform may be used by patients, purchased by employers, clinically supported by therapists, and evaluated by health plans. Each audience has a different definition of success.</p></div>
+          <div class="designer-takeaway"><strong>Designer takeaway</strong><span>Research the people who influence adoption, not only the person touching the interface.</span></div>
+          <button class="complete-lesson" data-complete="lesson-2">Continue →</button>
+        </article>
+
+        <article class="lesson-page" id="lesson-3">
+          <span class="lesson-kicker">Lesson 3 of 5</span><h3>Care settings shape the experience</h3>
+          <p class="lesson-lede">The same person may move through multiple settings, each with different workflows, urgency, and information needs.</p>
+          <div class="setting-grid"><div><strong>Home</strong><span>Self-management, monitoring, virtual care</span></div><div><strong>Primary care</strong><span>Prevention, diagnosis, coordination</span></div><div><strong>Specialty care</strong><span>Complex conditions and treatment</span></div><div><strong>Hospital</strong><span>Acute, high-risk, team-based care</span></div></div>
+          <div class="learning-block"><h4>Context changes design needs</h4><div class="key-term-grid"><div><strong>Urgency</strong><span>How quickly someone needs to understand and act.</span></div><div><strong>Continuity</strong><span>How information follows a person across care settings.</span></div><div><strong>Capacity</strong><span>The time, attention, and resources available to deliver care.</span></div><div><strong>Acuity</strong><span>The severity and complexity of a patient’s condition.</span></div></div></div>
+          <div class="example-box"><span>Real-world example</span><p>A symptom questionnaire completed calmly at home may become a concise triage summary for a busy nurse and an urgent alert for an emergency care team. One set of information serves different contexts.</p></div>
+          <div class="lesson-callout"><strong>Designer prompt</strong><p>What happens before and after someone touches your product? The surrounding journey often determines whether the experience works.</p></div>
+          <div class="designer-takeaway"><strong>Designer takeaway</strong><span>Design for the transitions between settings, not only isolated moments.</span></div>
+          <button class="complete-lesson" data-complete="lesson-3">Continue →</button>
+        </article>
+
+        <article class="lesson-page" id="lesson-4">
+          <span class="lesson-kicker">Lesson 4 of 5</span><h3>The user is not always the buyer</h3>
+          <p class="lesson-lede">Healthcare products often succeed by meeting the needs of several audiences at once.</p>
+          <div class="role-grid"><div><span>User</span><strong>Uses the product</strong><p>A clinician documenting a visit</p></div><div><span>Buyer</span><strong>Approves the purchase</strong><p>A health system executive</p></div><div><span>Beneficiary</span><strong>Receives the outcome</strong><p>A patient receiving care</p></div><div><span>Decision-maker</span><strong>Influences adoption</strong><p>An IT or compliance leader</p></div></div>
+          <div class="learning-block"><h4>Why products must create layered value</h4><p>A product may need to save a clinician time, improve a patient outcome, meet an IT security requirement, and demonstrate financial value to an executive. If one critical audience is ignored, adoption can stall.</p></div>
+          <div class="example-box"><span>Real-world example</span><p>An AI documentation tool is used by clinicians, purchased by a health system, reviewed by security and compliance teams, and ultimately intended to improve the patient-clinician interaction.</p></div>
+          <div class="designer-takeaway"><strong>Designer takeaway</strong><span>Create a value proposition and success metric for every critical audience.</span></div>
+          <button class="complete-lesson" data-complete="lesson-4">Continue →</button>
+        </article>
+
+        <article class="lesson-page" id="lesson-5">
+          <span class="lesson-kicker">Lesson 5 of 5</span><h3>Incentives create design constraints</h3>
+          <p class="lesson-lede">Every stakeholder defines value differently, creating tensions the product must navigate.</p>
+          <div class="tension-list"><div><strong>Patient</strong><span>Wants affordable, convenient, high-quality care</span></div><div><strong>Provider</strong><span>Wants better outcomes with less administrative burden</span></div><div><strong>Payer</strong><span>Wants necessary care delivered at a sustainable cost</span></div><div><strong>Regulator</strong><span>Wants safety, privacy, access, and accountability</span></div></div>
+          <div class="learning-block"><h4>Common ecosystem tensions</h4><div class="key-term-grid"><div><strong>Access vs. capacity</strong><span>More demand can overwhelm limited care teams.</span></div><div><strong>Convenience vs. safety</strong><span>Faster flows may require thoughtful safeguards.</span></div><div><strong>Personalization vs. privacy</strong><span>Useful experiences often require sensitive data.</span></div><div><strong>Quality vs. cost</strong><span>Better outcomes must be financially sustainable.</span></div></div></div>
+          <div class="example-box"><span>Real-world example</span><p>Removing appointment friction may increase access, but it can also create no-shows or route people to the wrong level of care. Good design considers both the patient experience and system capacity.</p></div>
+          <div class="lesson-callout"><strong>Design principle</strong><p>A strong healthtech experience does not eliminate every tension. It makes tradeoffs understandable and aligns incentives where possible.</p></div>
+          <div class="designer-takeaway"><strong>Designer takeaway</strong><span>Name the tradeoff explicitly and decide whose needs take priority in each moment.</span></div>
+          <button class="complete-lesson" data-complete="lesson-5">Mark lesson complete →</button>
+        </article>
+
+        <article class="lesson-page" id="exercise">
+          <span class="lesson-kicker">Product designer exercise</span><h3>Map a healthtech product</h3>
+          <p class="lesson-lede">Choose a healthtech product and identify the people and incentives shaping its experience.</p>
+          <div class="exercise-form"><label>Product or company<input type="text" placeholder="Example: Headway"></label><label>Primary user<textarea placeholder="Who uses it, and what are they trying to accomplish?"></textarea></label><label>Buyer or decision-maker<textarea placeholder="Who purchases, approves, or influences adoption?"></textarea></label><label>Competing incentives<textarea placeholder="Where might stakeholder goals conflict?"></textarea></label></div>
+          <button class="save-exercise">Save exercise notes</button>
+        </article>
+
+        <article class="lesson-page" id="knowledge-check">
+          <span class="lesson-kicker">Knowledge check</span><h3>Check your ecosystem understanding</h3>
+          <p class="lesson-lede">Answer all three questions correctly to complete the module.</p>
+          <div class="quiz"><fieldset data-answer="buyer"><legend>1. Who typically approves or purchases a healthtech product?</legend><label><input type="radio" name="q1" value="user"> The user</label><label><input type="radio" name="q1" value="buyer"> The buyer</label><label><input type="radio" name="q1" value="beneficiary"> The beneficiary</label></fieldset><fieldset data-answer="multiple"><legend>2. Why must designers understand multiple stakeholders?</legend><label><input type="radio" name="q2" value="visual"> To select visual styles</label><label><input type="radio" name="q2" value="multiple"> Different stakeholders shape adoption and success</label><label><input type="radio" name="q2" value="avoid"> To avoid speaking with users</label></fieldset><fieldset data-answer="journey"><legend>3. Why should designers study care settings?</legend><label><input type="radio" name="q3" value="journey"> Context and workflows change across the care journey</label><label><input type="radio" name="q3" value="same"> Every setting works the same way</label><label><input type="radio" name="q3" value="brand"> Settings determine brand colors</label></fieldset><fieldset data-answer="layers"><legend>4. Why do healthtech products need layered value?</legend><label><input type="radio" name="q4" value="layers"> Critical audiences have different needs and success measures</label><label><input type="radio" name="q4" value="same"> Every stakeholder wants the same thing</label><label><input type="radio" name="q4" value="visual"> It improves visual hierarchy</label></fieldset><fieldset data-answer="tradeoff"><legend>5. What should designers do with ecosystem tensions?</legend><label><input type="radio" name="q5" value="ignore"> Ignore them</label><label><input type="radio" name="q5" value="tradeoff"> Make tradeoffs explicit and prioritize thoughtfully</label><label><input type="radio" name="q5" value="remove"> Always remove all friction</label></fieldset></div>
+          <button class="submit-quiz">Submit knowledge check</button><p class="quiz-result" id="quizResult"></p>
+        </article>
+      </div>
+    </div>
+  </main>
+  <div class="toast" id="toast">Progress saved.</div>
+  <script src="app-shell.js"></script><script src="module.js"></script>
+</body>
+</html>

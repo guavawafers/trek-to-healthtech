@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clinical Workflows & Care Delivery — The Trek to Healthtech</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css">
+</head>
+<body class="workspace-page module-workspace-page" data-active-page="learning">
+  <main class="module-page">
+    <div class="module-workspace-bar">
+    <div class="module-top-progress"><strong id="lessonProgressText">0 of 5 lessons</strong><div><span id="lessonProgressBar"></span></div></div>
+    <a class="exit-module" href="learning-path.html">Exit module</a>
+    </div>
+    <div class="module-page-intro"><p class="eyebrow">Foundation 03 · Intermediate · 55 min</p><h1>Clinical Workflows &amp; Care Delivery</h1><p>Learn how care teams work and how to design products that fit safely into complex, real-world clinical environments.</p></div>
+    <div class="lesson-layout module-page-layout">
+      <aside class="lesson-nav">
+        <p>Module lessons</p>
+        <button class="lesson-tab active" data-lesson="lesson-1"><span>01</span>Care is a team sport</button>
+        <button class="lesson-tab" data-lesson="lesson-2"><span>02</span>Map the workflow</button>
+        <button class="lesson-tab" data-lesson="lesson-3"><span>03</span>Handoffs &amp; interruptions</button>
+        <button class="lesson-tab" data-lesson="lesson-4"><span>04</span>Safety &amp; constraints</button>
+        <button class="lesson-tab" data-lesson="lesson-5"><span>05</span>Design for adoption</button>
+        <button class="lesson-tab" data-lesson="exercise"><span>✎</span>Designer exercise</button>
+        <button class="lesson-tab" data-lesson="knowledge-check"><span>✓</span>Knowledge check</button>
+      </aside>
+      <div class="lesson-content">
+        <article class="lesson-page active" id="lesson-1">
+          <span class="lesson-kicker">Lesson 1 of 5</span><h3>Care is a team sport</h3>
+          <p class="lesson-lede">A patient’s care is often delivered by many people across different roles, locations, systems, and moments in time.</p>
+          <div class="lesson-callout"><strong>The core idea</strong><p>A clinical product rarely supports one isolated person. Every action can create downstream work, information, or risk for another member of the care team.</p></div>
+          <div class="flow-diagram"><div><span>Patient</span><small>Shares needs</small></div><b>→</b><div><span>Nurse</span><small>Assesses &amp; coordinates</small></div><b>→</b><div><span>Clinician</span><small>Diagnoses &amp; treats</small></div><b>→</b><div><span>Care team</span><small>Supports follow-up</small></div></div>
+          <div class="learning-block"><h4>Common care-team roles</h4><div class="key-term-grid"><div><strong>Clinician</strong><span>Diagnoses, treats, and makes clinical decisions.</span></div><div><strong>Nurse</strong><span>Assesses, educates, monitors, and coordinates.</span></div><div><strong>Care coordinator</strong><span>Connects services and supports follow-through.</span></div><div><strong>Operations staff</strong><span>Manage scheduling, access, and administrative work.</span></div></div></div>
+          <div class="example-box"><span>Real-world example</span><p>A medication refill request may involve a patient, support staff, a nurse, a prescribing clinician, a pharmacy, and an insurer before it is complete.</p></div>
+          <h4>Why this matters for product designers</h4><p>Map who creates information, who receives it, who acts on it, and who is accountable if something is missed.</p>
+          <div class="designer-takeaway"><strong>Designer takeaway</strong><span>Design for the entire chain of responsibility, not only the most visible user.</span></div>
+          <button class="complete-lesson" data-complete="lesson-1">Continue →</button>
+        </article>
+        <article class="lesson-page" id="lesson-2">
+          <span class="lesson-kicker">Lesson 2 of 5</span><h3>Map the real clinical workflow</h3>
+          <p class="lesson-lede">A workflow is the sequence of people, actions, decisions, tools, and information required to complete care.</p>
+          <div class="setting-grid"><div><strong>Before care</strong><span>Scheduling, intake, eligibility, preparation</span></div><div><strong>During care</strong><span>Assessment, decisions, treatment, documentation</span></div><div><strong>After care</strong><span>Orders, follow-up, results, coordination</span></div><div><strong>Between visits</strong><span>Monitoring, messaging, self-management</span></div></div>
+          <div class="learning-block"><h4>What to capture in a workflow map</h4><div class="key-term-grid"><div><strong>Trigger</strong><span>The event that begins the workflow.</span></div><div><strong>Decision</strong><span>A choice that changes the next action.</span></div><div><strong>Handoff</strong><span>Responsibility moving between people or teams.</span></div><div><strong>Artifact</strong><span>Information or documentation created along the way.</span></div></div></div>
+          <div class="example-box"><span>Real-world example</span><p>A lab result workflow begins when a result arrives, branches based on severity, creates notifications, and ends only when the right person reviews and acts on it.</p></div>
+          <div class="lesson-callout"><strong>Designer prompt</strong><p>Do not only map the happy path. Observe workarounds, duplicate entry, waiting, uncertainty, and the moments where people leave one system for another.</p></div>
+          <div class="designer-takeaway"><strong>Designer takeaway</strong><span>Map the current workflow before proposing the future one.</span></div>
+          <button class="complete-lesson" data-complete="lesson-2">Continue →</button>
+        </article>
+        <article class="lesson-page" id="lesson-3">
+          <span class="lesson-kicker">Lesson 3 of 5</span><h3>Handoffs and interruptions create risk</h3>
+          <p class="lesson-lede">Clinical work is rarely linear. People switch tasks, respond to urgent needs, and transfer responsibility throughout the day.</p>
+          <div class="tension-list"><div><strong>Handoff</strong><span>Responsibility or information moves to another person</span></div><div><strong>Interruption</strong><span>Attention shifts before a task is completed</span></div><div><strong>Escalation</strong><span>A situation requires more urgent or specialized attention</span></div><div><strong>Follow-up</strong><span>An action must happen later, often by someone else</span></div></div>
+          <div class="example-box"><span>Real-world example</span><p>A nurse is interrupted while reviewing an abnormal result. If the product does not preserve state and ownership, the result may remain unaddressed.</p></div>
+          <div class="lesson-callout"><strong>Design principle</strong><p>Make state, ownership, urgency, and next actions visible. A product should help people safely resume work after an interruption.</p></div>
+          <div class="designer-takeaway"><strong>Designer takeaway</strong><span>Design explicit states for assigned, viewed, acted on, and resolved work.</span></div>
+          <button class="complete-lesson" data-complete="lesson-3">Continue →</button>
+        </article>
+        <article class="lesson-page" id="lesson-4">
+          <span class="lesson-kicker">Lesson 4 of 5</span><h3>Safety changes the design standard</h3>
+          <p class="lesson-lede">In healthcare, confusing information or a missed action can affect someone’s health, not just their satisfaction.</p>
+          <div class="role-grid"><div><span>Clarity</span><strong>Reduce ambiguity</strong><p>Make critical information easy to interpret</p></div><div><span>Verification</span><strong>Prevent mistakes</strong><p>Confirm high-risk actions and identity</p></div><div><span>Traceability</span><strong>Show what happened</strong><p>Support accountability and auditing</p></div><div><span>Recovery</span><strong>Handle failure safely</strong><p>Help people identify and correct errors</p></div></div>
+          <div class="learning-block"><h4>Safety-oriented design patterns</h4><div class="key-term-grid"><div><strong>Constraint</strong><span>Prevents an unsafe action from occurring.</span></div><div><strong>Confirmation</strong><span>Checks intent before a high-risk action.</span></div><div><strong>Alert</strong><span>Draws attention to clinically meaningful risk.</span></div><div><strong>Audit trail</strong><span>Records actions for accountability and review.</span></div></div></div>
+          <div class="example-box"><span>Real-world example</span><p>A medication-ordering tool may require identity verification, show allergy alerts, and preserve an audit trail because errors can directly harm a patient.</p></div>
+          <h4>The design implication</h4><p>Use friction intentionally. Removing every click is not always the right goal when an action is irreversible, high-risk, or clinically significant.</p>
+          <div class="designer-takeaway"><strong>Designer takeaway</strong><span>Treat safety as a core experience requirement, not a final compliance review.</span></div>
+          <button class="complete-lesson" data-complete="lesson-4">Continue →</button>
+        </article>
+        <article class="lesson-page" id="lesson-5">
+          <span class="lesson-kicker">Lesson 5 of 5</span><h3>Design for adoption, not just usability</h3>
+          <p class="lesson-lede">A usable product can still fail if it adds work, conflicts with established routines, or does not integrate with existing tools.</p>
+          <div class="tension-list"><div><strong>Workflow fit</strong><span>Support how care is actually delivered</span></div><div><strong>Time to value</strong><span>Create useful outcomes without excessive setup</span></div><div><strong>Integration</strong><span>Connect with existing systems and information</span></div><div><strong>Trust</strong><span>Make recommendations and limitations understandable</span></div></div>
+          <div class="example-box"><span>Real-world example</span><p>A clinically useful tool may still fail if clinicians must leave their primary system, re-enter data, or monitor another inbox to use it.</p></div>
+          <div class="lesson-callout"><strong>Design principle</strong><p>The best clinical tool often feels like less work, not another task. Measure adoption alongside usability and outcomes.</p></div>
+          <div class="designer-takeaway"><strong>Designer takeaway</strong><span>Evaluate how much new work the product creates before asking teams to adopt it.</span></div>
+          <button class="complete-lesson" data-complete="lesson-5">Mark lesson complete →</button>
+        </article>
+        <article class="lesson-page" id="exercise">
+          <span class="lesson-kicker">Product designer exercise</span><h3>Map a clinical workflow</h3>
+          <p class="lesson-lede">Choose a care activity and identify the people, handoffs, risks, and opportunities around it.</p>
+          <div class="exercise-form"><label>Care activity<input type="text" placeholder="Example: Reviewing a lab result"></label><label>People involved<textarea placeholder="Who creates, receives, reviews, or acts on information?"></textarea></label><label>Current workflow<textarea placeholder="What happens before, during, and after this activity?"></textarea></label><label>Risks and opportunities<textarea placeholder="Where could something be missed, delayed, or improved?"></textarea></label></div>
+          <button class="save-exercise">Save exercise notes</button>
+        </article>
+        <article class="lesson-page" id="knowledge-check">
+          <span class="lesson-kicker">Knowledge check</span><h3>Check your workflow understanding</h3><p class="lesson-lede">Answer all three questions correctly to complete the module.</p>
+          <div class="quiz"><fieldset data-answer="downstream"><legend>1. Why should designers map the full care team?</legend><label><input type="radio" name="q1" value="colors"> To select interface colors</label><label><input type="radio" name="q1" value="downstream"> Actions create downstream work and risk</label><label><input type="radio" name="q1" value="single"> Only one person uses clinical tools</label></fieldset><fieldset data-answer="state"><legend>2. What helps people safely resume work after interruptions?</legend><label><input type="radio" name="q2" value="state"> Visible state, ownership, and next actions</label><label><input type="radio" name="q2" value="animation"> More animation</label><label><input type="radio" name="q2" value="hide"> Hiding incomplete work</label></fieldset><fieldset data-answer="intentional"><legend>3. When can added friction be useful?</legend><label><input type="radio" name="q3" value="never"> Never</label><label><input type="radio" name="q3" value="intentional"> For high-risk or irreversible actions</label><label><input type="radio" name="q3" value="random"> Randomly throughout the flow</label></fieldset><fieldset data-answer="current"><legend>4. What should designers map before proposing a new workflow?</legend><label><input type="radio" name="q4" value="current"> The current real-world workflow</label><label><input type="radio" name="q4" value="ideal"> Only an ideal happy path</label><label><input type="radio" name="q4" value="none"> Nothing</label></fieldset><fieldset data-answer="work"><legend>5. What can prevent adoption of a useful clinical tool?</legend><label><input type="radio" name="q5" value="work"> It creates too much additional work</label><label><input type="radio" name="q5" value="safe"> It supports safety</label><label><input type="radio" name="q5" value="clear"> It makes ownership clear</label></fieldset></div>
+          <button class="submit-quiz">Submit knowledge check</button><p class="quiz-result" id="quizResult"></p>
+        </article>
+      </div>
+    </div>
+  </main>
+  <div class="toast" id="toast">Progress saved.</div><script src="app-shell.js"></script><script src="workflows.js"></script>
+</body>
+</html>

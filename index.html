@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Trek to Healthtech — Research Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="#" aria-label="The Trek to Healthtech home">
+      <span class="brand-mark"><span></span><span></span><span></span></span>
+      <span>The Trek to Healthtech</span>
+    </a>
+
+    <nav class="primary-nav" aria-label="Main navigation">
+      <p class="nav-label">Workspace</p>
+      <a class="nav-item active" href="#">
+        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg>
+        Dashboard
+      </a>
+      <a class="nav-item" href="learning-path.html">
+        <svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V4H6.5A2.5 2.5 0 0 0 4 6.5z"/><path d="M4 6.5v13M8 8h8M8 12h6"/></svg>
+        Learning Path
+        <span class="nav-count" id="navLearningProgress">0/8</span>
+      </a>
+      <a class="nav-item" href="reading-library.html">
+        <svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg>
+        Reading Library
+        <span class="nav-count" id="libraryCount">29</span>
+      </a>
+      <a class="nav-item" href="companies.html">
+        <svg viewBox="0 0 24 24"><path d="M4 21V8l8-5 8 5v13M8 21v-7h8v7M9 9h.01M15 9h.01"/></svg>
+        Companies
+        <span class="nav-count" id="companyCount">68</span>
+      </a>
+      <p class="nav-label">Library</p>
+      <a class="nav-item" href="reading-library.html?filter=saved">
+        <svg viewBox="0 0 24 24"><path d="M5 4h14v16l-7-4-7 4z"/></svg>
+        Saved Reading
+        <span class="nav-count" id="savedCount">0</span>
+      </a>
+      <a class="nav-item" href="reading-history.html">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2M7 3 4 6M17 3l3 3"/></svg>
+        Reading History
+        <span class="nav-count" id="historyCount">2</span>
+      </a>
+      <a class="nav-item muted" href="#">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m12 8 2.5 2.5L12 16l-2.5-5.5z"/></svg>
+        Glossary
+        <span class="soon">Soon</span>
+      </a>
+      <a class="nav-item muted" href="#">
+        <svg viewBox="0 0 24 24"><path d="M5 4h14v16l-7-4-7 4z"/></svg>
+        Resources
+        <span class="soon">Soon</span>
+      </a>
+    </nav>
+
+    <div class="profile">
+      <div class="avatar" aria-label="Profile avatar">
+        <svg viewBox="0 0 48 48" aria-hidden="true">
+          <circle class="avatar-bg" cx="24" cy="24" r="23"/>
+          <path class="avatar-hair-back" d="M12 24c0-11 5-17 12-17s12 6 12 17v15H12z"/>
+          <ellipse class="avatar-face" cx="24" cy="24" rx="9" ry="11"/>
+          <path class="avatar-hair-front" d="M15 21c1-9 5-12 10-12 6 0 10 5 10 12-4-1-8-4-10-7-2 4-5 6-10 7z"/>
+          <path class="avatar-eye" d="M19 24h1M28 24h1"/>
+          <path class="avatar-smile" d="M20 29c2 2 6 2 8 0"/>
+          <path class="avatar-shirt" d="M10 43c1-7 6-11 14-11s13 4 14 11"/>
+        </svg>
+      </div>
+      <div>
+        <strong>Phan Su</strong>
+        <span>Product Designer</span>
+      </div>
+      <button aria-label="Profile options">•••</button>
+    </div>
+  </aside>
+
+  <main>
+    <header class="topbar">
+      <div class="search-wrap">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+        <input id="globalSearch" type="search" placeholder="Search notes, companies, or topics…">
+        <kbd>⌘ K</kbd>
+      </div>
+      <div class="top-actions">
+        <span class="today"><span></span> Updated today</span>
+        <button class="icon-button" aria-label="Notifications">
+          <svg viewBox="0 0 24 24"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"/></svg>
+          <i></i>
+        </button>
+      </div>
+    </header>
+
+    <div class="content">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Sunday, June 7, 2026</p>
+          <h1>The Trek to Healthtech</h1>
+          <p class="hero-copy">Build industry fluency, track the companies shaping care, and turn curiosity into your next design chapter.</p>
+          <p class="hero-mission"><strong>Goal:</strong> Become a stronger Product Designer and successfully pivot into healthtech by the end of 2026.</p>
+        </div>
+        <div class="hero-art healthtech-art" aria-hidden="true">
+          <span class="data-orbit orbit-one"><i></i><i></i></span>
+          <span class="data-orbit orbit-two"><i></i></span>
+          <svg class="healthtech-illustration" viewBox="0 0 360 180">
+            <rect class="device-card" x="82" y="20" width="190" height="138" rx="14"/>
+            <path class="screen-line" d="M104 47h62M104 61h38"/>
+            <circle class="patient-circle" cx="228" cy="58" r="21"/>
+            <path class="patient-icon" d="M228 49a7 7 0 1 1 0 14 7 7 0 0 1 0-14ZM214 75c4-8 24-8 28 0"/>
+            <path class="pulse-line" d="M105 105h27l9-20 13 38 14-54 13 36h64"/>
+            <rect class="mini-panel" x="104" y="132" width="48" height="8" rx="4"/>
+            <rect class="mini-panel short" x="161" y="132" width="30" height="8" rx="4"/>
+            <circle class="node node-a" cx="55" cy="53" r="10"/>
+            <circle class="node node-b" cx="305" cy="45" r="10"/>
+            <circle class="node node-c" cx="313" cy="132" r="10"/>
+            <path class="connector" d="M64 58 82 70M272 64l24-13M272 128l31 4"/>
+            <path class="cross" d="M55 48v10M50 53h10M305 40v10M300 45h10"/>
+          </svg>
+        </div>
+      </section>
+
+      <section class="panel learning-panel" id="learning">
+        <div class="section-head learning-heading">
+          <div>
+            <p class="eyebrow">Build your foundation</p>
+            <h2>Healthtech Learning Path</h2>
+          </div>
+          <div class="path-progress-summary">
+            <div><strong id="pathProgressText">0 of 8</strong><span>foundations explored</span></div>
+            <div class="path-progress"><span></span></div>
+            <a class="view-all-link" href="learning-path.html">View all modules <span>→</span></a>
+          </div>
+        </div>
+
+        <div class="learning-grid">
+          <article class="learning-card current" id="ecosystemCard">
+            <div class="module-top">
+              <span class="module-number">01</span>
+              <span class="module-status" id="ecosystemStatus">Not started</span>
+            </div>
+            <h3>The healthcare ecosystem</h3>
+            <p>Learn how patients, providers, payers, employers, and regulators interact.</p>
+            <div class="concepts"><span>Stakeholders</span><span>Incentives</span><span>Care settings</span></div>
+            <div class="designer-lens"><span>Product designer lens</span><strong>Identify the user behind the user</strong></div>
+            <div class="module-footer"><span>Beginner · 45 min</span><button class="module-action primary-module ecosystem-open" data-module="The healthcare ecosystem">Start →</button></div>
+          </article>
+
+          <article class="learning-card" id="paymentCard">
+            <div class="module-top">
+              <span class="module-number">02</span>
+              <span class="module-status locked-status" id="paymentStatus">Not started</span>
+            </div>
+            <h3>How healthcare gets paid for</h3>
+            <p>Understand insurance, reimbursement, and why the buyer is often not the user.</p>
+            <div class="concepts"><span>Payers</span><span>Reimbursement</span><span>Value-based care</span></div>
+            <div class="designer-lens"><span>Product designer lens</span><strong>Connect user value to business value</strong></div>
+            <div class="module-footer"><span>Beginner · 50 min</span><a class="module-action primary-module payment-open" href="payment.html">Start →</a></div>
+          </article>
+
+          <article class="learning-card" id="workflowCard">
+            <div class="module-top">
+              <span class="module-number">03</span>
+              <span class="module-status locked-status" id="workflowStatus">Not started</span>
+            </div>
+            <h3>Clinical workflows &amp; care delivery</h3>
+            <p>See how care teams work and why context, safety, and interruptions matter.</p>
+            <div class="concepts"><span>Care teams</span><span>Workflows</span><span>Safety</span></div>
+            <div class="designer-lens"><span>Product designer lens</span><strong>Design for real-world complexity</strong></div>
+            <div class="module-footer"><span>Intermediate · 55 min</span><a class="module-action primary-module workflow-open" href="workflows.html">Start →</a></div>
+          </article>
+        </div>
+
+        <div class="module-detail" id="ecosystemModule" hidden>
+          <div class="module-detail-head">
+            <div>
+              <button class="close-module" id="closeEcosystem">← Back to learning path</button>
+              <p class="eyebrow">Foundation 01 · Beginner · 25 min</p>
+              <h2>The Healthcare Ecosystem</h2>
+              <p>Understand the stakeholders, care settings, and competing incentives behind every U.S. healthtech product.</p>
+            </div>
+            <div class="module-detail-progress"><strong id="lessonProgressText">0 of 5 lessons</strong><div><span id="lessonProgressBar"></span></div></div>
+          </div>
+
+          <div class="lesson-layout">
+            <aside class="lesson-nav">
+              <p>Module lessons</p>
+              <button class="lesson-tab active" data-lesson="lesson-1"><span>01</span>How the system works</button>
+              <button class="lesson-tab" data-lesson="lesson-2"><span>02</span>Key stakeholders</button>
+              <button class="lesson-tab" data-lesson="lesson-3"><span>03</span>Care settings &amp; journeys</button>
+              <button class="lesson-tab" data-lesson="lesson-4"><span>04</span>User vs. buyer</button>
+              <button class="lesson-tab" data-lesson="lesson-5"><span>05</span>Incentives &amp; constraints</button>
+              <button class="lesson-tab" data-lesson="exercise"><span>✎</span>Designer exercise</button>
+              <button class="lesson-tab" data-lesson="knowledge-check"><span>✓</span>Knowledge check</button>
+            </aside>
+
+            <div class="lesson-content">
+              <article class="lesson-page active" id="lesson-1">
+                <span class="lesson-kicker">Lesson 1 of 5</span>
+                <h3>How the U.S. healthcare system works</h3>
+                <p class="lesson-lede">Healthcare is not one system. It is a network of organizations exchanging care, money, information, and rules.</p>
+                <div class="lesson-callout"><strong>The core idea</strong><p>A healthtech product rarely serves just one user. Its experience and success are shaped by everyone who delivers, pays for, regulates, or receives care.</p></div>
+                <div class="flow-diagram">
+                  <div><span>Patient</span><small>Receives care</small></div><b>→</b>
+                  <div><span>Provider</span><small>Delivers care</small></div><b>→</b>
+                  <div><span>Payer</span><small>Pays claims</small></div><b>→</b>
+                  <div><span>Regulator</span><small>Sets rules</small></div>
+                </div>
+                <h4>Why this matters for product designers</h4>
+                <p>Before designing, identify who uses the product, who chooses it, who pays for it, and whose outcomes determine success. These may all be different people.</p>
+                <button class="complete-lesson" data-complete="lesson-1">Mark lesson complete →</button>
+              </article>
+
+              <article class="lesson-page" id="lesson-2">
+                <span class="lesson-kicker">Lesson 2 of 5</span>
+                <h3>Meet the key stakeholders</h3>
+                <p class="lesson-lede">Select each stakeholder to understand their goals, pressures, and influence on the product experience.</p>
+                <div class="stakeholder-map">
+                  <div class="stakeholder-buttons">
+                    <button class="stakeholder active" data-stakeholder="patients">Patients</button>
+                    <button class="stakeholder" data-stakeholder="providers">Providers</button>
+                    <button class="stakeholder" data-stakeholder="payers">Payers</button>
+                    <button class="stakeholder" data-stakeholder="employers">Employers</button>
+                    <button class="stakeholder" data-stakeholder="regulators">Regulators</button>
+                  </div>
+                  <div class="stakeholder-detail" id="stakeholderDetail">
+                    <span>Patients</span><h4>Need understandable, affordable, and accessible care</h4><p>Patients navigate symptoms, appointments, costs, treatment, and follow-up while often feeling vulnerable or uncertain.</p><strong>Design focus: clarity, trust, access, and agency</strong>
+                  </div>
+                </div>
+                <button class="complete-lesson" data-complete="lesson-2">Mark lesson complete →</button>
+              </article>
+
+              <article class="lesson-page" id="lesson-3">
+                <span class="lesson-kicker">Lesson 3 of 5</span>
+                <h3>Care settings shape the experience</h3>
+                <p class="lesson-lede">The same person may move through multiple settings, each with different workflows, urgency, and information needs.</p>
+                <div class="setting-grid">
+                  <div><strong>Home</strong><span>Self-management, monitoring, virtual care</span></div>
+                  <div><strong>Primary care</strong><span>Prevention, diagnosis, coordination</span></div>
+                  <div><strong>Specialty care</strong><span>Complex conditions and treatment</span></div>
+                  <div><strong>Hospital</strong><span>Acute, high-risk, team-based care</span></div>
+                </div>
+                <div class="lesson-callout"><strong>Designer prompt</strong><p>What happens before and after someone touches your product? The surrounding journey often determines whether the experience works.</p></div>
+                <button class="complete-lesson" data-complete="lesson-3">Mark lesson complete →</button>
+              </article>
+
+              <article class="lesson-page" id="lesson-4">
+                <span class="lesson-kicker">Lesson 4 of 5</span>
+                <h3>The user is not always the buyer</h3>
+                <p class="lesson-lede">Healthcare products often succeed by meeting the needs of several audiences at once.</p>
+                <div class="role-grid">
+                  <div><span>User</span><strong>Uses the product</strong><p>A clinician documenting a visit</p></div>
+                  <div><span>Buyer</span><strong>Approves the purchase</strong><p>A health system executive</p></div>
+                  <div><span>Beneficiary</span><strong>Receives the outcome</strong><p>A patient receiving care</p></div>
+                  <div><span>Decision-maker</span><strong>Influences adoption</strong><p>An IT or compliance leader</p></div>
+                </div>
+                <button class="complete-lesson" data-complete="lesson-4">Mark lesson complete →</button>
+              </article>
+
+              <article class="lesson-page" id="lesson-5">
+                <span class="lesson-kicker">Lesson 5 of 5</span>
+                <h3>Incentives create design constraints</h3>
+                <p class="lesson-lede">Every stakeholder defines value differently, creating tensions the product must navigate.</p>
+                <div class="tension-list">
+                  <div><strong>Patient</strong><span>Wants affordable, convenient, high-quality care</span></div>
+                  <div><strong>Provider</strong><span>Wants better outcomes with less administrative burden</span></div>
+                  <div><strong>Payer</strong><span>Wants necessary care delivered at a sustainable cost</span></div>
+                  <div><strong>Regulator</strong><span>Wants safety, privacy, access, and accountability</span></div>
+                </div>
+                <div class="lesson-callout"><strong>Design principle</strong><p>A strong healthtech experience does not eliminate every tension. It makes tradeoffs understandable and aligns incentives where possible.</p></div>
+                <button class="complete-lesson" data-complete="lesson-5">Mark lesson complete →</button>
+              </article>
+
+              <article class="lesson-page" id="exercise">
+                <span class="lesson-kicker">Product designer exercise</span>
+                <h3>Map a healthtech product</h3>
+                <p class="lesson-lede">Choose a healthtech product and identify the people and incentives shaping its experience.</p>
+                <div class="exercise-form">
+                  <label>Product or company<input type="text" placeholder="Example: Headway"></label>
+                  <label>Primary user<textarea placeholder="Who uses it, and what are they trying to accomplish?"></textarea></label>
+                  <label>Buyer or decision-maker<textarea placeholder="Who purchases, approves, or influences adoption?"></textarea></label>
+                  <label>Competing incentives<textarea placeholder="Where might stakeholder goals conflict?"></textarea></label>
+                </div>
+                <button class="save-exercise">Save exercise notes</button>
+              </article>
+
+              <article class="lesson-page" id="knowledge-check">
+                <span class="lesson-kicker">Knowledge check</span>
+                <h3>Check your ecosystem understanding</h3>
+                <p class="lesson-lede">Answer all three questions correctly to complete the module.</p>
+                <div class="quiz">
+                  <fieldset data-answer="buyer"><legend>1. Who typically approves or purchases a healthtech product?</legend><label><input type="radio" name="q1" value="user"> The user</label><label><input type="radio" name="q1" value="buyer"> The buyer</label><label><input type="radio" name="q1" value="beneficiary"> The beneficiary</label></fieldset>
+                  <fieldset data-answer="multiple"><legend>2. Why must designers understand multiple stakeholders?</legend><label><input type="radio" name="q2" value="visual"> To select visual styles</label><label><input type="radio" name="q2" value="multiple"> Different stakeholders shape adoption and success</label><label><input type="radio" name="q2" value="avoid"> To avoid speaking with users</label></fieldset>
+                  <fieldset data-answer="journey"><legend>3. Why should designers study care settings?</legend><label><input type="radio" name="q3" value="journey"> Context and workflows change across the care journey</label><label><input type="radio" name="q3" value="same"> Every setting works the same way</label><label><input type="radio" name="q3" value="brand"> Settings determine brand colors</label></fieldset>
+                </div>
+                <button class="submit-quiz">Submit knowledge check</button>
+                <p class="quiz-result" id="quizResult"></p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="notes" class="panel notes-panel">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Curated from across the web</p>
+            <h2>Healthtech Reading Library</h2>
+          </div>
+          <a href="reading-library.html">View all articles <span>→</span></a>
+        </div>
+        <div id="notesGrid">
+          <div class="reading-group">
+            <div class="reading-group-head">
+              <div><span class="reading-icon light-read">✦</span><div><h3>Industry reads</h3><p>Approachable perspectives, trends, and market context</p></div></div>
+              <span class="reading-level">Lighter reading · 5–15 min</span>
+            </div>
+            <div class="notes-grid">
+              <article class="note-card article-card featured-article" data-id="rock-innovation-2026" data-added="2026-06-07" data-search="rock health 2026 healthcare innovation digital health trends market">
+                <div class="source-row">
+                  <span class="source-logo market-logo">RH</span>
+                  <div><strong>Rock Health</strong><span>Market outlook · 2026</span></div>
+                  <button class="save-article" aria-label="Save article"><svg viewBox="0 0 24 24"><path d="M5 4h14v16l-7-4-7 4z"/></svg></button>
+                </div>
+                <div class="article-type"><span class="tag market">Market outlook</span><span class="new-article-tag">New</span><span>12 min read</span></div>
+                <h3><a href="https://rockhealth.com/insights/healthcare-innovation-at-the-turn-of-2026-mapping-whats-now-and-whats-next-in-digital-health/" target="_blank" rel="noopener">Healthcare innovation at the turn of 2026 <span>→</span></a></h3>
+                <p>Maps what is gaining momentum across digital health and where the market may head next.</p>
+                <div class="article-footer"><span>Why it matters for design</span><strong>Spot emerging opportunity areas</strong></div>
+                <button class="mark-read" data-title="Healthcare innovation at the turn of 2026" data-source="Rock Health">Mark as read</button>
+              </article>
+              <article class="note-card article-card" data-id="rock-hospital-ai" data-added="2026-06-07" data-search="rock health hospital leaders ai interoperability health systems data">
+                <div class="source-row">
+                  <span class="source-logo rock">RH</span>
+                  <div><strong>Rock Health</strong><span>Industry perspective · 2025</span></div>
+                  <button class="save-article" aria-label="Save article"><svg viewBox="0 0 24 24"><path d="M5 4h14v16l-7-4-7 4z"/></svg></button>
+                </div>
+                <div class="article-type"><span class="tag design">Health systems</span><span class="new-article-tag">New</span><span>10 min read</span></div>
+                <h3><a href="https://rockhealth.com/insights/hospital-tech-leaders-share-how-theyre-tackling-ai-and-interoperability/" target="_blank" rel="noopener">How hospital tech leaders are tackling AI and interoperability <span>→</span></a></h3>
+                <p>Health system leaders discuss the practical realities of adopting AI and connecting fragmented data.</p>
+                <div class="article-footer"><span>Why it matters for design</span><strong>Understand enterprise constraints</strong></div>
+                <button class="mark-read" data-title="How hospital tech leaders are tackling AI and interoperability" data-source="Rock Health">Mark as read</button>
+              </article>
+              <article class="note-card article-card" data-id="rock-h1-2025" data-added="2026-06-07" data-search="rock health h1 2025 market funding digital health investment">
+                <div class="source-row">
+                  <span class="source-logo rock">RH</span>
+                  <div><strong>Rock Health</strong><span>Market overview · 2025</span></div>
+                  <button class="save-article" aria-label="Save article"><svg viewBox="0 0 24 24"><path d="M5 4h14v16l-7-4-7 4z"/></svg></button>
+                </div>
+                <div class="article-type"><span class="tag strategy">Digital health market</span><span class="new-article-tag">New</span><span>11 min read</span></div>
+                <h3><a href="https://rockhealth.com/insights/h1-2025-market-overview-proof-in-the-pudding/" target="_blank" rel="noopener">H1 2025 market overview: Proof in the pudding <span>→</span></a></h3>
+                <p>A clear snapshot of digital health funding, exits, and the themes attracting investment.</p>
+                <div class="article-footer"><span>Why it matters for design</span><strong>Connect product work to the market</strong></div>
+                <button class="mark-read" data-title="H1 2025 market overview: Proof in the pudding" data-source="Rock Health">Mark as read</button>
+              </article>
+            </div>
+          </div>
+          <div class="reading-group research-group">
+            <div class="reading-group-head">
+              <div><span class="reading-icon research-read">⌁</span><div><h3>Research &amp; evidence</h3><p>Academic frameworks and peer-reviewed publications</p></div></div>
+              <span class="reading-level technical">Technical · Deep dive</span>
+            </div>
+            <div class="notes-grid research-grid">
+              <article class="note-card article-card research-card" data-id="jmir-participatory-codesign" data-added="2026-06-07" data-search="jmir participatory co-design patient involvement digital healthcare ecosystem">
+                <div class="source-row">
+                  <span class="source-logo future-logo">JM</span>
+                  <div><strong>JMIR</strong><span>Peer-reviewed research · 2025</span></div>
+                  <button class="save-article" aria-label="Save article"><svg viewBox="0 0 24 24"><path d="M5 4h14v16l-7-4-7 4z"/></svg></button>
+                </div>
+                <div class="article-type"><span class="tag design">Participatory design</span><span class="new-article-tag">New</span><span>Research paper</span></div>
+                <h3><a href="https://www.jmir.org/2025/1/e69576/" target="_blank" rel="noopener">Participatory co-design of patient involvement in a digital care ecosystem <span>→</span></a></h3>
+                <p>Examines how patients can meaningfully shape the design of connected healthcare management systems.</p>
+                <div class="article-footer"><span>Why it matters for design</span><strong>Share design power with patients</strong></div>
+                <button class="mark-read" data-title="Participatory co-design of patient involvement in a digital care ecosystem" data-source="JMIR">Mark as read</button>
+              </article>
+              <article class="note-card article-card research-card" data-id="jmir-older-adults" data-added="2026-06-07" data-search="jmir older adults digital health applications inclusive design accessibility">
+                <div class="source-row">
+                  <span class="source-logo market-logo">JM</span>
+                  <div><strong>JMIR</strong><span>Peer-reviewed research · 2025</span></div>
+                  <button class="save-article" aria-label="Save article"><svg viewBox="0 0 24 24"><path d="M5 4h14v16l-7-4-7 4z"/></svg></button>
+                </div>
+                <div class="article-type"><span class="tag market">Inclusive design</span><span class="new-article-tag">New</span><span>Research paper</span></div>
+                <h3><a href="https://www.jmir.org/2025/1/e67470/" target="_blank" rel="noopener">Designing digital health applications for older adults <span>→</span></a></h3>
+                <p>Surfaces design considerations that make digital health tools more useful and accessible for older adults.</p>
+                <div class="article-footer"><span>Why it matters for design</span><strong>Design for changing abilities</strong></div>
+                <button class="mark-read" data-title="Designing digital health applications for older adults" data-source="JMIR">Mark as read</button>
+              </article>
+              <article class="note-card article-card research-card" data-id="pmc-workflow-hf" data-added="2026-06-07" data-search="workflow human factors electronic health record ehr development clinical">
+                <div class="source-row">
+                  <span class="source-logo market-logo">PM</span>
+                  <div><strong>PubMed Central</strong><span>Peer-reviewed research · 2024</span></div>
+                  <button class="save-article" aria-label="Save article"><svg viewBox="0 0 24 24"><path d="M5 4h14v16l-7-4-7 4z"/></svg></button>
+                </div>
+                <div class="article-type"><span class="tag market">Human factors</span><span class="new-article-tag">New</span><span>Research paper</span></div>
+                <h3><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11118534/" target="_blank" rel="noopener">Workflow-based human factors for electronic health record development <span>→</span></a></h3>
+                <p>Shows how workflow analysis and human factors can guide safer, more usable clinical software.</p>
+                <div class="article-footer"><span>Why it matters for design</span><strong>Ground interfaces in real work</strong></div>
+                <button class="mark-read" data-title="Workflow-based human factors for electronic health record development" data-source="PubMed Central">Mark as read</button>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="companies" class="panel companies-panel">
+        <div class="section-head company-heading">
+          <div>
+            <p class="eyebrow">Opportunity landscape</p>
+            <h2>Companies to Watch</h2>
+          </div>
+          <div class="company-controls">
+            <p class="hiring-check-date">Design roles checked June 7, 2026</p>
+            <a href="companies.html">View database <span>→</span></a>
+          </div>
+        </div>
+        <div class="company-table">
+          <div class="table-row table-header">
+            <span>Company</span><span>Sector</span><span>Stage</span><span>Why it’s interesting</span><span>Fit</span><span>Careers</span>
+          </div>
+          <div class="table-row company-row" data-sector="consumer" data-search="modern health consumer mental health product designer mid level">
+            <a class="company-name" href="https://www.modernhealth.com/" target="_blank" rel="noopener"><span class="logo-block city"><img src="https://www.google.com/s2/favicons?domain=modernhealth.com&sz=128" alt="Modern Health logo"></span><div><strong>Modern Health</strong><small>modernhealth.com</small></div></a>
+            <span><i class="sector-dot coral-dot"></i> Consumer</span>
+            <span class="stage">Growth</span>
+            <span>Global mental health benefits platform</span>
+            <span class="fit fit-high">High</span>
+            <a class="career-link" href="https://www.modernhealth.com/careers" target="_blank" rel="noopener"><strong>View careers →</strong></a>
+          </div>
+          <div class="table-row company-row" data-sector="care delivery" data-search="headway care delivery behavioral health senior product designer">
+            <a class="company-name" href="https://headway.co/" target="_blank" rel="noopener"><span class="logo-block headway"><img src="https://www.google.com/s2/favicons?domain=headway.co&sz=128" alt="Headway logo"></span><div><strong>Headway</strong><small>headway.co</small></div></a>
+            <span><i class="sector-dot green-dot"></i> Care delivery</span>
+            <span class="stage">Growth</span>
+            <span>Mental healthcare access and provider tools</span>
+            <span class="fit fit-high">High</span>
+            <a class="career-link" href="https://headway.co/careers" target="_blank" rel="noopener"><strong>View careers →</strong></a>
+          </div>
+          <div class="table-row company-row" data-sector="care delivery" data-search="pearl health care delivery value based care senior product designer">
+            <a class="company-name" href="https://www.pearlhealth.com/" target="_blank" rel="noopener"><span class="logo-block aidoc"><img src="https://www.google.com/s2/favicons?domain=pearlhealth.com&sz=128" alt="Pearl Health logo"></span><div><strong>Pearl Health</strong><small>pearlhealth.com</small></div></a>
+            <span><i class="sector-dot green-dot"></i> Care delivery</span>
+            <span class="stage">Growth</span>
+            <span>Technology for value-based primary care</span>
+            <span class="fit fit-high">High</span>
+            <a class="career-link" href="https://www.pearlhealth.com/careers" target="_blank" rel="noopener"><strong>View careers →</strong></a>
+          </div>
+          <div class="table-row company-row" data-sector="infrastructure" data-search="guardant health infrastructure oncology ai senior product designer">
+            <a class="company-name" href="https://guardanthealth.com/" target="_blank" rel="noopener"><span class="logo-block particle"><img src="https://www.google.com/s2/favicons?domain=guardanthealth.com&sz=128" alt="Guardant Health logo"></span><div><strong>Guardant Health</strong><small>guardanthealth.com</small></div></a>
+            <span><i class="sector-dot purple-dot"></i> Infrastructure</span>
+            <span class="stage">Public</span>
+            <span>Precision oncology and digital health AI</span>
+            <span class="fit fit-high">High</span>
+            <a class="career-link" href="https://guardanthealth.com/careers/" target="_blank" rel="noopener"><strong>View careers →</strong></a>
+          </div>
+          <div class="table-row company-row" data-sector="consumer" data-search="rythm health consumer at home testing senior product designer">
+            <a class="company-name" href="https://www.rythmhealth.com/" target="_blank" rel="noopener"><span class="logo-block maven"><img src="https://www.google.com/s2/favicons?domain=rythmhealth.com&sz=128" alt="Rythm Health logo"></span><div><strong>Rythm Health</strong><small>rythmhealth.com</small></div></a>
+            <span><i class="sector-dot coral-dot"></i> Consumer</span>
+            <span class="stage">Growth</span>
+            <span>At-home testing and member health journeys</span>
+            <span class="fit fit-high">High</span>
+            <a class="career-link" href="https://www.rythmhealth.com/careers" target="_blank" rel="noopener"><strong>View careers →</strong></a>
+          </div>
+          <div class="table-row company-row" data-sector="infrastructure" data-search="smarterdx infrastructure clinical ai product designer">
+            <a class="company-name" href="https://www.smarterdx.com/" target="_blank" rel="noopener"><span class="logo-block abridge"><img src="https://www.google.com/s2/favicons?domain=smarterdx.com&sz=128" alt="SmarterDx logo"></span><div><strong>SmarterDx</strong><small>smarterdx.com</small></div></a>
+            <span><i class="sector-dot purple-dot"></i> Infrastructure</span>
+            <span class="stage">Growth</span>
+            <span>Clinical AI for hospital revenue integrity</span>
+            <span class="fit fit-high">High</span>
+            <a class="career-link" href="https://www.smarterdx.com/careers" target="_blank" rel="noopener"><strong>View careers →</strong></a>
+          </div>
+          <div class="table-row company-row" data-sector="consumer" data-search="diadia health consumer womens health product designer">
+            <a class="company-name" href="https://www.diadiahealth.com/" target="_blank" rel="noopener"><span class="logo-block included"><img src="https://www.google.com/s2/favicons?domain=diadiahealth.com&sz=128" alt="Diadia Health logo"></span><div><strong>Diadia Health</strong><small>diadiahealth.com</small></div></a>
+            <span><i class="sector-dot coral-dot"></i> Consumer</span>
+            <span class="stage">Early stage</span>
+            <span>AI-powered personalized women’s health</span>
+            <span class="fit fit-high">High</span>
+            <a class="career-link" href="https://www.diadiahealth.com/careers" target="_blank" rel="noopener"><strong>View careers →</strong></a>
+          </div>
+          <div class="table-row company-row" data-sector="infrastructure" data-search="irhythm infrastructure cardiac monitoring product designer mid level">
+            <a class="company-name" href="https://www.irhythmtech.com/" target="_blank" rel="noopener"><span class="logo-block komodo"><img src="https://www.google.com/s2/favicons?domain=irhythmtech.com&sz=128" alt="iRhythm logo"></span><div><strong>iRhythm</strong><small>irhythmtech.com</small></div></a>
+            <span><i class="sector-dot purple-dot"></i> Infrastructure</span>
+            <span class="stage">Public</span>
+            <span>Connected cardiac monitoring experiences</span>
+            <span class="fit fit-high">High</span>
+            <a class="career-link" href="https://www.irhythmtech.com/us/en/careers" target="_blank" rel="noopener"><strong>View careers →</strong></a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <div class="toast" id="toast">Article saved to your reading library.</div>
+  <script src="script.js"></script>
+</body>
+</html>
