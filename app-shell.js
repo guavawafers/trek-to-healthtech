@@ -1,6 +1,6 @@
 const requestedFilter = new URLSearchParams(window.location.search).get("filter");
 const activePage = requestedFilter === "saved" ? "saved" : document.body.dataset.activePage;
-const completedFoundations = ["ecosystemComplete", "paymentComplete", "workflowComplete"]
+const completedFoundations = ["ecosystemComplete", "paymentComplete", "workflowComplete", "healthDataComplete"]
   .filter((key) => localStorage.getItem(key) === "true").length;
 const savedReadingCount = JSON.parse(localStorage.getItem("savedReading") || "[]").length;
 const readingHistoryCount = localStorage.getItem("readingHistory")

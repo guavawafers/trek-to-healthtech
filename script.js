@@ -241,9 +241,15 @@ if (localStorage.getItem("workflowContentVersion") !== "2") {
   localStorage.removeItem("workflowComplete");
   localStorage.setItem("workflowContentVersion", "2");
 }
+if (localStorage.getItem("healthDataContentVersion") !== "1") {
+  localStorage.removeItem("healthDataLessons");
+  localStorage.removeItem("healthDataComplete");
+  localStorage.setItem("healthDataContentVersion", "1");
+}
 const paymentIsComplete = localStorage.getItem("paymentComplete") === "true";
 const workflowIsComplete = localStorage.getItem("workflowComplete") === "true";
-const completedFoundationCount = Number(ecosystemIsComplete) + Number(paymentIsComplete) + Number(workflowIsComplete);
+const healthDataIsComplete = localStorage.getItem("healthDataComplete") === "true";
+const completedFoundationCount = Number(ecosystemIsComplete) + Number(paymentIsComplete) + Number(workflowIsComplete) + Number(healthDataIsComplete);
 
 if (ecosystemIsComplete) {
   ecosystemStatus.textContent = "Completed ✓";

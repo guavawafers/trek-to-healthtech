@@ -18,6 +18,11 @@ if (localStorage.getItem("workflowContentVersion") !== "2") {
   localStorage.removeItem("workflowComplete");
   localStorage.setItem("workflowContentVersion", "2");
 }
+if (localStorage.getItem("healthDataContentVersion") !== "1") {
+  localStorage.removeItem("healthDataLessons");
+  localStorage.removeItem("healthDataComplete");
+  localStorage.setItem("healthDataContentVersion", "1");
+}
 
 viewOptions.forEach((button) => button.addEventListener("click", () => {
   viewOptions.forEach((option) => option.classList.remove("active"));
