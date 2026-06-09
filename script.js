@@ -8,6 +8,11 @@ const savedCount = document.querySelector("#savedCount");
 const libraryCount = document.querySelector("#libraryCount");
 const companyCount = document.querySelector("#companyCount");
 const toast = document.querySelector("#toast");
+const notificationButton = document.querySelector("#notificationButton");
+const notificationDrawer = document.querySelector("#notificationDrawer");
+const notificationOverlay = document.querySelector("#notificationOverlay");
+const notificationClose = document.querySelector("#notificationClose");
+const savedReadingReminder = document.querySelector("#savedReadingReminder");
 const ecosystemModule = document.querySelector("#ecosystemModule");
 const ecosystemOpenButtons = document.querySelectorAll(".ecosystem-open, .continue-learning");
 const closeEcosystem = document.querySelector("#closeEcosystem");
@@ -33,6 +38,23 @@ const starterReadingHistory = [
   { title: "Q1 2025 market overview: Ready, set, leap", source: "Rock Health", date: "May 29, 2026" }
 ];
 const savedReading = new Set(JSON.parse(localStorage.getItem("savedReading") || "[]"));
+savedReadingReminder.textContent = savedReading.size
+  ? `You have ${savedReading.size} saved ${savedReading.size === 1 ? "article" : "articles"} waiting for you.`
+  : "Save interesting articles and they will appear here as a reminder.";
+
+function setNotificationDrawer(open) {
+  notificationDrawer.classList.toggle("open", open);
+  notificationOverlay.classList.toggle("open", open);
+  notificationDrawer.setAttribute("aria-hidden", String(!open));
+  notificationButton.setAttribute("aria-expanded", String(open));
+}
+
+notificationButton.addEventListener("click", () => setNotificationDrawer(!notificationDrawer.classList.contains("open")));
+notificationClose.addEventListener("click", () => setNotificationDrawer(false));
+notificationOverlay.addEventListener("click", () => setNotificationDrawer(false));
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") setNotificationDrawer(false);
+});
 
 function updateSidebarCounts() {
   savedCount.textContent = savedReading.size;

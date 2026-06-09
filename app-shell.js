@@ -17,7 +17,7 @@ const navItem = (page, href, icon, label, count = "") => `
 document.body.insertAdjacentHTML("afterbegin", `
   <aside class="sidebar">
     <a class="brand" href="index.html" aria-label="The Trek to Healthtech home">
-      <span class="brand-mark"><span></span><span></span><span></span></span><span>The Trek to Healthtech</span>
+      <span class="brand-mark"><span></span><span></span><span></span><span></span><span></span><span></span></span><span>The Trek to Healthtech</span>
     </a>
     <nav class="primary-nav" aria-label="Main navigation">
       <p class="nav-label">Workspace</p>
@@ -29,10 +29,17 @@ document.body.insertAdjacentHTML("afterbegin", `
       ${navItem("saved", "reading-library.html?filter=saved", '<svg viewBox="0 0 24 24"><path d="M5 4h14v16l-7-4-7 4z"/></svg>', "Saved Reading", savedReadingCount)}
       ${navItem("history", "reading-history.html", '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2M7 3 4 6M17 3l3 3"/></svg>', "Reading History", readingHistoryCount)}
       <a class="nav-item muted" href="#"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m12 8 2.5 2.5L12 16l-2.5-5.5z"/></svg>Glossary<span class="soon">Soon</span></a>
-      <a class="nav-item muted" href="#"><svg viewBox="0 0 24 24"><path d="M5 4h14v16l-7-4-7 4z"/></svg>Resources<span class="soon">Soon</span></a>
     </nav>
     <div class="profile">
       <div class="avatar"><svg viewBox="0 0 48 48"><circle class="avatar-bg" cx="24" cy="24" r="23"/><path class="avatar-hair-back" d="M12 24c0-11 5-17 12-17s12 6 12 17v15H12z"/><ellipse class="avatar-face" cx="24" cy="24" rx="9" ry="11"/><path class="avatar-hair-front" d="M15 21c1-9 5-12 10-12 6 0 10 5 10 12-4-1-8-4-10-7-2 4-5 6-10 7z"/><path class="avatar-eye" d="M19 24h1M28 24h1"/><path class="avatar-smile" d="M20 29c2 2 6 2 8 0"/><path class="avatar-shirt" d="M10 43c1-7 6-11 14-11s13 4 14 11"/></svg></div>
       <div><strong>Phan Su</strong><span>Product Designer</span></div><button aria-label="Profile options">•••</button>
     </div>
   </aside>`);
+
+document.querySelectorAll("[data-history-back]").forEach((link) => {
+  link.addEventListener("click", (event) => {
+    if (window.history.length <= 1) return;
+    event.preventDefault();
+    window.history.back();
+  });
+});

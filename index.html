@@ -12,7 +12,7 @@
 <body>
   <aside class="sidebar">
     <a class="brand" href="#" aria-label="The Trek to Healthtech home">
-      <span class="brand-mark"><span></span><span></span><span></span></span>
+      <span class="brand-mark"><span></span><span></span><span></span><span></span><span></span><span></span></span>
       <span>The Trek to Healthtech</span>
     </a>
 
@@ -53,11 +53,6 @@
         Glossary
         <span class="soon">Soon</span>
       </a>
-      <a class="nav-item muted" href="#">
-        <svg viewBox="0 0 24 24"><path d="M5 4h14v16l-7-4-7 4z"/></svg>
-        Resources
-        <span class="soon">Soon</span>
-      </a>
     </nav>
 
     <div class="profile">
@@ -89,7 +84,7 @@
       </div>
       <div class="top-actions">
         <span class="today"><span></span> Updated today</span>
-        <button class="icon-button" aria-label="Notifications">
+        <button class="icon-button" id="notificationButton" aria-label="Notifications" aria-controls="notificationDrawer" aria-expanded="false">
           <svg viewBox="0 0 24 24"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"/></svg>
           <i></i>
         </button>
@@ -488,6 +483,34 @@
       </section>
     </div>
   </main>
+
+  <div class="notification-overlay" id="notificationOverlay"></div>
+  <aside class="notification-drawer" id="notificationDrawer" aria-hidden="true" aria-labelledby="notificationTitle">
+    <div class="notification-drawer-head">
+      <div><p class="eyebrow">Your daily updates</p><div class="notification-title-row"><svg viewBox="0 0 24 24"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"/></svg><h2 id="notificationTitle">Notifications</h2></div></div>
+      <button class="notification-close" id="notificationClose" aria-label="Close notifications">×</button>
+    </div>
+    <div class="notification-feed">
+      <section class="notification-day">
+        <h3>Today · June 8, 2026</h3>
+        <a class="notification-item article-notification" href="reading-library.html">
+          <span class="notification-icon">+</span><div><strong>New articles added</strong><p>Fresh industry reads and research pieces are ready in your Reading Library.</p></div><span>→</span>
+        </a>
+        <a class="notification-item company-notification" href="companies.html">
+          <span class="notification-icon">+</span><div><strong>New companies added</strong><p>Explore newly added US healthtech companies in your database.</p></div><span>→</span>
+        </a>
+      </section>
+      <section class="notification-day">
+        <h3>This week</h3>
+        <a class="notification-item module-notification" href="learning-path.html">
+          <span class="notification-icon">03</span><div><strong>Continue your upcoming module</strong><p>Clinical Workflows &amp; Care Delivery is ready when you are.</p></div><span>→</span>
+        </a>
+        <a class="notification-item saved-notification" href="reading-library.html?filter=saved">
+          <span class="notification-icon">♡</span><div><strong>You have saved reading</strong><p id="savedReadingReminder">Return to the articles you saved for later.</p></div><span>→</span>
+        </a>
+      </section>
+    </div>
+  </aside>
 
   <div class="toast" id="toast">Article saved to your reading library.</div>
   <script src="script.js"></script>

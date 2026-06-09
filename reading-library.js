@@ -5,6 +5,9 @@ const sections = document.querySelectorAll(".library-section");
 const saved = new Set(JSON.parse(localStorage.getItem("savedReading") || "[]"));
 localStorage.setItem("readingLibraryCount", articles.length);
 let activeFilter = new URLSearchParams(window.location.search).get("filter") || "all";
+if (activeFilter === "saved") {
+  document.querySelector(".reading-page-hero h1").textContent = "Saved Reading";
+}
 const newArticleWindow = 30 * 24 * 60 * 60 * 1000;
 const articleAddedDates = {
   "rock-hospital-ai": "2026-06-07",
