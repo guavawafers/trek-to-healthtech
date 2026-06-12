@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T05:46:54.747Z",
+  "updatedAt": "2026-06-12T21:20:37.708Z",
   "articles": [
     {
       "id": "daily-163776d547b1",
@@ -15,6 +15,51 @@
       "summary": "The design of human-machine interfaces (HMIs) in healthcare is a determining factor for the safety, efficiency, and accessibility of medical technologies worldwide. This article presents a structured review of the scientific and regulatory literature published to 2025, with the main objective of identifying the…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-06-12T05:46:03.894Z"
+    },
+    {
+      "id": "daily-03c96523f513",
+      "type": "research",
+      "source": "Communication &amp; Society",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-06-12T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Who Owns the Technology of the Future? An Analysis of Investment and Acquisition Strategies in Artificial Intelligence Technologies of Large Digital and Media Conglomerates",
+      "url": "https://doi.org/10.15581/003.39.1.015",
+      "summary": "This paper presents a theoretical concept of “Technology Ownership” and outlines five dimensions that are relevant in the context of technology investment decisions: “Technology Investment Scope”, “Technology Investment Breadth/Variety”, “Technology Investment Depth”, “Technology Investment Exclusivity”, and…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-06-12T21:20:37.706Z"
+    },
+    {
+      "id": "daily-3e0dffa75bad",
+      "type": "research",
+      "source": "Communication &amp; Society",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-06-12T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Regulation of artificial intelligence in digital media to combat disinformation and defend the democratic state",
+      "url": "https://doi.org/10.15581/003.39.1.013",
+      "summary": "In February 2024, the Superior Electoral Court of Brazil met in session to determine rules and regulations to guide the municipal elections of the country in October of 2024. Among the topics debated, the leading one was the deliberations on illicit acts in electoral advertisements in digital media, concerning the use…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-06-12T21:20:37.706Z"
+    },
+    {
+      "id": "daily-4de2a1341bcb",
+      "type": "research",
+      "source": "Journal of Digital Business and Data Science",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-06-12T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Implementation of Prototyping in AI-Based Job Portal Development to Improve User Experience",
+      "url": "https://doi.org/10.59261/jdbs.v3i1.33",
+      "summary": "The rapid development of digital technology has significantly changed the recruitment system, particularly through the emergence of AI-based job portals. However, many systems still fail to meet user expectations due to a lack of user involvement early on in the development process. This study aims to analyze the…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-06-12T21:20:37.706Z"
     }
   ]
 }
