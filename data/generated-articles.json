@@ -1,0 +1,19 @@
+{
+  "updatedAt": "2026-06-12T05:18:37.193Z",
+  "articles": [
+    {
+      "id": "daily-163776d547b1",
+      "type": "research",
+      "source": "International Journal of Combinatorial Optimization Problems and Informatics",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-06-12T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Human-Machine Interfaces in Health: A Critical Review and Framework of Human-Centered Design Practices",
+      "url": "https://doi.org/10.61467/2007.1558.2026.v17i3.1285",
+      "summary": "The design of human-machine interfaces (HMIs) in healthcare is a determining factor for the safety, efficiency, and accessibility of medical technologies worldwide. This article presents a structured review of the scientific and regulatory literature published to 2025, with the main objective of identifying the…",
+      "designValue": "Review emerging evidence"
+    }
+  ]
+}

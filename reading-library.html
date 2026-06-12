@@ -19,7 +19,12 @@
         <button class="library-filter active" data-filter="all">All</button><button class="library-filter" data-filter="industry">Industry Reads</button><button class="library-filter" data-filter="research">Research &amp; Evidence</button><button class="library-filter" data-filter="saved">Saved</button>
       </div>
     </div>
-    <div class="library-results-summary"><strong id="resultCount">6 articles</strong><span>Showing curated reads for product designers</span></div>
+    <div class="library-results-summary"><strong id="resultCount">6 articles</strong><span id="libraryStatus">Showing curated reads for product designers</span></div>
+
+    <section class="library-section daily-reading-section" data-section="daily" hidden>
+      <div class="reading-group-head"><div><span class="reading-icon light-read">↻</span><div><h2>Recently Published</h2><p>Relevant healthtech reads refreshed daily</p></div></div><span class="reading-level" id="dailyUpdatedAt">Daily update</span></div>
+      <div class="notes-grid library-grid" id="dailyArticles"></div>
+    </section>
 
     <section class="library-section" data-section="industry">
       <div class="reading-group-head"><div><span class="reading-icon light-read">✦</span><div><h2>Industry Reads</h2><p>Approachable perspectives, trends, and market context</p></div></div><span class="reading-level">Lighter reading · 5–15 min</span></div>
