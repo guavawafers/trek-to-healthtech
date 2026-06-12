@@ -46,7 +46,7 @@ completeLessonButtons.forEach((button) => button.addEventListener("click", () =>
 const stakeholderContent = {
   patients: ["Patients", "Need understandable, affordable, and accessible care", "Patients navigate symptoms, appointments, costs, treatment, and follow-up while often feeling vulnerable or uncertain.", "Design focus: clarity, trust, access, and agency"],
   providers: ["Providers", "Need to deliver safe care without unnecessary burden", "Clinicians balance patient needs, documentation, coordination, time pressure, and clinical risk.", "Design focus: workflow fit, speed, safety, and useful information"],
-  payers: ["Payers", "Need to manage cost while supporting appropriate care", "Health plans determine coverage, reimburse services, manage networks, and influence what care is accessible.", "Design focus: transparency, cost, eligibility, and outcomes"],
+  payers: ["Payers", "Need to manage cost while supporting appropriate care", "Health plans administer coverage, process claims, manage networks, and influence what care is accessible. In self-funded arrangements, another organization may bear the financial risk.", "Design focus: transparency, cost, eligibility, and outcomes"],
   employers: ["Employers", "Need benefits that support people and control spend", "Many Americans receive healthcare coverage through employers, making benefits teams important buyers and decision-makers.", "Design focus: adoption, measurable value, and inclusivity"],
   regulators: ["Regulators", "Need to protect safety, privacy, and access", "Government agencies set rules for healthcare delivery, data, products, coverage, and quality.", "Design focus: privacy, accessibility, safety, and accountability"]
 };

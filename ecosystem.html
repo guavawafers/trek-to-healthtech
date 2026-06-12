@@ -25,6 +25,7 @@
         <button class="lesson-tab" data-lesson="lesson-3"><span>03</span>Care settings &amp; journeys</button>
         <button class="lesson-tab" data-lesson="lesson-4"><span>04</span>User vs. buyer</button>
         <button class="lesson-tab" data-lesson="lesson-5"><span>05</span>Incentives &amp; constraints</button>
+        <button class="lesson-tab" data-lesson="sources"><span>↗</span>Sources &amp; scope</button>
         <button class="lesson-tab" data-lesson="exercise"><span>✎</span>Designer exercise</button>
         <button class="lesson-tab" data-lesson="knowledge-check"><span>✓</span>Knowledge check</button>
       </aside>
@@ -35,7 +36,7 @@
           <h3>How the U.S. healthcare system works</h3>
           <p class="lesson-lede">Healthcare is not one system. It is a network of organizations exchanging care, money, information, and rules.</p>
           <div class="lesson-callout"><strong>The core idea</strong><p>A healthtech product rarely serves just one user. Its experience and success are shaped by everyone who delivers, pays for, regulates, or receives care.</p></div>
-          <div class="flow-diagram"><div><span>Patient</span><small>Receives care</small></div><b>→</b><div><span>Provider</span><small>Delivers care</small></div><b>→</b><div><span>Payer</span><small>Pays claims</small></div><b>→</b><div><span>Regulator</span><small>Sets rules</small></div></div>
+          <div class="flow-diagram"><div><span>Patient</span><small>Receives care</small></div><b>↔</b><div><span>Provider</span><small>Delivers care</small></div><b>↔</b><div><span>Payer</span><small>Administers coverage</small></div><b>↔</b><div><span>Regulator</span><small>Sets rules</small></div></div>
           <div class="learning-block"><h4>Four forces moving through the system</h4><div class="key-term-grid"><div><strong>Care</strong><span>Services delivered to prevent, diagnose, or treat health needs.</span></div><div><strong>Money</strong><span>Premiums, patient payments, claims, and reimbursement.</span></div><div><strong>Information</strong><span>Records, results, orders, and decisions shared across organizations.</span></div><div><strong>Rules</strong><span>Coverage policies, privacy requirements, and clinical standards.</span></div></div></div>
           <div class="learning-block">
             <h4>Why healthcare feels fragmented</h4>
@@ -59,7 +60,7 @@
             <div class="stakeholder-buttons"><button class="stakeholder active" data-stakeholder="patients">Patients</button><button class="stakeholder" data-stakeholder="providers">Providers</button><button class="stakeholder" data-stakeholder="payers">Payers</button><button class="stakeholder" data-stakeholder="employers">Employers</button><button class="stakeholder" data-stakeholder="regulators">Regulators</button></div>
             <div class="stakeholder-detail" id="stakeholderDetail"><span>Patients</span><h4>Need understandable, affordable, and accessible care</h4><p>Patients navigate symptoms, appointments, costs, treatment, and follow-up while often feeling vulnerable or uncertain.</p><strong>Design focus: clarity, trust, access, and agency</strong></div>
           </div>
-          <div class="learning-block"><h4>Stakeholders influence different parts of the product</h4><div class="key-term-grid"><div><strong>Patient</strong><span>Experiences care and its outcomes.</span></div><div><strong>Provider</strong><span>Delivers care and creates clinical information.</span></div><div><strong>Payer</strong><span>Defines coverage and pays for eligible services.</span></div><div><strong>Purchaser</strong><span>Chooses or funds benefits, often an employer or government.</span></div></div></div>
+          <div class="learning-block"><h4>Stakeholders influence different parts of the product</h4><div class="key-term-grid"><div><strong>Patient</strong><span>Experiences care and its outcomes.</span></div><div><strong>Provider</strong><span>Delivers care and creates clinical information.</span></div><div><strong>Payer</strong><span>Administers coverage and processes eligible claims; the payer may or may not bear the financial risk.</span></div><div><strong>Purchaser</strong><span>Chooses or funds benefits, often an employer or government.</span></div></div></div>
           <div class="learning-block">
             <h4>Stakeholder groups are not monoliths</h4>
             <p>“Provider” can mean a physician making a diagnosis, a nurse coordinating care, a medical assistant preparing a visit, or an administrator scheduling appointments. “Patient” can mean the person receiving care, a parent managing a child’s care, or a caregiver supporting an older adult. Their access, authority, expertise, and goals differ.</p>
@@ -120,6 +121,13 @@
           <button class="complete-lesson" data-complete="lesson-5">Mark lesson complete →</button>
         </article>
 
+        <article class="lesson-page" id="sources">
+          <span class="lesson-kicker">Authoritative references</span><h3>Sources and scope</h3>
+          <p class="lesson-lede">This module is an educational synthesis of how U.S. healthcare stakeholders, care coordination, and payment incentives affect product design.</p>
+          <div class="learning-block"><h4>Primary references</h4><p><a href="https://www.ahrq.gov/ncepcr/care/coordination.html" target="_blank" rel="noopener">AHRQ — Care Coordination</a></p><p><a href="https://www.cms.gov/priorities/innovation/key-concepts/value-based-care" target="_blank" rel="noopener">CMS — Value-Based Care and Care Coordination</a></p><p><a href="https://healthit.gov/interoperability/" target="_blank" rel="noopener">ONC — Health IT Interoperability</a></p></div>
+          <div class="lesson-callout"><strong>Scope note</strong><p>Stakeholder roles, incentives, and workflows vary by organization, care setting, contract, state, and patient population. Examples illustrate common patterns rather than universal rules.</p></div>
+        </article>
+
         <article class="lesson-page" id="exercise">
           <span class="lesson-kicker">Product designer exercise</span><h3>Map a healthtech product</h3>
           <p class="lesson-lede">Choose a healthtech product and build a concise ecosystem map. Focus on the relationships that shape whether the product can create value in practice.</p>
@@ -130,7 +138,7 @@
 
         <article class="lesson-page" id="knowledge-check">
           <span class="lesson-kicker">Knowledge check</span><h3>Check your ecosystem understanding</h3>
-          <p class="lesson-lede">Answer all three questions correctly to complete the module.</p>
+          <p class="lesson-lede">Answer all five questions correctly to complete the module.</p>
           <div class="quiz"><fieldset data-answer="buyer"><legend>1. Who typically approves or purchases a healthtech product?</legend><label><input type="radio" name="q1" value="user"> The user</label><label><input type="radio" name="q1" value="buyer"> The buyer</label><label><input type="radio" name="q1" value="beneficiary"> The beneficiary</label></fieldset><fieldset data-answer="multiple"><legend>2. Why must designers understand multiple stakeholders?</legend><label><input type="radio" name="q2" value="visual"> To select visual styles</label><label><input type="radio" name="q2" value="multiple"> Different stakeholders shape adoption and success</label><label><input type="radio" name="q2" value="avoid"> To avoid speaking with users</label></fieldset><fieldset data-answer="journey"><legend>3. Why should designers study care settings?</legend><label><input type="radio" name="q3" value="journey"> Context and workflows change across the care journey</label><label><input type="radio" name="q3" value="same"> Every setting works the same way</label><label><input type="radio" name="q3" value="brand"> Settings determine brand colors</label></fieldset><fieldset data-answer="layers"><legend>4. Why do healthtech products need layered value?</legend><label><input type="radio" name="q4" value="layers"> Critical audiences have different needs and success measures</label><label><input type="radio" name="q4" value="same"> Every stakeholder wants the same thing</label><label><input type="radio" name="q4" value="visual"> It improves visual hierarchy</label></fieldset><fieldset data-answer="tradeoff"><legend>5. What should designers do with ecosystem tensions?</legend><label><input type="radio" name="q5" value="ignore"> Ignore them</label><label><input type="radio" name="q5" value="tradeoff"> Make tradeoffs explicit and prioritize thoughtfully</label><label><input type="radio" name="q5" value="remove"> Always remove all friction</label></fieldset></div>
           <button class="submit-quiz">Submit knowledge check</button><p class="quiz-result" id="quizResult"></p>
         </article>

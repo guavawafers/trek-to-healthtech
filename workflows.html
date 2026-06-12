@@ -17,6 +17,7 @@
         <button class="lesson-tab" data-lesson="lesson-3"><span>03</span>Handoffs &amp; interruptions</button>
         <button class="lesson-tab" data-lesson="lesson-4"><span>04</span>Safety &amp; constraints</button>
         <button class="lesson-tab" data-lesson="lesson-5"><span>05</span>Design for adoption</button>
+        <button class="lesson-tab" data-lesson="sources"><span>↗</span>Sources &amp; scope</button>
         <button class="lesson-tab" data-lesson="exercise"><span>✎</span>Designer exercise</button>
         <button class="lesson-tab" data-lesson="knowledge-check"><span>✓</span>Knowledge check</button>
       </aside>
@@ -80,6 +81,12 @@
           <div class="designer-takeaway"><strong>Designer takeaway</strong><span>Evaluate how much new work the product creates before asking teams to adopt it.</span></div>
           <button class="complete-lesson" data-complete="lesson-5">Mark lesson complete →</button>
         </article>
+        <article class="lesson-page" id="sources">
+          <span class="lesson-kicker">Authoritative references</span><h3>Sources and scope</h3>
+          <p class="lesson-lede">This module translates established patient-safety, care-coordination, and human-factors principles into product-design guidance.</p>
+          <div class="learning-block"><h4>Primary references</h4><p><a href="https://www.ahrq.gov/ncepcr/care/coordination.html" target="_blank" rel="noopener">AHRQ — Care Coordination</a></p><p><a href="https://psnet.ahrq.gov/primer/handoffs" target="_blank" rel="noopener">AHRQ PSNet — Handoffs</a></p><p><a href="https://psnet.ahrq.gov/primer/alert-fatigue" target="_blank" rel="noopener">AHRQ PSNet — Alert Fatigue</a></p><p><a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/applying-human-factors-and-usability-engineering-medical-devices" target="_blank" rel="noopener">FDA — Applying Human Factors and Usability Engineering to Medical Devices</a></p></div>
+          <div class="lesson-callout"><strong>Scope note</strong><p>Clinical responsibilities, escalation rules, safety controls, and workflows must be validated with the specific care team and organization. The examples are not clinical protocols.</p></div>
+        </article>
         <article class="lesson-page" id="exercise">
           <span class="lesson-kicker">Product designer exercise</span><h3>Map a clinical workflow</h3>
           <p class="lesson-lede">Choose a specific care activity and map how work, information, responsibility, and risk move through it.</p>
@@ -88,7 +95,7 @@
           <button class="save-exercise">Save exercise notes</button>
         </article>
         <article class="lesson-page" id="knowledge-check">
-          <span class="lesson-kicker">Knowledge check</span><h3>Check your workflow understanding</h3><p class="lesson-lede">Answer all three questions correctly to complete the module.</p>
+          <span class="lesson-kicker">Knowledge check</span><h3>Check your workflow understanding</h3><p class="lesson-lede">Answer all five questions correctly to complete the module.</p>
           <div class="quiz"><fieldset data-answer="downstream"><legend>1. Why should designers map the full care team?</legend><label><input type="radio" name="q1" value="colors"> To select interface colors</label><label><input type="radio" name="q1" value="downstream"> Actions create downstream work and risk</label><label><input type="radio" name="q1" value="single"> Only one person uses clinical tools</label></fieldset><fieldset data-answer="state"><legend>2. What helps people safely resume work after interruptions?</legend><label><input type="radio" name="q2" value="state"> Visible state, ownership, and next actions</label><label><input type="radio" name="q2" value="animation"> More animation</label><label><input type="radio" name="q2" value="hide"> Hiding incomplete work</label></fieldset><fieldset data-answer="intentional"><legend>3. When can added friction be useful?</legend><label><input type="radio" name="q3" value="never"> Never</label><label><input type="radio" name="q3" value="intentional"> For high-risk or irreversible actions</label><label><input type="radio" name="q3" value="random"> Randomly throughout the flow</label></fieldset><fieldset data-answer="current"><legend>4. What should designers map before proposing a new workflow?</legend><label><input type="radio" name="q4" value="current"> The current real-world workflow</label><label><input type="radio" name="q4" value="ideal"> Only an ideal happy path</label><label><input type="radio" name="q4" value="none"> Nothing</label></fieldset><fieldset data-answer="work"><legend>5. What can prevent adoption of a useful clinical tool?</legend><label><input type="radio" name="q5" value="work"> It creates too much additional work</label><label><input type="radio" name="q5" value="safe"> It supports safety</label><label><input type="radio" name="q5" value="clear"> It makes ownership clear</label></fieldset></div>
           <button class="submit-quiz">Submit knowledge check</button><p class="quiz-result" id="quizResult"></p>
         </article>
