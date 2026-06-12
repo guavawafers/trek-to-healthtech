@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T05:35:05.580Z",
+  "updatedAt": "2026-06-12T05:46:19.541Z",
   "articles": [
     {
       "id": "daily-163776d547b1",
@@ -13,7 +13,8 @@
       "title": "Human-Machine Interfaces in Health: A Critical Review and Framework of Human-Centered Design Practices",
       "url": "https://doi.org/10.61467/2007.1558.2026.v17i3.1285",
       "summary": "The design of human-machine interfaces (HMIs) in healthcare is a determining factor for the safety, efficiency, and accessibility of medical technologies worldwide. This article presents a structured review of the scientific and regulatory literature published to 2025, with the main objective of identifying the…",
-      "designValue": "Review emerging evidence"
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-06-12T05:46:03.894Z"
     }
   ]
 }

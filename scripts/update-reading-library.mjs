@@ -192,13 +192,20 @@ async function existingArticles() {
 
 const fetched = await Promise.allSettled([fetchPubMed(), fetchCrossref(), fetchIndustry()]);
 const previous = await existingArticles();
+const previousByUrl = new Map(previous.map((article) => [article.url, article]));
+const addedAt = new Date().toISOString();
 const fresh = fetched.flatMap((result) => result.status === "fulfilled" ? result.value : []);
 const failures = fetched.filter((result) => result.status === "rejected");
 failures.forEach((result) => console.warn(result.reason.message));
 
 const articles = [...fresh, ...previous]
   .filter((article) => article.url && article.title && isRecent(article.date))
-  .map((article) => ({ ...article, summary: excerpt(article.summary), score: relevanceScore(article) }))
+  .map((article) => ({
+    ...article,
+    addedAt: previousByUrl.get(article.url)?.addedAt || addedAt,
+    summary: excerpt(article.summary),
+    score: relevanceScore(article),
+  }))
   .filter((article) => article.score > 0 && titleIsRelevant(article.title))
   .sort((a, b) => b.score - a.score || new Date(b.date) - new Date(a.date))
   .filter((article, index, all) => all.findIndex((candidate) => candidate.url === article.url) === index)

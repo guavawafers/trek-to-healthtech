@@ -55,9 +55,11 @@ function safeArticleUrl(value) {
 
 function renderGeneratedArticle(article) {
   const date = new Date(article.date);
+  const addedDate = new Date(article.addedAt);
   const dateLabel = Number.isNaN(date.getTime()) ? "Recently published" : date.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
-  return `<article class="note-card article-card ${article.type === "research" ? "research-card " : ""}library-article" data-id="${escapeAttribute(article.id)}" data-type="${escapeAttribute(article.type)}" data-published="${escapeAttribute(article.date.slice(0, 10))}" data-search="${escapeAttribute(`${article.title} ${article.source} ${article.summary}`.toLowerCase())}">
-    <div class="source-row"><span class="source-logo ${escapeAttribute(article.sourceClass)}">${escapeHtml(article.sourceMark)}</span><div><strong>${escapeHtml(article.source)}</strong><span>${dateLabel}</span></div><button class="save-article" aria-label="Save article"><svg viewBox="0 0 24 24"><path d="M5 4h14v16l-7-4-7 4z"/></svg></button></div>
+  const addedLabel = Number.isNaN(addedDate.getTime()) ? "Recently added" : `Added to library ${addedDate.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}`;
+  return `<article class="note-card article-card ${article.type === "research" ? "research-card " : ""}library-article" data-id="${escapeAttribute(article.id)}" data-type="${escapeAttribute(article.type)}" data-added="${escapeAttribute(article.addedAt?.slice(0, 10))}" data-search="${escapeAttribute(`${article.title} ${article.source} ${article.summary}`.toLowerCase())}">
+    <div class="source-row"><span class="source-logo ${escapeAttribute(article.sourceClass)}">${escapeHtml(article.sourceMark)}</span><div><strong>${escapeHtml(article.source)}</strong><span>Published ${dateLabel} · ${addedLabel}</span></div><button class="save-article" aria-label="Save article"><svg viewBox="0 0 24 24"><path d="M5 4h14v16l-7-4-7 4z"/></svg></button></div>
     <div class="article-type"><span class="tag strategy">${escapeHtml(article.label)}</span><span>${escapeHtml(article.readingTime)}</span></div>
     <h3><a href="${safeArticleUrl(article.url)}" target="_blank" rel="noopener">${escapeHtml(article.title)} <span>→</span></a></h3>
     <p>${escapeHtml(article.summary)}</p><div class="article-footer"><span>Why it matters for design</span><strong>${escapeHtml(article.designValue)}</strong></div>
@@ -81,7 +83,7 @@ async function loadDailyArticles() {
 function addNewArticleBadges() {
   const now = Date.now();
   getArticles().forEach((article) => {
-    const added = article.dataset.published || articleAddedDates[article.dataset.id];
+    const added = article.dataset.added || articleAddedDates[article.dataset.id];
     const age = now - new Date(`${added}T00:00:00`).getTime();
     if (!added || age < 0 || age > newArticleWindow) return;
     const badge = document.createElement("span");
