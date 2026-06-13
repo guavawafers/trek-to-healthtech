@@ -246,10 +246,16 @@ if (localStorage.getItem("healthDataContentVersion") !== "1") {
   localStorage.removeItem("healthDataComplete");
   localStorage.setItem("healthDataContentVersion", "1");
 }
+if (localStorage.getItem("privacyContentVersion") !== "1") {
+  localStorage.removeItem("privacyLessons");
+  localStorage.removeItem("privacyComplete");
+  localStorage.setItem("privacyContentVersion", "1");
+}
 const paymentIsComplete = localStorage.getItem("paymentComplete") === "true";
 const workflowIsComplete = localStorage.getItem("workflowComplete") === "true";
 const healthDataIsComplete = localStorage.getItem("healthDataComplete") === "true";
-const completedFoundationCount = Number(ecosystemIsComplete) + Number(paymentIsComplete) + Number(workflowIsComplete) + Number(healthDataIsComplete);
+const privacyIsComplete = localStorage.getItem("privacyComplete") === "true";
+const completedFoundationCount = Number(ecosystemIsComplete) + Number(paymentIsComplete) + Number(workflowIsComplete) + Number(healthDataIsComplete) + Number(privacyIsComplete);
 
 if (ecosystemIsComplete) {
   ecosystemStatus.textContent = "Completed ✓";

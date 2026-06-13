@@ -23,6 +23,11 @@ if (localStorage.getItem("healthDataContentVersion") !== "1") {
   localStorage.removeItem("healthDataComplete");
   localStorage.setItem("healthDataContentVersion", "1");
 }
+if (localStorage.getItem("privacyContentVersion") !== "1") {
+  localStorage.removeItem("privacyLessons");
+  localStorage.removeItem("privacyComplete");
+  localStorage.setItem("privacyContentVersion", "1");
+}
 
 viewOptions.forEach((button) => button.addEventListener("click", () => {
   viewOptions.forEach((option) => option.classList.remove("active"));
