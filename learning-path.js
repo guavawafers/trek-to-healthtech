@@ -28,6 +28,16 @@ if (localStorage.getItem("privacyContentVersion") !== "1") {
   localStorage.removeItem("privacyComplete");
   localStorage.setItem("privacyContentVersion", "1");
 }
+[
+  ["businessModels", "1"],
+  ["equitableDesign", "1"],
+  ["outcomes", "1"],
+].forEach(([key, version]) => {
+  if (localStorage.getItem(`${key}ContentVersion`) === version) return;
+  localStorage.removeItem(`${key}Lessons`);
+  localStorage.removeItem(`${key}Complete`);
+  localStorage.setItem(`${key}ContentVersion`, version);
+});
 
 viewOptions.forEach((button) => button.addEventListener("click", () => {
   viewOptions.forEach((option) => option.classList.remove("active"));

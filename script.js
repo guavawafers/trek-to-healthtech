@@ -251,11 +251,24 @@ if (localStorage.getItem("privacyContentVersion") !== "1") {
   localStorage.removeItem("privacyComplete");
   localStorage.setItem("privacyContentVersion", "1");
 }
+[
+  ["businessModels", "1"],
+  ["equitableDesign", "1"],
+  ["outcomes", "1"],
+].forEach(([key, version]) => {
+  if (localStorage.getItem(`${key}ContentVersion`) === version) return;
+  localStorage.removeItem(`${key}Lessons`);
+  localStorage.removeItem(`${key}Complete`);
+  localStorage.setItem(`${key}ContentVersion`, version);
+});
 const paymentIsComplete = localStorage.getItem("paymentComplete") === "true";
 const workflowIsComplete = localStorage.getItem("workflowComplete") === "true";
 const healthDataIsComplete = localStorage.getItem("healthDataComplete") === "true";
 const privacyIsComplete = localStorage.getItem("privacyComplete") === "true";
-const completedFoundationCount = Number(ecosystemIsComplete) + Number(paymentIsComplete) + Number(workflowIsComplete) + Number(healthDataIsComplete) + Number(privacyIsComplete);
+const businessModelsIsComplete = localStorage.getItem("businessModelsComplete") === "true";
+const equitableDesignIsComplete = localStorage.getItem("equitableDesignComplete") === "true";
+const outcomesIsComplete = localStorage.getItem("outcomesComplete") === "true";
+const completedFoundationCount = Number(ecosystemIsComplete) + Number(paymentIsComplete) + Number(workflowIsComplete) + Number(healthDataIsComplete) + Number(privacyIsComplete) + Number(businessModelsIsComplete) + Number(equitableDesignIsComplete) + Number(outcomesIsComplete);
 
 if (ecosystemIsComplete) {
   ecosystemStatus.textContent = "Completed ✓";
