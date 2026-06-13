@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-06-12T21:20:37.708Z",
+  "updatedAt": "2026-06-13T20:08:45.886Z",
   "articles": [
+    {
+      "id": "daily-f8e368891d70",
+      "type": "research",
+      "source": "BMC Health Services Research",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-06-13T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Artificial intelligence adoption in healthcare: a systematic review of implementation challenges and health services implications",
+      "url": "https://doi.org/10.1186/s12913-026-14960-x",
+      "summary": "Abstract The adoption of Artificial Intelligence (AI) in the healthcare sector offers an unprecedented opportunity to revolutionize global health systems by addressing growing challenges related to efficiency, accessibility, and quality of care. This systematic review explores the opportunities, challenges, enablers,…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-06-13T20:08:45.884Z"
+    },
     {
       "id": "daily-163776d547b1",
       "type": "research",
@@ -15,6 +30,36 @@
       "summary": "The design of human-machine interfaces (HMIs) in healthcare is a determining factor for the safety, efficiency, and accessibility of medical technologies worldwide. This article presents a structured review of the scientific and regulatory literature published to 2025, with the main objective of identifying the…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-06-12T05:46:03.894Z"
+    },
+    {
+      "id": "daily-a2f7fba981fd",
+      "type": "research",
+      "source": "BMC Health Services Research",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-06-13T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Transgender and gender diverse persons’ sexually transmitted infection testing: a mixed methods study to understand primary care providers’ training gaps and desires to promote sexual health equity",
+      "url": "https://doi.org/10.1186/s12913-026-14892-6",
+      "summary": "Recent research by Ashley Lacombe-Duncan.",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-06-13T20:08:45.884Z"
+    },
+    {
+      "id": "daily-1478d9b85461",
+      "type": "research",
+      "source": "Journal of Universal Science Research",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-06-13T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Pedagogical Possibilities and Didactic Significance of Artificial Intelligence Technologies in the Digital Educational Environment",
+      "url": "https://doi.org/10.66301/g0qetm07",
+      "summary": "This article analyses the pedagogical possibilities and didactic significance of artificial intelligence technologies in the digital educational environment. The research is based on Bloom's \"2-sigma problem\", Vygotsky's “zone of proximal development”, Papert's constructionism theory, and Gardner's theory of multiple…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-06-13T20:08:45.884Z"
     },
     {
       "id": "daily-03c96523f513",
