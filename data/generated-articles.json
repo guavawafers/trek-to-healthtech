@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T00:12:41.282Z",
+  "updatedAt": "2026-06-15T22:52:29.578Z",
   "articles": [
     {
       "id": "daily-05fb19399d80",
@@ -32,6 +32,21 @@
       "addedAt": "2026-06-14T23:47:33.487Z"
     },
     {
+      "id": "daily-acc4ca88060f",
+      "type": "research",
+      "source": "Healthcare",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-06-15T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Home Fetal Heart Rate Monitoring in Pregnancy: Patient Experience and Acceptance in the Era of Digital Prenatal Care",
+      "url": "https://doi.org/10.3390/healthcare14121702",
+      "summary": "Background: Digital health technologies have expanded access to home fetal heart rate (FHR) monitoring devices, enabling fetal surveillance outside clinical settings. However, evidence on women’s awareness, acceptance, and experiences with these devices remains limited. Objective: To assess awareness, adoption, user…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-06-15T22:52:29.576Z"
+    },
+    {
       "id": "daily-163776d547b1",
       "type": "research",
       "source": "International Journal of Combinatorial Optimization Problems and Informatics",
@@ -45,6 +60,21 @@
       "summary": "The design of human-machine interfaces (HMIs) in healthcare is a determining factor for the safety, efficiency, and accessibility of medical technologies worldwide. This article presents a structured review of the scientific and regulatory literature published to 2025, with the main objective of identifying the…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-06-12T05:46:03.894Z"
+    },
+    {
+      "id": "daily-dc64be3055b9",
+      "type": "research",
+      "source": "Health Care Analysis",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-06-15T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Evidence-Based Planning of High-Complexity Healthcare Networks at National Level: Integrating Mortality Records, Accessibility Metrics, and Facility Location Optimization Models",
+      "url": "https://doi.org/10.1007/s10728-026-00572-3",
+      "summary": "Abstract This study presents a four-step methodology to analyze and improve the provision of high-complexity healthcare services (HCHS) at national level: (i) data analysis and identification of municipalities with a concentration of HCHS provision, referred to as supplier municipalities; (ii) measurement of…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-06-15T22:52:29.576Z"
     }
   ]
 }
