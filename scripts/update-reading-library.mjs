@@ -2,7 +2,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 
 const outputPath = new URL("../data/generated-articles.json", import.meta.url);
-const maxArticles = 24;
+const maxArticlesPerType = 12;
 const maxAgeDays = 45;
 const topicQueries = [
   "digital health design",
@@ -41,6 +41,28 @@ const titleTerms = [
   "user experience",
   "workflow",
 ];
+const healthTerms = [
+  "care",
+  "clinical",
+  "digital health",
+  "health",
+  "healthcare",
+  "medical",
+  "patient",
+];
+const designTerms = [
+  "accessibility",
+  "adoption",
+  "building",
+  "design",
+  "experience",
+  "human-centered",
+  "interface",
+  "product",
+  "technology",
+  "usability",
+  "workflow",
+];
 
 function articleId(url) {
   return `daily-${createHash("sha1").update(url).digest("hex").slice(0, 12)}`;
@@ -63,6 +85,11 @@ function relevanceScore(article) {
 function titleIsRelevant(title) {
   const text = title.toLowerCase();
   return titleTerms.some((term) => text.includes(term));
+}
+
+function isHealthDesignRelevant(article) {
+  const text = `${article.title} ${article.summary}`.toLowerCase();
+  return healthTerms.some((term) => text.includes(term)) && designTerms.some((term) => text.includes(term));
 }
 
 function isRecent(date) {
@@ -144,6 +171,25 @@ async function fetchIndustry() {
   }));
 }
 
+async function fetchDevToIndustry() {
+  const tags = ["healthtech", "healthcare"];
+  const results = await Promise.all(tags.map((tag) => getJson(`https://dev.to/api/articles?tag=${tag}&per_page=30`)));
+  return results.flat().map((item) => ({
+    id: articleId(item.canonical_url || item.url),
+    type: "industry",
+    source: "DEV Community",
+    sourceMark: "DEV",
+    sourceClass: "market-logo",
+    date: item.published_timestamp,
+    label: "Recent industry read",
+    readingTime: `${item.reading_time_minutes || 5} min read`,
+    title: normalizeText(item.title),
+    url: item.canonical_url || item.url,
+    summary: excerpt(item.description || "A recent healthtech industry article."),
+    designValue: "Track emerging product signals",
+  }));
+}
+
 async function fetchCrossref() {
   const fromDate = new Date(Date.now() - maxAgeDays * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
   const untilDate = new Date().toISOString().slice(0, 10);
@@ -190,7 +236,7 @@ async function existingArticles() {
   }
 }
 
-const fetched = await Promise.allSettled([fetchPubMed(), fetchCrossref(), fetchIndustry()]);
+const fetched = await Promise.allSettled([fetchPubMed(), fetchCrossref(), fetchIndustry(), fetchDevToIndustry()]);
 const previous = await existingArticles();
 const previousByUrl = new Map(previous.map((article) => [article.url, article]));
 const addedAt = new Date().toISOString();
@@ -198,7 +244,7 @@ const fresh = fetched.flatMap((result) => result.status === "fulfilled" ? result
 const failures = fetched.filter((result) => result.status === "rejected");
 failures.forEach((result) => console.warn(result.reason.message));
 
-const articles = [...fresh, ...previous]
+const candidates = [...fresh, ...previous]
   .filter((article) => article.url && article.title && isRecent(article.date))
   .map((article) => ({
     ...article,
@@ -206,10 +252,12 @@ const articles = [...fresh, ...previous]
     summary: excerpt(article.summary),
     score: relevanceScore(article),
   }))
-  .filter((article) => article.score > 0 && titleIsRelevant(article.title))
+  .filter((article) => article.score > 0 && titleIsRelevant(article.title) && isHealthDesignRelevant(article))
   .sort((a, b) => b.score - a.score || new Date(b.date) - new Date(a.date))
-  .filter((article, index, all) => all.findIndex((candidate) => candidate.url === article.url) === index)
-  .slice(0, maxArticles)
+  .filter((article, index, all) => all.findIndex((candidate) => candidate.url === article.url) === index);
+
+const articles = ["industry", "research"]
+  .flatMap((type) => candidates.filter((article) => article.type === type).slice(0, maxArticlesPerType))
   .map(({ score, ...article }) => article);
 
 if (!articles.length && failures.length === fetched.length) {
@@ -218,4 +266,5 @@ if (!articles.length && failures.length === fetched.length) {
 
 await mkdir(new URL("../data/", import.meta.url), { recursive: true });
 await writeFile(outputPath, `${JSON.stringify({ updatedAt: new Date().toISOString(), articles }, null, 2)}\n`);
-console.log(`Wrote ${articles.length} recent articles to data/generated-articles.json`);
+const counts = Object.fromEntries(["industry", "research"].map((type) => [type, articles.filter((article) => article.type === type).length]));
+console.log(`Wrote ${counts.industry} industry and ${counts.research} research articles to data/generated-articles.json`);

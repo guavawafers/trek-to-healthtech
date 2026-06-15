@@ -469,7 +469,7 @@ h1 { margin-bottom: 9px; font-size: clamp(29px, 3vw, 39px); font-weight: 600; li
 .notes-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; }
 .note-card { min-height: 190px; display: flex; flex-direction: column; padding: 18px; background: var(--white); border: 1px solid var(--line); border-radius: 11px; transition: .2s ease; }
 .note-card:hover { transform: translateY(-3px); border-color: #bfd2ca; box-shadow: 0 10px 25px rgba(32,65,58,.07); }
-.note-card.hidden, .company-row.hidden { display: none; }
+.note-card.hidden, .note-card[hidden], .company-row.hidden { display: none; }
 .note-meta { display: flex; justify-content: space-between; align-items: center; color: #4f5856; font-size: 10px; }
 .tag { padding: 5px 8px; border-radius: 4px; font-size: 10px; font-weight: 700; letter-spacing: .6px; text-transform: uppercase; }
 .tag.strategy { color: #367663; background: #e2f0ea; }
@@ -489,8 +489,10 @@ h1 { margin-bottom: 9px; font-size: clamp(29px, 3vw, 39px); font-weight: 600; li
 .save-article:hover, .save-article.saved { color: var(--green); border-color: #b8d0c7; background: #eaf4ef; }
 .save-article.saved svg { fill: currentColor; }
 .save-article svg { width: 14px; }
-.article-type { display: flex; align-items: center; justify-content: space-between; color: #4f5856; font-size: 14px; }
-.new-article-tag { margin-left: 8px; margin-right: auto; padding: 5px 8px; border-radius: 12px; color: #fff; background: #14735f; font-size: 10px; font-weight: 800; letter-spacing: .6px; line-height: 1; text-transform: uppercase; }
+.article-type { display: flex; align-items: center; justify-content: flex-start; flex-wrap: wrap; gap: 8px; color: #4f5856; font-size: 14px; }
+.article-type > span:last-child { width: 100%; margin-top: 2px; color: #59615f; font-size: 12px; }
+.new-article-tag { padding: 5px 8px; border-radius: 12px; color: #fff; background: #14735f; font-size: 10px; font-weight: 800; letter-spacing: .6px; line-height: 1; text-transform: uppercase; }
+.added-date-tag { padding: 5px 8px; border-radius: 12px; color: #6b5d90; background: #eeeaf5; font-size: 10px; font-weight: 700; line-height: 1; white-space: nowrap; }
 .article-card h3 a:hover { color: var(--green); }
 .article-card h3 a span { color: #59615f; font-family: "DM Sans", sans-serif; font-size: 11px; }
 .article-footer { display: flex; flex-direction: column; gap: 3px; margin-top: auto; padding-top: 12px; border-top: 1px solid #edf1ef; }

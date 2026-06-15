@@ -1,5 +1,4 @@
 const searchInput = document.querySelector("#globalSearch");
-const searchableItems = document.querySelectorAll("[data-search]");
 const saveArticleButtons = document.querySelectorAll(".save-article");
 const learningButtons = document.querySelectorAll(".module-action, .continue-learning");
 const markReadButtons = document.querySelectorAll(".mark-read");
@@ -63,20 +62,47 @@ function updateSidebarCounts() {
   historyCount.textContent = JSON.parse(localStorage.getItem("readingHistory") || JSON.stringify(starterReadingHistory)).length;
 }
 
-document.querySelectorAll("#notesGrid .notes-grid").forEach((grid) => {
+function sortArticlesByAddedDate(grid) {
   [...grid.querySelectorAll(".article-card")]
-    .sort((a, b) => new Date(b.dataset.added || 0) - new Date(a.dataset.added || 0))
-    .forEach((article) => grid.appendChild(article));
+    .map((article, index) => {
+      const publishedText = article.dataset.published || article.querySelector(".source-row div span")?.textContent || "";
+      const publishedMatch = publishedText.match(/(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},\s+\d{4}|\b\d{4}\b/);
+      return {
+        article,
+        index,
+        added: article.dataset.added ? new Date(article.dataset.added).getTime() : 0,
+        published: publishedMatch ? new Date(publishedMatch[0]).getTime() : 0,
+      };
+    })
+    .sort((a, b) => b.added - a.added || b.published - a.published || a.index - b.index)
+    .forEach(({ article }) => grid.appendChild(article));
+}
+
+function limitDashboardArticles(grid) {
+  [...grid.querySelectorAll(".article-card")].forEach((article, index) => {
+    article.hidden = index >= 3;
+  });
+}
+
+document.querySelectorAll("#notesGrid .notes-grid").forEach((grid) => {
+  sortArticlesByAddedDate(grid);
+  limitDashboardArticles(grid);
 });
 
 document.querySelectorAll("#notesGrid .article-card[data-added]").forEach((article) => {
   const isNew = Date.now() - new Date(`${article.dataset.added}T00:00:00`).getTime() <= newArticleWindow;
   article.querySelector(".new-article-tag")?.classList.toggle("hidden", !isNew);
+  const tag = article.querySelector(".article-type .tag");
+  if (isNew && tag && !article.querySelector(".added-date-tag")) {
+    const addedDate = new Date(`${article.dataset.added}T00:00:00`);
+    const newBadge = article.querySelector(".new-article-tag");
+    newBadge.insertAdjacentHTML("afterend", `<span class="added-date-tag">Added ${addedDate.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}</span>`);
+  }
 });
 
 function applySearch() {
   const query = searchInput.value.trim().toLowerCase();
-  searchableItems.forEach((item) => {
+  document.querySelectorAll("[data-search]").forEach((item) => {
     item.classList.toggle("hidden", !item.dataset.search.includes(query));
   });
 }
@@ -90,7 +116,7 @@ document.addEventListener("keydown", (event) => {
   }
 });
 
-saveArticleButtons.forEach((button) => {
+function bindSaveArticle(button) {
   const articleId = button.closest(".article-card")?.dataset.id;
   button.classList.toggle("saved", savedReading.has(articleId));
   button.setAttribute("aria-label", savedReading.has(articleId) ? "Remove saved article" : "Save article");
@@ -107,7 +133,9 @@ saveArticleButtons.forEach((button) => {
     toast.classList.add("show");
     window.setTimeout(() => toast.classList.remove("show"), 2200);
   });
-});
+}
+
+saveArticleButtons.forEach(bindSaveArticle);
 
 learningButtons.forEach((button) => {
   button.addEventListener("click", () => {
@@ -208,7 +236,7 @@ submitQuiz.addEventListener("click", () => {
   }
 });
 
-markReadButtons.forEach((button) => {
+function bindMarkRead(button) {
   button.addEventListener("click", () => {
     if (button.classList.contains("read")) return;
     const history = JSON.parse(localStorage.getItem("readingHistory") || JSON.stringify(starterReadingHistory));
@@ -223,7 +251,91 @@ markReadButtons.forEach((button) => {
     toast.classList.add("show");
     window.setTimeout(() => toast.classList.remove("show"), 2200);
   });
-});
+}
+
+markReadButtons.forEach(bindMarkRead);
+
+function escapeHtml(value = "") {
+  const element = document.createElement("div");
+  element.textContent = value;
+  return element.innerHTML;
+}
+
+function escapeAttribute(value = "") {
+  return String(value).replace(/[&<>"']/g, (character) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;",
+  })[character]);
+}
+
+function safeArticleUrl(value) {
+  try {
+    const url = new URL(value);
+    return ["http:", "https:"].includes(url.protocol) ? escapeAttribute(url.href) : "#";
+  } catch {
+    return "#";
+  }
+}
+
+function generatedArticleTopic(article) {
+  const text = `${article.title} ${article.summary}`.toLowerCase();
+  const topics = [
+    ["Accessibility", ["accessibility", "accessible", "disability", "inclusive"]],
+    ["Clinical workflows", ["clinical workflow", "workflow", "clinician"]],
+    ["Health equity", ["health equity", "equity", "underserved"]],
+    ["Human-centered AI", ["health ai", "healthcare ai", "artificial intelligence", "human-machine", " ai "]],
+    ["Patient experience", ["patient experience", "patient-facing", "patient"]],
+    ["Health data", ["health data", "interoperability", "ehr"]],
+    ["Product design", ["product design", "user experience", "usability", "interface", "design"]],
+  ];
+  return topics.find(([, terms]) => terms.some((term) => text.includes(term)))?.[0] || "Healthtech";
+}
+
+function renderGeneratedDashboardArticle(article) {
+  const addedAt = new Date(article.addedAt);
+  const publishedAt = new Date(article.date);
+  const addedLabel = Number.isNaN(addedAt.getTime()) ? "Recently added" : `Added ${addedAt.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}`;
+  const publishedLabel = Number.isNaN(publishedAt.getTime()) ? "Recently published" : `Published ${publishedAt.toLocaleDateString("en-US", { month: "short", day: "numeric" })}`;
+  return `<article class="note-card article-card ${article.type === "research" ? "research-card" : ""}" data-generated="true" data-id="${escapeAttribute(article.id)}" data-added="${escapeAttribute(article.addedAt?.slice(0, 10))}" data-published="${escapeAttribute(article.date)}" data-search="${escapeAttribute(`${article.title} ${article.source} ${article.summary}`.toLowerCase())}">
+    <div class="source-row"><span class="source-logo ${escapeAttribute(article.sourceClass)}">${escapeHtml(article.sourceMark)}</span><div><strong>${escapeHtml(article.source)}</strong><span>${publishedLabel}</span></div><button class="save-article" aria-label="Save article"><svg viewBox="0 0 24 24"><path d="M5 4h14v16l-7-4-7 4z"/></svg></button></div>
+    <div class="article-type generated-article-type"><span class="tag strategy">${generatedArticleTopic(article)}</span><span class="new-article-tag">New</span><span class="added-date-tag">${addedLabel}</span><span class="article-reading-time">${escapeHtml(article.readingTime)}</span></div>
+    <h3><a href="${safeArticleUrl(article.url)}" target="_blank" rel="noopener">${escapeHtml(article.title)} <span>→</span></a></h3>
+    <p>${escapeHtml(article.summary)}</p>
+    <div class="article-footer"><span>Why it matters for design</span><strong>${escapeHtml(article.designValue)}</strong></div>
+    <button class="mark-read" data-title="${escapeAttribute(article.title)}" data-source="${escapeAttribute(article.source)}">Mark as read</button>
+  </article>`;
+}
+
+async function loadGeneratedDashboardArticles() {
+  try {
+    const response = await fetch("data/generated-articles.json", { cache: "no-store" });
+    if (!response.ok) throw new Error("Generated reading feed unavailable");
+    const feed = await response.json();
+    const recent = [...(feed.articles || [])]
+      .sort((a, b) => new Date(b.addedAt || 0) - new Date(a.addedAt || 0))
+      .slice(0, 3);
+    if (!recent.length) return;
+
+    const industryGrid = document.querySelector("#dashboardIndustryArticles");
+    const researchGrid = document.querySelector("#dashboardResearchArticles");
+    industryGrid.insertAdjacentHTML("afterbegin", recent.filter((article) => article.type === "industry").map(renderGeneratedDashboardArticle).join(""));
+    researchGrid.insertAdjacentHTML("afterbegin", recent.filter((article) => article.type === "research").map(renderGeneratedDashboardArticle).join(""));
+    document.querySelectorAll("#notesGrid .article-card[data-generated]").forEach((card) => {
+      bindSaveArticle(card.querySelector(".save-article"));
+      bindMarkRead(card.querySelector(".mark-read"));
+    });
+    [industryGrid, researchGrid].forEach((grid) => {
+      sortArticlesByAddedDate(grid);
+      limitDashboardArticles(grid);
+    });
+    applySearch();
+  } catch {}
+}
+
+loadGeneratedDashboardArticles();
 
 if (localStorage.getItem("ecosystemContentVersion") !== "2") {
   localStorage.removeItem("ecosystemLessons");

@@ -12,6 +12,6 @@ Run the updater locally:
 node scripts/update-reading-library.mjs
 ```
 
-The updater keeps at most 24 relevant articles published within the last 45 days. Existing curated articles are never modified.
+The updater keeps up to 12 relevant Industry Reads and 12 Research & Evidence articles published within the last 45 days. Each category has its own capacity so one cannot crowd out the other. Existing curated articles are never modified.
 
 Each generated article keeps its original `addedAt` timestamp across daily updates. The Reading Library displays this date and labels articles as **New** for 30 days after they first enter the library.
