@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T20:08:07.653Z",
+  "updatedAt": "2026-06-21T16:55:06.765Z",
   "articles": [
     {
       "id": "daily-05fb19399d80",
@@ -75,6 +75,21 @@
       "summary": "Recent research led by Abdulai MS.",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-06-19T20:49:12.304Z"
+    },
+    {
+      "id": "daily-49ee187fbcee",
+      "type": "research",
+      "source": "BMC Digital Health",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-06-21T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "A framework for the usability evaluation of a mobile health application for early childhood development teachers teaching in remote, rural and low-resourced settings in Africa",
+      "url": "https://doi.org/10.1186/s44247-026-00272-x",
+      "summary": "Abstract Introduction South Africa has a high prevalence of motor skills impairment. Task shifting and developing mLearning modules for early childhood development teachers, presents a potential solution for the early identification and treatment of motor skill delays and making healthcare more accessible in rural and…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-06-21T16:55:06.763Z"
     },
     {
       "id": "daily-dc64be3055b9",
