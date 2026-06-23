@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T18:53:15.205Z",
+  "updatedAt": "2026-06-23T17:22:08.519Z",
   "articles": [
     {
       "id": "daily-05fb19399d80",
@@ -75,6 +75,21 @@
       "summary": "Recent research led by Abdulai MS.",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-06-19T20:49:12.304Z"
+    },
+    {
+      "id": "daily-8eef94f749d9",
+      "type": "research",
+      "source": "Biological Trace Element Research",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-06-23T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Bioaccessibility and Health Risk Assessment of Heavy Metals in Commercially Available Rice from Central Iran: Implications for Food Safety",
+      "url": "https://doi.org/10.1007/s12011-026-05177-4",
+      "summary": "Recent research by Fatemeh Mohebbi.",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-06-23T17:22:08.517Z"
     },
     {
       "id": "daily-49ee187fbcee",
