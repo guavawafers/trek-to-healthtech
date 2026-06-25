@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-06-24T17:18:47.568Z",
+  "updatedAt": "2026-06-25T17:23:24.275Z",
   "articles": [
+    {
+      "id": "daily-c182ad0ac8bb",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-06-24T15:00:00Z",
+      "label": "Recent industry read",
+      "readingTime": "6 min read",
+      "title": "How to move from an LLM demo to a production-ready healthcare AI agent",
+      "url": "https://budventure.technology/blog/cost-to-build-hipaa-compliant-ai-agents-2026",
+      "summary": "From LLM Demo to Healthcare AI Agent: What Developers Need to Build Around the Model Building an AI...",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-06-25T17:23:24.274Z"
+    },
     {
       "id": "daily-05fb19399d80",
       "type": "industry",
