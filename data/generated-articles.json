@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T17:16:18.346Z",
+  "updatedAt": "2026-07-01T17:23:21.544Z",
   "articles": [
     {
       "id": "daily-c182ad0ac8bb",
@@ -90,6 +90,21 @@
       "summary": "Recent research led by Abdulai MS.",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-06-19T20:49:12.304Z"
+    },
+    {
+      "id": "daily-fcd48d913b4e",
+      "type": "research",
+      "source": "JSES International",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-07-01T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Does lateralization and distalization affect revision rates and patient experience in primary stemmed reverse total shoulder arthroplasty?",
+      "url": "https://doi.org/10.1016/j.jseint.2026.101693",
+      "summary": "Recent research by David R.J. Gill.",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-07-01T17:23:21.543Z"
     },
     {
       "id": "daily-8eef94f749d9",
