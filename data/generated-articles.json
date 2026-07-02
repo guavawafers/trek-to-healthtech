@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-07-01T17:23:21.544Z",
+  "updatedAt": "2026-07-02T17:02:08.656Z",
   "articles": [
+    {
+      "id": "daily-bff3b63586e7",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-07-02T11:26:58Z",
+      "label": "Recent industry read",
+      "readingTime": "1 min read",
+      "title": "AI in Healthcare: Are We Finally Automating Clinical Workflows Instead of Just Documentation?",
+      "url": "https://dev.to/louis7645/ai-in-healthcare-are-we-finally-automating-clinical-workflows-instead-of-just-documentation-3ooi",
+      "summary": "One thing that caught my attention recently is how AI is moving beyond simple note-taking and...",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-07-02T17:02:08.654Z"
+    },
     {
       "id": "daily-c182ad0ac8bb",
       "type": "industry",
