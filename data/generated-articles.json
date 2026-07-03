@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T17:02:08.656Z",
+  "updatedAt": "2026-07-03T16:45:36.450Z",
   "articles": [
     {
       "id": "daily-bff3b63586e7",
@@ -105,6 +105,21 @@
       "summary": "Recent research led by Abdulai MS.",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-06-19T20:49:12.304Z"
+    },
+    {
+      "id": "daily-cd38d9da1b27",
+      "type": "research",
+      "source": "Frontiers in Public Health",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-07-03T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Design optimization of health apps for rural older adults: enhancing usability and health effects based on Kano model and SEM method",
+      "url": "https://doi.org/10.3389/fpubh.2026.1810287",
+      "summary": "Introduction With the intensification of population aging in rural China, older adults face multiple challenges in health management, particularly barriers to using health apps, such as operational complexity, unfriendly interfaces, and insufficient contextual adaptation. This study aimed to optimize the design of…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-07-03T16:45:36.448Z"
     },
     {
       "id": "daily-fcd48d913b4e",
