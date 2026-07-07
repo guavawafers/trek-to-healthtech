@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-07-06T17:50:08.275Z",
+  "updatedAt": "2026-07-07T17:26:12.021Z",
   "articles": [
+    {
+      "id": "daily-70150ef2cd17",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-07-07T14:21:30Z",
+      "label": "Recent industry read",
+      "readingTime": "15 min read",
+      "title": "Telehealth Platform Architecture: Building Secure, Scalable Virtual Care Systems",
+      "url": "https://dev.to/sciforce/telehealth-platform-architecture-building-secure-scalable-virtual-care-systems-51aj",
+      "summary": "Introduction Building a telehealth platform at clinical scale means solving for hospital...",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-07-07T17:26:12.019Z"
+    },
     {
       "id": "daily-bf6b81022963",
       "type": "industry",
