@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T17:26:12.021Z",
+  "updatedAt": "2026-07-08T16:49:52.250Z",
   "articles": [
     {
       "id": "daily-70150ef2cd17",
@@ -135,6 +135,21 @@
       "summary": "Recent research led by Abdulai MS.",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-06-19T20:49:12.304Z"
+    },
+    {
+      "id": "daily-7697f3eb3876",
+      "type": "research",
+      "source": "Frontiers in Digital Health",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-07-08T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Assessing knowledge and perception of artificial intelligence in solid organ transplantation",
+      "url": "https://doi.org/10.3389/fdgth.2026.1834577",
+      "summary": "Introduction Artificial intelligence (AI) is increasingly integrated into healthcare, reshaping clinical decision-making and care pathways. In solid organ transplantation (SOT), where clinical complexity and uncertainty are high, AI holds particular promise. Yet, beyond technical performance, its successful adoption…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-07-08T16:49:52.248Z"
     },
     {
       "id": "daily-cd38d9da1b27",
