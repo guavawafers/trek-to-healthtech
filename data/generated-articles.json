@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-07-09T17:25:42.156Z",
+  "updatedAt": "2026-07-10T17:08:07.664Z",
   "articles": [
+    {
+      "id": "daily-ec1740e4a7eb",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-07-10T16:45:00Z",
+      "label": "Recent industry read",
+      "readingTime": "1 min read",
+      "title": "How Digital Platforms Improve Clinical Workflows",
+      "url": "https://dev.to/rehab_software_ai/how-digital-platforms-improve-clinical-workflows-3jg7",
+      "summary": "Healthcare teams increasingly rely on digital platforms to reduce repetitive administrative...",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-07-10T17:08:07.663Z"
+    },
+    {
+      "id": "daily-12119ed63f16",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-07-09T21:00:03Z",
+      "label": "Recent industry read",
+      "readingTime": "2 min read",
+      "title": "Elevating Patient Experience with Modern Marketing Platforms",
+      "url": "https://dev.to/medzoro/elevating-patient-experience-with-modern-marketing-platforms-3bcb",
+      "summary": "The Role of Healthcare Marketing PlatformsIn today's fast-paced medical environment,...",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-07-10T17:08:07.663Z"
+    },
     {
       "id": "daily-70150ef2cd17",
       "type": "industry",
