@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T17:08:07.664Z",
+  "updatedAt": "2026-07-11T16:10:28.770Z",
   "articles": [
     {
       "id": "daily-ec1740e4a7eb",
@@ -120,6 +120,21 @@
       "summary": "3.2 seconds. That's how long our Tamil AI chat takes to process 'shareeram sariyaagilla' - a...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-06-14T23:47:33.487Z"
+    },
+    {
+      "id": "daily-2f90063e8d99",
+      "type": "research",
+      "source": "Australian Journal of Rural Health",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-07-11T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Experiences and Perceptions of Patient Watch, a Rural Telehealth Case Management Model, for Frequent Presenters to the Emergency Department: A Longitudinal Mixed Methods Study",
+      "url": "https://doi.org/10.1111/ajr.70232",
+      "summary": "ABSTRACT Objective To evaluate: (1) patient experiences and perceptions of Patient Watch; and (2) the effect on emergency department (ED) presentations, healthcare use, quality of life and chronic illness care. Design A prospective longitudinal cohort study using a convergent‐parallel mixed methods study design…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-07-11T16:10:28.769Z"
     },
     {
       "id": "daily-acc4ca88060f",
