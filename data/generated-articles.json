@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-07-12T16:11:52.685Z",
+  "updatedAt": "2026-07-13T17:22:56.166Z",
   "articles": [
+    {
+      "id": "daily-56b35c9d88ca",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-07-13T07:43:03Z",
+      "label": "Recent industry read",
+      "readingTime": "2 min read",
+      "title": "How Modern Healthcare Services Are Improving Patient Experience and Preventive Care",
+      "url": "https://dev.to/divine_mercy_72ecb15a85ef/how-modern-healthcare-services-are-improving-patient-experience-and-preventive-care-4ndm",
+      "summary": "Healthcare is changing rapidly. Today, patients are looking for more than just treatment during...",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-07-13T17:22:56.165Z"
+    },
+    {
+      "id": "daily-c58590c80626",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-07-11T09:12:34Z",
+      "label": "Recent industry read",
+      "readingTime": "2 min read",
+      "title": "5 misconceptions engineers have about building healthcare AI agents",
+      "url": "https://dev.to/vishal_kumar_cda28e061f86/5-misconceptions-engineers-have-about-building-healthcare-ai-agents-be4",
+      "summary": "If you're building an AI agent for a regulated domain, the hard part isn't the model — it's...",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-07-13T17:22:56.165Z"
+    },
     {
       "id": "daily-ec1740e4a7eb",
       "type": "industry",
