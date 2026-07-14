@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T17:22:56.166Z",
+  "updatedAt": "2026-07-14T16:38:34.969Z",
   "articles": [
     {
       "id": "daily-56b35c9d88ca",
@@ -195,21 +195,6 @@
       "summary": "The design of human-machine interfaces (HMIs) in healthcare is a determining factor for the safety, efficiency, and accessibility of medical technologies worldwide. This article presents a structured review of the scientific and regulatory literature published to 2025, with the main objective of identifying the…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-06-12T05:46:03.894Z"
-    },
-    {
-      "id": "daily-fede680a3bce",
-      "type": "research",
-      "source": "Dialogues in health",
-      "sourceMark": "PM",
-      "sourceClass": "rock",
-      "date": "2026-05-30T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Beyond technology: Understanding digital healthcare through patient experience and sociotechnical resilience in Northern Ghana.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42318448/",
-      "summary": "Recent research led by Abdulai MS.",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-06-19T20:49:12.304Z"
     },
     {
       "id": "daily-7697f3eb3876",
