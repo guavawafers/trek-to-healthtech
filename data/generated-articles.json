@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-07-16T16:41:32.287Z",
+  "updatedAt": "2026-07-17T16:34:40.049Z",
   "articles": [
+    {
+      "id": "daily-83cf3ff1b40f",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-07-17T08:55:20Z",
+      "label": "Recent industry read",
+      "readingTime": "1 min read",
+      "title": "A 10-point technical checklist for evaluating a healthcare AI agent",
+      "url": "https://dev.to/vishal_kumar_cda28e061f86/a-10-point-technical-checklist-for-evaluating-a-healthcare-ai-agent-3p13",
+      "summary": "If you're the engineer who has to make a healthcare AI agent safe in production, marketing checklists...",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-07-17T16:34:40.047Z"
+    },
     {
       "id": "daily-56b35c9d88ca",
       "type": "industry",
