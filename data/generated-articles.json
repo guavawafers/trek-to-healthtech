@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T16:10:47.330Z",
+  "updatedAt": "2026-07-19T16:10:11.111Z",
   "articles": [
     {
       "id": "daily-83cf3ff1b40f",
@@ -210,6 +210,36 @@
       "summary": "The design of human-machine interfaces (HMIs) in healthcare is a determining factor for the safety, efficiency, and accessibility of medical technologies worldwide. This article presents a structured review of the scientific and regulatory literature published to 2025, with the main objective of identifying the…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-06-12T05:46:03.894Z"
+    },
+    {
+      "id": "daily-f479e3187a82",
+      "type": "research",
+      "source": "Discover Psychology",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-07-19T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Human material interactions in nanomedicine integrating psychological and neuroethical perspectives for nanoarchitectonics and patient experience",
+      "url": "https://doi.org/10.1007/s44202-026-00789-2",
+      "summary": "Recent research by Gursabeen Kaur.",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-07-19T16:10:11.109Z"
+    },
+    {
+      "id": "daily-c9f3fdbd0d5f",
+      "type": "research",
+      "source": "Health Promotion Practice",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-07-19T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Building Digital Health Communication Capacity: A Process Evaluation of the Infodemiology Training Program",
+      "url": "https://doi.org/10.1177/15248399261465408",
+      "summary": "The COVID-19 pandemic accelerated demand for public health professionals trained in infodemiology, or the science of using health-related information, particularly in digital environments, to inform public health decision-making. To build workforce capacity, The Public Good Projects and the de Beaumont Foundation…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-07-19T16:10:11.109Z"
     },
     {
       "id": "daily-7697f3eb3876",
