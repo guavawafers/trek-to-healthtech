@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-07-19T16:10:11.111Z",
+  "updatedAt": "2026-07-20T16:43:51.683Z",
   "articles": [
+    {
+      "id": "daily-fc17cd822285",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-07-18T09:02:17Z",
+      "label": "Recent industry read",
+      "readingTime": "5 min read",
+      "title": "Court-Ready Architecture: Why Audit Trails Matter for Healthcare AI",
+      "url": "https://pykero.com/blog/court-ready-architecture-healthcare-ai",
+      "summary": "Building AI for healthcare or government? Learn why immutable audit trails, data provenance, and access logs are non-negotiable for court-ready systems.",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-07-20T16:43:51.681Z"
+    },
     {
       "id": "daily-83cf3ff1b40f",
       "type": "industry",
