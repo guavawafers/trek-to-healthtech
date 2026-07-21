@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-07-20T16:43:51.683Z",
+  "updatedAt": "2026-07-21T16:41:47.266Z",
   "articles": [
+    {
+      "id": "daily-ff161b943f70",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-07-21T10:17:08Z",
+      "label": "Recent industry read",
+      "readingTime": "1 min read",
+      "title": "Improving Patient Access Through Digital Healthcare Platforms",
+      "url": "https://dev.to/jeevandan_health_26/improving-patient-access-through-digital-healthcare-platforms-25b1",
+      "summary": "How Digital Healthcare Is Improving the Patient Experience Healthcare has evolved significantly over...",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-07-21T16:41:47.264Z"
+    },
     {
       "id": "daily-fc17cd822285",
       "type": "industry",
@@ -167,21 +182,6 @@
       "addedAt": "2026-06-14T23:47:33.487Z"
     },
     {
-      "id": "daily-651e2cc0462e",
-      "type": "industry",
-      "source": "DEV Community",
-      "sourceMark": "DEV",
-      "sourceClass": "market-logo",
-      "date": "2026-06-06T06:41:56Z",
-      "label": "Recent industry read",
-      "readingTime": "3 min read",
-      "title": "Day 48 of GoDavaii: Building Health AI for 22 Indian Languages - Why It's Harder Than You Think",
-      "url": "https://dev.to/godavaii/day-48-of-godavaii-building-health-ai-for-22-indian-languages-why-its-harder-than-you-think-38f",
-      "summary": "3.2 seconds. That's how long our Tamil AI chat takes to process 'shareeram sariyaagilla' - a...",
-      "designValue": "Track emerging product signals",
-      "addedAt": "2026-06-14T23:47:33.487Z"
-    },
-    {
       "id": "daily-2f90063e8d99",
       "type": "research",
       "source": "Australian Journal of Rural Health",
@@ -225,6 +225,21 @@
       "summary": "The design of human-machine interfaces (HMIs) in healthcare is a determining factor for the safety, efficiency, and accessibility of medical technologies worldwide. This article presents a structured review of the scientific and regulatory literature published to 2025, with the main objective of identifying the…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-06-12T05:46:03.894Z"
+    },
+    {
+      "id": "daily-389e96071b0f",
+      "type": "research",
+      "source": "Diagnostics",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-07-21T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "When Usability Isn’t Enough: Understanding Rural Challenges in Respiratory Virus Test Interpretation",
+      "url": "https://doi.org/10.3390/diagnostics16142275",
+      "summary": "Background/Objectives: This study aimed to evaluate the usability and comprehension of at-home respiratory diagnostic tests for COVID-19 and influenza among rural and urban populations in Georgia. It sought to identify disparities in test interpretation and outcomes that could inform public health interventions…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-07-21T16:41:47.264Z"
     },
     {
       "id": "daily-f479e3187a82",
