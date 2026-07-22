@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T16:41:47.266Z",
+  "updatedAt": "2026-07-22T16:45:58.388Z",
   "articles": [
     {
       "id": "daily-ff161b943f70",
@@ -15,6 +15,21 @@
       "summary": "How Digital Healthcare Is Improving the Patient Experience Healthcare has evolved significantly over...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-07-21T16:41:47.264Z"
+    },
+    {
+      "id": "daily-7e49cd85834f",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-07-22T09:01:01Z",
+      "label": "Recent industry read",
+      "readingTime": "1 min read",
+      "title": "7 red flags an engineer should catch in a healthcare AI vendor",
+      "url": "https://dev.to/vishal_kumar_cda28e061f86/7-red-flags-an-engineer-should-catch-in-a-healthcare-ai-vendor-e2k",
+      "summary": "You're the one who has to make it safe in production, so you're also the one who should catch these....",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-07-22T16:45:58.386Z"
     },
     {
       "id": "daily-fc17cd822285",
@@ -167,21 +182,6 @@
       "addedAt": "2026-06-25T17:23:24.274Z"
     },
     {
-      "id": "daily-05fb19399d80",
-      "type": "industry",
-      "source": "DEV Community",
-      "sourceMark": "DEV",
-      "sourceClass": "market-logo",
-      "date": "2026-06-07T07:13:08Z",
-      "label": "Recent industry read",
-      "readingTime": "3 min read",
-      "title": "Day 49: The Unseen Layers of Building Health AI for 22+ Indian Languages",
-      "url": "https://dev.to/godavaii/day-49-the-unseen-layers-of-building-health-ai-for-22-indian-languages-1o0p",
-      "summary": "GPT-4's Hindi output is barely functional for nuanced medical queries. Ask any native speaker to...",
-      "designValue": "Track emerging product signals",
-      "addedAt": "2026-06-14T23:47:33.487Z"
-    },
-    {
       "id": "daily-2f90063e8d99",
       "type": "research",
       "source": "Australian Journal of Rural Health",
@@ -225,6 +225,21 @@
       "summary": "The design of human-machine interfaces (HMIs) in healthcare is a determining factor for the safety, efficiency, and accessibility of medical technologies worldwide. This article presents a structured review of the scientific and regulatory literature published to 2025, with the main objective of identifying the…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-06-12T05:46:03.894Z"
+    },
+    {
+      "id": "daily-fa40d57656dd",
+      "type": "research",
+      "source": "Frontiers in Public Health",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-07-22T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Mitigating environmental public health risks via artificial intelligence: mechanisms and boundary conditions",
+      "url": "https://doi.org/10.3389/fpubh.2026.1889267",
+      "summary": "Background Environmental pollution threatens population health through multiple and overlapping pathways, including gaseous emissions, wastewater discharge, and industrial solid waste. Artificial intelligence (AI) can improve environmental monitoring, energy management, and production optimization, but its broader…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-07-22T16:45:58.386Z"
     },
     {
       "id": "daily-389e96071b0f",
@@ -345,21 +360,6 @@
       "summary": "Abstract Introduction South Africa has a high prevalence of motor skills impairment. Task shifting and developing mLearning modules for early childhood development teachers, presents a potential solution for the early identification and treatment of motor skill delays and making healthcare more accessible in rural and…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-06-21T16:55:06.763Z"
-    },
-    {
-      "id": "daily-dc64be3055b9",
-      "type": "research",
-      "source": "Health Care Analysis",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-06-15T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Evidence-Based Planning of High-Complexity Healthcare Networks at National Level: Integrating Mortality Records, Accessibility Metrics, and Facility Location Optimization Models",
-      "url": "https://doi.org/10.1007/s10728-026-00572-3",
-      "summary": "Abstract This study presents a four-step methodology to analyze and improve the provision of high-complexity healthcare services (HCHS) at national level: (i) data analysis and identification of municipalities with a concentration of HCHS provision, referred to as supplier municipalities; (ii) measurement of…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-06-15T22:52:29.576Z"
     }
   ]
 }
