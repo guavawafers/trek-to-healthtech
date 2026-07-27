@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T16:14:15.907Z",
+  "updatedAt": "2026-07-27T17:09:04.049Z",
   "articles": [
     {
       "id": "daily-ff161b943f70",
@@ -210,21 +210,6 @@
       "summary": "Background: Digital health technologies have expanded access to home fetal heart rate (FHR) monitoring devices, enabling fetal surveillance outside clinical settings. However, evidence on women’s awareness, acceptance, and experiences with these devices remains limited. Objective: To assess awareness, adoption, user…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-06-15T22:52:29.576Z"
-    },
-    {
-      "id": "daily-163776d547b1",
-      "type": "research",
-      "source": "International Journal of Combinatorial Optimization Problems and Informatics",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-06-12T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Human-Machine Interfaces in Health: A Critical Review and Framework of Human-Centered Design Practices",
-      "url": "https://doi.org/10.61467/2007.1558.2026.v17i3.1285",
-      "summary": "The design of human-machine interfaces (HMIs) in healthcare is a determining factor for the safety, efficiency, and accessibility of medical technologies worldwide. This article presents a structured review of the scientific and regulatory literature published to 2025, with the main objective of identifying the…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-06-12T05:46:03.894Z"
     },
     {
       "id": "daily-b51720c6188c",
