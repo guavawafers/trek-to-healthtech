@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T16:50:30.674Z",
+  "updatedAt": "2026-07-29T16:38:52.349Z",
   "articles": [
     {
       "id": "daily-ff161b943f70",
@@ -345,6 +345,21 @@
       "summary": "Recent research by David R.J. Gill.",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-07-01T17:23:21.543Z"
+    },
+    {
+      "id": "daily-1d11747b1456",
+      "type": "research",
+      "source": "Asia-Pacific journal of oncology nursing",
+      "sourceMark": "PM",
+      "sourceClass": "rock",
+      "date": "2026-06-29T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Development and usability testing of a health recommender system for symptom management in women with breast cancer who were receiving or had recently received chemotherapy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42519179/",
+      "summary": "Recent research led by Cai T.",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-07-29T16:38:52.348Z"
     }
   ]
 }
