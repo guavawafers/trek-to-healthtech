@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T16:38:52.349Z",
+  "updatedAt": "2026-07-30T16:49:32.162Z",
   "articles": [
     {
       "id": "daily-ff161b943f70",
@@ -195,21 +195,6 @@
       "summary": "ABSTRACT Objective To evaluate: (1) patient experiences and perceptions of Patient Watch; and (2) the effect on emergency department (ED) presentations, healthcare use, quality of life and chronic illness care. Design A prospective longitudinal cohort study using a convergent‐parallel mixed methods study design…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-07-11T16:10:28.769Z"
-    },
-    {
-      "id": "daily-acc4ca88060f",
-      "type": "research",
-      "source": "Healthcare",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-06-15T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Home Fetal Heart Rate Monitoring in Pregnancy: Patient Experience and Acceptance in the Era of Digital Prenatal Care",
-      "url": "https://doi.org/10.3390/healthcare14121702",
-      "summary": "Background: Digital health technologies have expanded access to home fetal heart rate (FHR) monitoring devices, enabling fetal surveillance outside clinical settings. However, evidence on women’s awareness, acceptance, and experiences with these devices remains limited. Objective: To assess awareness, adoption, user…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-06-15T22:52:29.576Z"
     },
     {
       "id": "daily-b51720c6188c",
