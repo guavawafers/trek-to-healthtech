@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T16:49:32.162Z",
+  "updatedAt": "2026-07-31T16:56:47.009Z",
   "articles": [
     {
       "id": "daily-ff161b943f70",
@@ -195,6 +195,21 @@
       "summary": "ABSTRACT Objective To evaluate: (1) patient experiences and perceptions of Patient Watch; and (2) the effect on emergency department (ED) presentations, healthcare use, quality of life and chronic illness care. Design A prospective longitudinal cohort study using a convergent‐parallel mixed methods study design…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-07-11T16:10:28.769Z"
+    },
+    {
+      "id": "daily-850040f93957",
+      "type": "research",
+      "source": "The International Journal of Human Resource Management",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-07-31T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Artificial Intelligence technologies’ impact on the work design of healthcare professionals: a scoping review and future research agenda",
+      "url": "https://doi.org/10.1080/09585192.2026.2711067",
+      "summary": "Recent research by Frederike Scholz.",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-07-31T16:56:47.006Z"
     },
     {
       "id": "daily-b51720c6188c",
