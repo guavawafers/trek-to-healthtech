@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-08-13T16:09:04.820Z",
+  "updatedAt": "2026-08-14T16:05:43.867Z",
   "articles": [
+    {
+      "id": "daily-4636289c0cdf",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-08-14T08:54:45Z",
+      "label": "Recent industry read",
+      "readingTime": "3 min read",
+      "title": "Healthcare AI Infrastructure Platforms: The Backbone of Next-Generation Healthcare Technology",
+      "url": "https://dev.to/meetup/healthcare-ai-infrastructure-platforms-the-backbone-of-next-generation-healthcare-technology-2gfi",
+      "summary": "Healthcare technology is evolving rapidly as organizations adopt artificial intelligence to improve...",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-08-14T16:05:43.866Z"
+    },
     {
       "id": "daily-ff161b943f70",
       "type": "industry",
@@ -182,6 +197,36 @@
       "addedAt": "2026-07-11T16:10:28.769Z"
     },
     {
+      "id": "daily-e0fd6dc24fc4",
+      "type": "research",
+      "source": "Frontiers in Public Health",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-08-14T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Technology anxiety and digital health literacy as structural determinants of mHealth engagement among older adults: a SEM study in Saudi Arabia",
+      "url": "https://doi.org/10.3389/fpubh.2026.1872211",
+      "summary": "Background Digital health services hold real promise for older adults managing chronic conditions, yet this population consistently struggles to engage with them meaningfully. In Saudi Arabia, the national Sehhaty mHealth platform has been deployed at scale under Vision 2030, but there is limited evidence on why older…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-08-14T16:05:43.866Z"
+    },
+    {
+      "id": "daily-1c0f51437c33",
+      "type": "research",
+      "source": "Journal of Intelligent Decision Making and Information Science",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-08-14T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "The Impact of Digital Health Technology on the Quality of Patient Care in Nursing: A Study on the Use of Smart Applications and Remote Monitoring Devices",
+      "url": "https://doi.org/10.59543/jidmis.v3.1685",
+      "summary": "Digital health technology has become a revolutionary phenomenon in the modern healthcare system, which offers a chance to improve the quality, safety, and efficiency of patient care. This paper examines how digital health technology, in this case smart applications and remote monitoring tools affect patient care in…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-08-14T16:05:43.866Z"
+    },
+    {
       "id": "daily-e530e06075b7",
       "type": "research",
       "source": "International Journal of Nursing, Healthcare and Hospital Administration",
@@ -315,36 +360,6 @@
       "summary": "Introduction Artificial intelligence (AI) is increasingly integrated into healthcare, reshaping clinical decision-making and care pathways. In solid organ transplantation (SOT), where clinical complexity and uncertainty are high, AI holds particular promise. Yet, beyond technical performance, its successful adoption…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-07-08T16:49:52.248Z"
-    },
-    {
-      "id": "daily-cd38d9da1b27",
-      "type": "research",
-      "source": "Frontiers in Public Health",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-07-03T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Design optimization of health apps for rural older adults: enhancing usability and health effects based on Kano model and SEM method",
-      "url": "https://doi.org/10.3389/fpubh.2026.1810287",
-      "summary": "Introduction With the intensification of population aging in rural China, older adults face multiple challenges in health management, particularly barriers to using health apps, such as operational complexity, unfriendly interfaces, and insufficient contextual adaptation. This study aimed to optimize the design of…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-07-03T16:45:36.448Z"
-    },
-    {
-      "id": "daily-fcd48d913b4e",
-      "type": "research",
-      "source": "JSES International",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-07-01T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Does lateralization and distalization affect revision rates and patient experience in primary stemmed reverse total shoulder arthroplasty?",
-      "url": "https://doi.org/10.1016/j.jseint.2026.101693",
-      "summary": "Recent research by David R.J. Gill.",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-07-01T17:23:21.543Z"
     }
   ]
 }
