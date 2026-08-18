@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T15:39:59.852Z",
+  "updatedAt": "2026-08-18T15:46:07.512Z",
   "articles": [
     {
       "id": "daily-4636289c0cdf",
@@ -150,21 +150,6 @@
       "summary": "Introduction Building a telehealth platform at clinical scale means solving for hospital...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-07-07T17:26:12.019Z"
-    },
-    {
-      "id": "daily-bf6b81022963",
-      "type": "industry",
-      "source": "DEV Community",
-      "sourceMark": "DEV",
-      "sourceClass": "market-logo",
-      "date": "2026-07-04T05:19:18Z",
-      "label": "Recent industry read",
-      "readingTime": "8 min read",
-      "title": "What building a real patient management system taught me about \"healthcare AI developer\"",
-      "url": "https://dev.to/maulik008/what-building-a-real-patient-management-system-taught-me-about-healthcare-ai-developer-l5",
-      "summary": "Why \"healthcare AI developer\" is such a hard thing to search for A few weeks back, a...",
-      "designValue": "Track emerging product signals",
-      "addedAt": "2026-07-05T16:18:30.595Z"
     },
     {
       "id": "daily-2f90063e8d99",
