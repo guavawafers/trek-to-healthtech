@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T15:46:07.512Z",
+  "updatedAt": "2026-08-19T15:46:17.947Z",
   "articles": [
     {
       "id": "daily-4636289c0cdf",
@@ -167,6 +167,21 @@
       "addedAt": "2026-07-11T16:10:28.769Z"
     },
     {
+      "id": "daily-b3fd3b68412c",
+      "type": "research",
+      "source": "American Journal of Educational Leadership &amp; Policy Studies",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-08-19T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Barriers to Mental Health Service Accessibility Among University Students in Malawi: A Qualitative Multi-Stakeholder Study",
+      "url": "https://doi.org/10.54536/ajelps.v2i2.7951",
+      "summary": "Background: Mental health challenges among university students represent a growing public health concern across sub-Saharan Africa. Despite documented high rates of depression, anxiety, and psychological distress in this population, the accessibility of mental health services within Malawian higher education…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-08-19T15:46:17.944Z"
+    },
+    {
       "id": "daily-e0fd6dc24fc4",
       "type": "research",
       "source": "Frontiers in Public Health",
@@ -315,21 +330,6 @@
       "summary": "The COVID-19 pandemic accelerated demand for public health professionals trained in infodemiology, or the science of using health-related information, particularly in digital environments, to inform public health decision-making. To build workforce capacity, The Public Good Projects and the de Beaumont Foundation…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-07-19T16:10:11.109Z"
-    },
-    {
-      "id": "daily-7697f3eb3876",
-      "type": "research",
-      "source": "Frontiers in Digital Health",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-07-08T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Assessing knowledge and perception of artificial intelligence in solid organ transplantation",
-      "url": "https://doi.org/10.3389/fdgth.2026.1834577",
-      "summary": "Introduction Artificial intelligence (AI) is increasingly integrated into healthcare, reshaping clinical decision-making and care pathways. In solid organ transplantation (SOT), where clinical complexity and uncertainty are high, AI holds particular promise. Yet, beyond technical performance, its successful adoption…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-07-08T16:49:52.248Z"
     }
   ]
 }
