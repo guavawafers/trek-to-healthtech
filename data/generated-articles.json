@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T15:49:14.008Z",
+  "updatedAt": "2026-08-21T15:48:18.254Z",
   "articles": [
     {
       "id": "daily-4636289c0cdf",
@@ -135,21 +135,6 @@
       "summary": "The Role of Healthcare Marketing PlatformsIn today's fast-paced medical environment,...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-07-10T17:08:07.663Z"
-    },
-    {
-      "id": "daily-70150ef2cd17",
-      "type": "industry",
-      "source": "DEV Community",
-      "sourceMark": "DEV",
-      "sourceClass": "market-logo",
-      "date": "2026-07-07T14:21:30Z",
-      "label": "Recent industry read",
-      "readingTime": "15 min read",
-      "title": "Telehealth Platform Architecture: Building Secure, Scalable Virtual Care Systems",
-      "url": "https://dev.to/sciforce/telehealth-platform-architecture-building-secure-scalable-virtual-care-systems-51aj",
-      "summary": "Introduction Building a telehealth platform at clinical scale means solving for hospital...",
-      "designValue": "Track emerging product signals",
-      "addedAt": "2026-07-07T17:26:12.019Z"
     },
     {
       "id": "daily-2f90063e8d99",
