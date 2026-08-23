@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T15:34:40.578Z",
+  "updatedAt": "2026-08-23T15:36:19.286Z",
   "articles": [
     {
       "id": "daily-4636289c0cdf",
@@ -30,6 +30,21 @@
       "summary": "How Digital Healthcare Is Improving the Patient Experience Healthcare has evolved significantly over...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-07-21T16:41:47.264Z"
+    },
+    {
+      "id": "daily-f80e92bfbae2",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-08-21T16:00:00Z",
+      "label": "Recent industry read",
+      "readingTime": "5 min read",
+      "title": "Designing a HIPAA Telehealth MVP Stack: 7 Architecture Decisions Developers Must Make",
+      "url": "https://dev.to/kajol_shah/designing-a-hipaa-telehealth-mvp-stack-7-architecture-decisions-developers-must-make-en2",
+      "summary": "A telehealth minimum viable product can look deceptively familiar to a developer: authentication,...",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-08-23T15:36:19.285Z"
     },
     {
       "id": "daily-7e49cd85834f",
@@ -197,6 +212,21 @@
       "addedAt": "2026-08-14T16:05:43.866Z"
     },
     {
+      "id": "daily-17256dd41327",
+      "type": "research",
+      "source": "Clinical and translational radiation oncology",
+      "sourceMark": "PM",
+      "sourceClass": "rock",
+      "date": "2026-08-11T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "The daily dose: Early usability of an LLM tool for patient summaries and trial matching in radiation oncology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42633058/",
+      "summary": "Recent research led by Holmes J.",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-08-23T15:36:19.285Z"
+    },
+    {
       "id": "daily-e530e06075b7",
       "type": "research",
       "source": "International Journal of Nursing, Healthcare and Hospital Administration",
@@ -298,21 +328,6 @@
       "title": "Human material interactions in nanomedicine integrating psychological and neuroethical perspectives for nanoarchitectonics and patient experience",
       "url": "https://doi.org/10.1007/s44202-026-00789-2",
       "summary": "Recent research by Gursabeen Kaur.",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-07-19T16:10:11.109Z"
-    },
-    {
-      "id": "daily-c9f3fdbd0d5f",
-      "type": "research",
-      "source": "Health Promotion Practice",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-07-19T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Building Digital Health Communication Capacity: A Process Evaluation of the Infodemiology Training Program",
-      "url": "https://doi.org/10.1177/15248399261465408",
-      "summary": "The COVID-19 pandemic accelerated demand for public health professionals trained in infodemiology, or the science of using health-related information, particularly in digital environments, to inform public health decision-making. To build workforce capacity, The Public Good Projects and the de Beaumont Foundation…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-07-19T16:10:11.109Z"
     }
