@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T15:36:19.286Z",
+  "updatedAt": "2026-08-24T15:55:47.062Z",
   "articles": [
     {
       "id": "daily-4636289c0cdf",
@@ -137,21 +137,6 @@
       "addedAt": "2026-07-10T17:08:07.663Z"
     },
     {
-      "id": "daily-12119ed63f16",
-      "type": "industry",
-      "source": "DEV Community",
-      "sourceMark": "DEV",
-      "sourceClass": "market-logo",
-      "date": "2026-07-09T21:00:03Z",
-      "label": "Recent industry read",
-      "readingTime": "2 min read",
-      "title": "Elevating Patient Experience with Modern Marketing Platforms",
-      "url": "https://dev.to/medzoro/elevating-patient-experience-with-modern-marketing-platforms-3bcb",
-      "summary": "The Role of Healthcare Marketing PlatformsIn today's fast-paced medical environment,...",
-      "designValue": "Track emerging product signals",
-      "addedAt": "2026-07-10T17:08:07.663Z"
-    },
-    {
       "id": "daily-2f90063e8d99",
       "type": "research",
       "source": "Australian Journal of Rural Health",
@@ -165,6 +150,21 @@
       "summary": "ABSTRACT Objective To evaluate: (1) patient experiences and perceptions of Patient Watch; and (2) the effect on emergency department (ED) presentations, healthcare use, quality of life and chronic illness care. Design A prospective longitudinal cohort study using a convergent‐parallel mixed methods study design…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-07-11T16:10:28.769Z"
+    },
+    {
+      "id": "daily-08b4eaf8163a",
+      "type": "research",
+      "source": "BMC Medical Informatics and Decision Making",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-08-24T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Persian mHealth app usability questionnaire (P- MAUQ): adaptation and validation study",
+      "url": "https://doi.org/10.1186/s12911-026-03783-9",
+      "summary": "Abstract Background The mHealth app usability questionnaire (MAUQ) is a widely recognized tool for assessing the usability of mHealth applications developed in 2019. However, its effectiveness depends on alignment with the linguistic and cultural context of the target users. A Persian version of the MAUQ is necessary…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-08-24T15:55:47.059Z"
     },
     {
       "id": "daily-b3fd3b68412c",
@@ -315,21 +315,6 @@
       "summary": "Background/Objectives: This study aimed to evaluate the usability and comprehension of at-home respiratory diagnostic tests for COVID-19 and influenza among rural and urban populations in Georgia. It sought to identify disparities in test interpretation and outcomes that could inform public health interventions…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-07-21T16:41:47.264Z"
-    },
-    {
-      "id": "daily-f479e3187a82",
-      "type": "research",
-      "source": "Discover Psychology",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-07-19T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Human material interactions in nanomedicine integrating psychological and neuroethical perspectives for nanoarchitectonics and patient experience",
-      "url": "https://doi.org/10.1007/s44202-026-00789-2",
-      "summary": "Recent research by Gursabeen Kaur.",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-07-19T16:10:11.109Z"
     }
   ]
 }
