@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T16:33:48.182Z",
+  "updatedAt": "2026-08-28T00:25:11.221Z",
   "articles": [
     {
       "id": "daily-4636289c0cdf",
@@ -90,21 +90,6 @@
       "summary": "If you're the engineer who has to make a healthcare AI agent safe in production, marketing checklists...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-07-17T16:34:40.047Z"
-    },
-    {
-      "id": "daily-56b35c9d88ca",
-      "type": "industry",
-      "source": "DEV Community",
-      "sourceMark": "DEV",
-      "sourceClass": "market-logo",
-      "date": "2026-07-13T07:43:03Z",
-      "label": "Recent industry read",
-      "readingTime": "2 min read",
-      "title": "How Modern Healthcare Services Are Improving Patient Experience and Preventive Care",
-      "url": "https://dev.to/divine_mercy_72ecb15a85ef/how-modern-healthcare-services-are-improving-patient-experience-and-preventive-care-4ndm",
-      "summary": "Healthcare is changing rapidly. Today, patients are looking for more than just treatment during...",
-      "designValue": "Track emerging product signals",
-      "addedAt": "2026-07-13T17:22:56.165Z"
     },
     {
       "id": "daily-08b4eaf8163a",
