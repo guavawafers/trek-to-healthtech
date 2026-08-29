@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T00:00:52.696Z",
+  "updatedAt": "2026-08-29T18:30:32.332Z",
   "articles": [
     {
       "id": "daily-4636289c0cdf",
@@ -90,6 +90,21 @@
       "summary": "If you're the engineer who has to make a healthcare AI agent safe in production, marketing checklists...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-07-17T16:34:40.047Z"
+    },
+    {
+      "id": "daily-1a927a2f90ea",
+      "type": "research",
+      "source": "Familial Cancer",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-08-29T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "The evolution of hereditary cancer genetic counselling: mainstreaming, service redesign and patient experience in Lynch syndrome",
+      "url": "https://doi.org/10.1007/s10689-026-00597-6",
+      "summary": "Abstract Genetic counselling for hereditary cancer predisposition has evolved substantially over more than three decades, driven by advances in genomic technologies and the growing use of tumour and germline testing. These developments have expanded access to hereditary cancer testing, treatment and prevention, while…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-08-29T18:30:32.331Z"
     },
     {
       "id": "daily-d68bfec4f3cc",
@@ -255,21 +270,6 @@
       "summary": "Background Environmental pollution threatens population health through multiple and overlapping pathways, including gaseous emissions, wastewater discharge, and industrial solid waste. Artificial intelligence (AI) can improve environmental monitoring, energy management, and production optimization, but its broader…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-07-22T16:45:58.386Z"
-    },
-    {
-      "id": "daily-389e96071b0f",
-      "type": "research",
-      "source": "Diagnostics",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-07-21T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "When Usability Isn’t Enough: Understanding Rural Challenges in Respiratory Virus Test Interpretation",
-      "url": "https://doi.org/10.3390/diagnostics16142275",
-      "summary": "Background/Objectives: This study aimed to evaluate the usability and comprehension of at-home respiratory diagnostic tests for COVID-19 and influenza among rural and urban populations in Georgia. It sought to identify disparities in test interpretation and outcomes that could inform public health interventions…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-07-21T16:41:47.264Z"
     }
   ]
 }
