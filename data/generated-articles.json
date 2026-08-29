@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T00:25:11.221Z",
+  "updatedAt": "2026-08-29T00:00:52.696Z",
   "articles": [
     {
       "id": "daily-4636289c0cdf",
@@ -90,6 +90,21 @@
       "summary": "If you're the engineer who has to make a healthcare AI agent safe in production, marketing checklists...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-07-17T16:34:40.047Z"
+    },
+    {
+      "id": "daily-d68bfec4f3cc",
+      "type": "research",
+      "source": "Frontiers in Digital Health",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-08-28T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Mapping the landscape of standardized usability questionnaires in healthcare: a 26-year scoping review",
+      "url": "https://doi.org/10.3389/fdgth.2026.1938990",
+      "summary": "Background The evaluation of healthcare technologies utilizing standardized usability questionnaires has grown exponentially, reflecting the increasing importance of user-centered design in eHealth. However, the application of these instruments remains fragmented across clinical specialties and target populations.…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-08-29T00:00:52.694Z"
     },
     {
       "id": "daily-08b4eaf8163a",
