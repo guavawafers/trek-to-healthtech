@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T18:38:13.876Z",
+  "updatedAt": "2026-08-31T20:49:56.925Z",
   "articles": [
     {
       "id": "daily-4636289c0cdf",
@@ -30,6 +30,21 @@
       "summary": "How Digital Healthcare Is Improving the Patient Experience Healthcare has evolved significantly over...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-07-21T16:41:47.264Z"
+    },
+    {
+      "id": "daily-7a700ae45466",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-08-31T11:54:46Z",
+      "label": "Recent industry read",
+      "readingTime": "2 min read",
+      "title": "Building HIPAA-Compliant Real-Time WebRTC Video Pipelines for Telehealth Platforms",
+      "url": "https://dev.to/seo_optimization_591fad6c/building-hipaa-compliant-real-time-webrtc-video-pipelines-for-telehealth-platforms-2i4b",
+      "summary": "Building real-time video consultation platforms for healthcare providers requires solving two...",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-08-31T20:49:56.923Z"
     },
     {
       "id": "daily-f80e92bfbae2",
@@ -75,21 +90,6 @@
       "summary": "Building AI for healthcare or government? Learn why immutable audit trails, data provenance, and access logs are non-negotiable for court-ready systems.",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-07-20T16:43:51.681Z"
-    },
-    {
-      "id": "daily-83cf3ff1b40f",
-      "type": "industry",
-      "source": "DEV Community",
-      "sourceMark": "DEV",
-      "sourceClass": "market-logo",
-      "date": "2026-07-17T08:55:20Z",
-      "label": "Recent industry read",
-      "readingTime": "1 min read",
-      "title": "A 10-point technical checklist for evaluating a healthcare AI agent",
-      "url": "https://dev.to/vishal_kumar_cda28e061f86/a-10-point-technical-checklist-for-evaluating-a-healthcare-ai-agent-3p13",
-      "summary": "If you're the engineer who has to make a healthcare AI agent safe in production, marketing checklists...",
-      "designValue": "Track emerging product signals",
-      "addedAt": "2026-07-17T16:34:40.047Z"
     },
     {
       "id": "daily-1a927a2f90ea",
