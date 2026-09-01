@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T20:49:56.925Z",
+  "updatedAt": "2026-09-01T18:30:52.740Z",
   "articles": [
     {
       "id": "daily-4636289c0cdf",
@@ -75,21 +75,6 @@
       "summary": "You're the one who has to make it safe in production, so you're also the one who should catch these....",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-07-22T16:45:58.386Z"
-    },
-    {
-      "id": "daily-fc17cd822285",
-      "type": "industry",
-      "source": "DEV Community",
-      "sourceMark": "DEV",
-      "sourceClass": "market-logo",
-      "date": "2026-07-18T09:02:17Z",
-      "label": "Recent industry read",
-      "readingTime": "5 min read",
-      "title": "Court-Ready Architecture: Why Audit Trails Matter for Healthcare AI",
-      "url": "https://pykero.com/blog/court-ready-architecture-healthcare-ai",
-      "summary": "Building AI for healthcare or government? Learn why immutable audit trails, data provenance, and access logs are non-negotiable for court-ready systems.",
-      "designValue": "Track emerging product signals",
-      "addedAt": "2026-07-20T16:43:51.681Z"
     },
     {
       "id": "daily-1a927a2f90ea",
