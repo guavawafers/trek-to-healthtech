@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T18:42:58.564Z",
+  "updatedAt": "2026-09-03T18:39:48.380Z",
   "articles": [
     {
       "id": "daily-4636289c0cdf",
@@ -75,6 +75,21 @@
       "summary": "You're the one who has to make it safe in production, so you're also the one who should catch these....",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-07-22T16:45:58.386Z"
+    },
+    {
+      "id": "daily-e49c312e0d68",
+      "type": "research",
+      "source": "Healthcare",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-09-03T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Perceived Exercise Barriers and Functional Health Among Older Chinese Women: The Roles of Physical Activity Participation and Community Sports Facility Accessibility",
+      "url": "https://doi.org/10.3390/healthcare14172832",
+      "summary": "Background: Physical Activity Participation is closely associated with functional health among older women, but this participation is often constrained by multiple perceived barriers. The aim of this study was to examine the association between Perceived Exercise Barriers (PEB) and Basic Activities of Daily Living…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-09-03T18:39:48.378Z"
     },
     {
       "id": "daily-1a927a2f90ea",
@@ -240,21 +255,6 @@
       "summary": "A diagnosis of colorectal cancer and its subsequent treatments can have a significant impact on dietary decisions, but what these drivers are in the New Zealand population and what information underpins these decisions requires further investigation. This research aimed to explore whether patients made dietary changes…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-07-23T16:46:10.782Z"
-    },
-    {
-      "id": "daily-fa40d57656dd",
-      "type": "research",
-      "source": "Frontiers in Public Health",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-07-22T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Mitigating environmental public health risks via artificial intelligence: mechanisms and boundary conditions",
-      "url": "https://doi.org/10.3389/fpubh.2026.1889267",
-      "summary": "Background Environmental pollution threatens population health through multiple and overlapping pathways, including gaseous emissions, wastewater discharge, and industrial solid waste. Artificial intelligence (AI) can improve environmental monitoring, energy management, and production optimization, but its broader…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-07-22T16:45:58.386Z"
     }
   ]
 }
