@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T18:39:48.380Z",
+  "updatedAt": "2026-09-04T18:24:35.656Z",
   "articles": [
     {
       "id": "daily-4636289c0cdf",
@@ -15,21 +15,6 @@
       "summary": "Healthcare technology is evolving rapidly as organizations adopt artificial intelligence to improve...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-08-14T16:05:43.866Z"
-    },
-    {
-      "id": "daily-ff161b943f70",
-      "type": "industry",
-      "source": "DEV Community",
-      "sourceMark": "DEV",
-      "sourceClass": "market-logo",
-      "date": "2026-07-21T10:17:08Z",
-      "label": "Recent industry read",
-      "readingTime": "1 min read",
-      "title": "Improving Patient Access Through Digital Healthcare Platforms",
-      "url": "https://dev.to/jeevandan_health_26/improving-patient-access-through-digital-healthcare-platforms-25b1",
-      "summary": "How Digital Healthcare Is Improving the Patient Experience Healthcare has evolved significantly over...",
-      "designValue": "Track emerging product signals",
-      "addedAt": "2026-07-21T16:41:47.264Z"
     },
     {
       "id": "daily-7a700ae45466",
@@ -75,6 +60,21 @@
       "summary": "You're the one who has to make it safe in production, so you're also the one who should catch these....",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-07-22T16:45:58.386Z"
+    },
+    {
+      "id": "daily-64c65da9cba9",
+      "type": "research",
+      "source": "Women's Reproductive Health",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-09-04T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Informed but Not Always Prepared: Patient Experiences of Clinic-Based Medication Abortion in Mississippi",
+      "url": "https://doi.org/10.1080/23293691.2026.2719865",
+      "summary": "Recent research by Kimberly Kelly.",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-09-04T18:24:35.653Z"
     },
     {
       "id": "daily-e49c312e0d68",
@@ -238,21 +238,6 @@
       "title": "Empowering caregivers: user experience in digital. Platforms for parents of children with disabilities",
       "url": "https://doi.org/10.1108/jet-06-2025-0043",
       "summary": "Purpose This study aimed to assess the user experience (UX) of South African parents of children with disability (CWD) using the parent network (PN) and let's talk parents (LTP) platforms, and to examine associations between demographic factors and UX Honeycomb dimensions. It includes a comparative analysis of…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-07-23T16:46:10.782Z"
-    },
-    {
-      "id": "daily-59ef9eb576af",
-      "type": "research",
-      "source": "Proceedings of the Nutrition Society",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-07-23T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Navigating food choices during colorectal cancer: The patient experience in New Zealand",
-      "url": "https://doi.org/10.1017/s0029665126104765",
-      "summary": "A diagnosis of colorectal cancer and its subsequent treatments can have a significant impact on dietary decisions, but what these drivers are in the New Zealand population and what information underpins these decisions requires further investigation. This research aimed to explore whether patients made dietary changes…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-07-23T16:46:10.782Z"
     }
