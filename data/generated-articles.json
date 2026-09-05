@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T18:24:35.656Z",
+  "updatedAt": "2026-09-05T17:20:46.164Z",
   "articles": [
     {
       "id": "daily-4636289c0cdf",
@@ -45,21 +45,6 @@
       "summary": "A telehealth minimum viable product can look deceptively familiar to a developer: authentication,...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-08-23T15:36:19.285Z"
-    },
-    {
-      "id": "daily-7e49cd85834f",
-      "type": "industry",
-      "source": "DEV Community",
-      "sourceMark": "DEV",
-      "sourceClass": "market-logo",
-      "date": "2026-07-22T09:01:01Z",
-      "label": "Recent industry read",
-      "readingTime": "1 min read",
-      "title": "7 red flags an engineer should catch in a healthcare AI vendor",
-      "url": "https://dev.to/vishal_kumar_cda28e061f86/7-red-flags-an-engineer-should-catch-in-a-healthcare-ai-vendor-e2k",
-      "summary": "You're the one who has to make it safe in production, so you're also the one who should catch these....",
-      "designValue": "Track emerging product signals",
-      "addedAt": "2026-07-22T16:45:58.386Z"
     },
     {
       "id": "daily-64c65da9cba9",
