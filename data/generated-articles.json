@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T17:20:46.164Z",
+  "updatedAt": "2026-09-06T17:36:20.533Z",
   "articles": [
     {
       "id": "daily-4636289c0cdf",
@@ -210,21 +210,6 @@
       "summary": "Recent research by Frederike Scholz.",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-07-31T16:56:47.006Z"
-    },
-    {
-      "id": "daily-b51720c6188c",
-      "type": "research",
-      "source": "Journal of Enabling Technologies",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-07-23T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Empowering caregivers: user experience in digital. Platforms for parents of children with disabilities",
-      "url": "https://doi.org/10.1108/jet-06-2025-0043",
-      "summary": "Purpose This study aimed to assess the user experience (UX) of South African parents of children with disability (CWD) using the parent network (PN) and let's talk parents (LTP) platforms, and to examine associations between demographic factors and UX Honeycomb dimensions. It includes a comparative analysis of…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-07-23T16:46:10.782Z"
     }
   ]
 }
