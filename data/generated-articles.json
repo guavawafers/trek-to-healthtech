@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T18:40:49.317Z",
+  "updatedAt": "2026-09-09T18:36:59.947Z",
   "articles": [
     {
       "id": "daily-4636289c0cdf",
@@ -45,6 +45,21 @@
       "summary": "A telehealth minimum viable product can look deceptively familiar to a developer: authentication,...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-08-23T15:36:19.285Z"
+    },
+    {
+      "id": "daily-282919e32093",
+      "type": "research",
+      "source": "Frontiers in Digital Health",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-09-09T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Artificial intelligence is transforming disease surveillance, but governance is failing to keep pace",
+      "url": "https://doi.org/10.3389/fdgth.2026.1939009",
+      "summary": "Artificial intelligence (AI) is transforming disease surveillance by enabling early outbreak detection, predictive modeling, and real-time analysis of diverse health data sources. These advances can strengthen epidemic preparedness and improve public health decision-making. However, AI adoption has progressed faster…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-09-09T18:36:59.945Z"
     },
     {
       "id": "daily-64c65da9cba9",
