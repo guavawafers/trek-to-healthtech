@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T18:12:26.197Z",
+  "updatedAt": "2026-09-14T19:50:46.046Z",
   "articles": [
     {
       "id": "daily-4636289c0cdf",
@@ -210,21 +210,6 @@
       "summary": "This study determined the level of service optimization approaches in the Out-Patient Department (OPD) of Far North Luzon General Hospital and Training Center, assessed patient satisfaction in terms of timeliness of care, responsiveness of healthcare staff, and empathy and respect, examined the relationship between…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-08-09T15:46:36.566Z"
-    },
-    {
-      "id": "daily-850040f93957",
-      "type": "research",
-      "source": "The International Journal of Human Resource Management",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-07-31T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Artificial Intelligence technologies’ impact on the work design of healthcare professionals: a scoping review and future research agenda",
-      "url": "https://doi.org/10.1080/09585192.2026.2711067",
-      "summary": "Recent research by Frederike Scholz.",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-07-31T16:56:47.006Z"
     }
   ]
 }
