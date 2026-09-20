@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T18:01:30.444Z",
+  "updatedAt": "2026-09-20T18:11:56.104Z",
   "articles": [
     {
       "id": "daily-4636289c0cdf",
@@ -45,6 +45,21 @@
       "summary": "A telehealth minimum viable product can look deceptively familiar to a developer: authentication,...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-08-23T15:36:19.285Z"
+    },
+    {
+      "id": "daily-9aae3a21ca71",
+      "type": "research",
+      "source": "IISE Transactions on Healthcare Systems Engineering",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-09-20T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Improving healthcare equity through tele-health: a spatial accessibility-based optimization approach †",
+      "url": "https://doi.org/10.1080/24725579.2026.2695391",
+      "summary": "Recent research by Leqi Weng.",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-09-20T18:11:56.102Z"
     },
     {
       "id": "daily-282919e32093",
