@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T18:11:56.104Z",
+  "updatedAt": "2026-09-21T19:59:39.478Z",
   "articles": [
     {
       "id": "daily-4636289c0cdf",
@@ -15,6 +15,21 @@
       "summary": "Healthcare technology is evolving rapidly as organizations adopt artificial intelligence to improve...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-08-14T16:05:43.866Z"
+    },
+    {
+      "id": "daily-0a252cb29c36",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-09-21T07:07:42Z",
+      "label": "Recent industry read",
+      "readingTime": "4 min read",
+      "title": "Healthcare AI Starts Before the Model: 5 Companies to Evaluate for Engineering Support",
+      "url": "https://dev.to/arjun_07/healthcare-ai-starts-before-the-model-5-companies-to-evaluate-for-engineering-support-4i36",
+      "summary": "A healthcare AI demonstration can generate a convincing summary in seconds. A production system has a...",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-09-21T19:59:39.476Z"
     },
     {
       "id": "daily-7a700ae45466",
