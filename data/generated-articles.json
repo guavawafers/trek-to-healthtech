@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T19:59:39.478Z",
+  "updatedAt": "2026-09-22T18:54:46.835Z",
   "articles": [
     {
       "id": "daily-4636289c0cdf",
@@ -60,6 +60,21 @@
       "summary": "A telehealth minimum viable product can look deceptively familiar to a developer: authentication,...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-08-23T15:36:19.285Z"
+    },
+    {
+      "id": "daily-c41f126c2c84",
+      "type": "research",
+      "source": "Journal of Radiation Research",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-09-22T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Clinical impact of introducing automated plan checking in radiation therapy: effects on workflow efficiency, cognitive load and usability",
+      "url": "https://doi.org/10.1093/jrr/rrag078",
+      "summary": "Abstract As radiation therapy planning becomes increasingly complex, the risk of human error and the workload associated with plan checking have intensified for medical physicists. This study aimed to develop an automated plan check script using the Eclipse Scripting API and to quantitatively evaluate its impact on…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-09-22T18:54:46.833Z"
     },
     {
       "id": "daily-9aae3a21ca71",
@@ -225,21 +240,6 @@
       "summary": "Recent research led by Holmes J.",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-08-23T15:36:19.285Z"
-    },
-    {
-      "id": "daily-e530e06075b7",
-      "type": "research",
-      "source": "International Journal of Nursing, Healthcare and Hospital Administration",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-08-09T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Service Optimization Approaches in the Out-Patient Department and their Impact on Patient Experience",
-      "url": "https://doi.org/10.66206/eduheart.ijnhha.146",
-      "summary": "This study determined the level of service optimization approaches in the Out-Patient Department (OPD) of Far North Luzon General Hospital and Training Center, assessed patient satisfaction in terms of timeliness of care, responsiveness of healthcare staff, and empathy and respect, examined the relationship between…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-08-09T15:46:36.566Z"
     }
   ]
 }
