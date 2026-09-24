@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T19:03:40.081Z",
+  "updatedAt": "2026-09-24T19:10:35.766Z",
   "articles": [
     {
       "id": "daily-4636289c0cdf",
@@ -60,6 +60,21 @@
       "summary": "A telehealth minimum viable product can look deceptively familiar to a developer: authentication,...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-08-23T15:36:19.285Z"
+    },
+    {
+      "id": "daily-c889eef8c41b",
+      "type": "research",
+      "source": "Discover Artificial Intelligence",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-09-24T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Analyzing and redesigning deployment pathways for internally developed artificial intelligence tools in clinical education and health research",
+      "url": "https://doi.org/10.1007/s44163-026-02220-0",
+      "summary": "Recent research by Bo Xie.",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-09-24T19:10:35.764Z"
     },
     {
       "id": "daily-c41f126c2c84",
@@ -225,21 +240,6 @@
       "summary": "Digital health technology has become a revolutionary phenomenon in the modern healthcare system, which offers a chance to improve the quality, safety, and efficiency of patient care. This paper examines how digital health technology, in this case smart applications and remote monitoring tools affect patient care in…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-08-14T16:05:43.866Z"
-    },
-    {
-      "id": "daily-17256dd41327",
-      "type": "research",
-      "source": "Clinical and translational radiation oncology",
-      "sourceMark": "PM",
-      "sourceClass": "rock",
-      "date": "2026-08-11T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "The daily dose: Early usability of an LLM tool for patient summaries and trial matching in radiation oncology.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42633058/",
-      "summary": "Recent research led by Holmes J.",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-08-23T15:36:19.285Z"
     }
   ]
 }
