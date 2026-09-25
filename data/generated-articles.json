@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T19:10:35.766Z",
+  "updatedAt": "2026-09-25T19:15:03.341Z",
   "articles": [
     {
       "id": "daily-4636289c0cdf",
@@ -60,6 +60,36 @@
       "summary": "A telehealth minimum viable product can look deceptively familiar to a developer: authentication,...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-08-23T15:36:19.285Z"
+    },
+    {
+      "id": "daily-a18709d57080",
+      "type": "research",
+      "source": "Acta Bioscientia: Journal of Biomedical and Biological Science Research",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-09-25T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Knowledge and Adoption of Digital Health Technologies Among Patients with Cardiovascular Disease Attending a Tertiary Hospital in Southwest Nigeria",
+      "url": "https://doi.org/10.71181/actabioscientia12670",
+      "summary": "Background: Digital health technologies (DHTs) are increasingly used to support the prevention, monitoring, and self-management of cardiovascular disease (CVD). However, evidence regarding patients' knowledge and adoption of these technologies in Nigeria remains limited. This study assessed the knowledge and adoption…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-09-25T19:15:03.340Z"
+    },
+    {
+      "id": "daily-5bdc8393d24e",
+      "type": "research",
+      "source": "Neurology and Therapy",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-09-25T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Correction: Patient Experience with 10 mg Intranasally Administered Zavegepant as an Acute Treatment of Migraine Attacks: Qualitative Research Findings",
+      "url": "https://doi.org/10.1007/s40120-026-01034-7",
+      "summary": "Recent research by Noah Rosen.",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-09-25T19:15:03.340Z"
     },
     {
       "id": "daily-c889eef8c41b",
@@ -210,36 +240,6 @@
       "summary": "Background: Mental health challenges among university students represent a growing public health concern across sub-Saharan Africa. Despite documented high rates of depression, anxiety, and psychological distress in this population, the accessibility of mental health services within Malawian higher education…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-08-19T15:46:17.944Z"
-    },
-    {
-      "id": "daily-e0fd6dc24fc4",
-      "type": "research",
-      "source": "Frontiers in Public Health",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-08-14T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Technology anxiety and digital health literacy as structural determinants of mHealth engagement among older adults: a SEM study in Saudi Arabia",
-      "url": "https://doi.org/10.3389/fpubh.2026.1872211",
-      "summary": "Background Digital health services hold real promise for older adults managing chronic conditions, yet this population consistently struggles to engage with them meaningfully. In Saudi Arabia, the national Sehhaty mHealth platform has been deployed at scale under Vision 2030, but there is limited evidence on why older…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-08-14T16:05:43.866Z"
-    },
-    {
-      "id": "daily-1c0f51437c33",
-      "type": "research",
-      "source": "Journal of Intelligent Decision Making and Information Science",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-08-14T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "The Impact of Digital Health Technology on the Quality of Patient Care in Nursing: A Study on the Use of Smart Applications and Remote Monitoring Devices",
-      "url": "https://doi.org/10.59543/jidmis.v3.1685",
-      "summary": "Digital health technology has become a revolutionary phenomenon in the modern healthcare system, which offers a chance to improve the quality, safety, and efficiency of patient care. This paper examines how digital health technology, in this case smart applications and remote monitoring tools affect patient care in…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-08-14T16:05:43.866Z"
     }
   ]
 }
