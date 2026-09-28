@@ -1,21 +1,6 @@
 {
-  "updatedAt": "2026-09-27T18:58:56.367Z",
+  "updatedAt": "2026-09-28T21:14:13.755Z",
   "articles": [
-    {
-      "id": "daily-4636289c0cdf",
-      "type": "industry",
-      "source": "DEV Community",
-      "sourceMark": "DEV",
-      "sourceClass": "market-logo",
-      "date": "2026-08-14T08:54:45Z",
-      "label": "Recent industry read",
-      "readingTime": "3 min read",
-      "title": "Healthcare AI Infrastructure Platforms: The Backbone of Next-Generation Healthcare Technology",
-      "url": "https://dev.to/meetup/healthcare-ai-infrastructure-platforms-the-backbone-of-next-generation-healthcare-technology-2gfi",
-      "summary": "Healthcare technology is evolving rapidly as organizations adopt artificial intelligence to improve...",
-      "designValue": "Track emerging product signals",
-      "addedAt": "2026-08-14T16:05:43.866Z"
-    },
     {
       "id": "daily-0a252cb29c36",
       "type": "industry",
