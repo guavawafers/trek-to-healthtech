@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-09-30T20:01:16.059Z",
+  "updatedAt": "2026-10-01T20:21:10.403Z",
   "articles": [
+    {
+      "id": "daily-c6043c1e4fd9",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-10-01T10:30:57Z",
+      "label": "Recent industry read",
+      "readingTime": "4 min read",
+      "title": "Your healthcare AI model passed its tests. Your Workflow Can Still Fail.",
+      "url": "https://dev.to/kevin-kirui-hub/your-healthcare-ai-model-passed-its-tests-your-workflow-can-still-fail-5dfj",
+      "summary": "A healthcare AI model can score well on its benchmarks and still sit inside a workflow that fails in...",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-10-01T20:21:10.401Z"
+    },
     {
       "id": "daily-0a252cb29c36",
       "type": "industry",
