@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T19:57:14.350Z",
+  "updatedAt": "2026-10-03T18:40:57.342Z",
   "articles": [
     {
       "id": "daily-c6043c1e4fd9",
@@ -225,21 +225,6 @@
       "summary": "Abstract Background The mHealth app usability questionnaire (MAUQ) is a widely recognized tool for assessing the usability of mHealth applications developed in 2019. However, its effectiveness depends on alignment with the linguistic and cultural context of the target users. A Persian version of the MAUQ is necessary…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-08-24T15:55:47.059Z"
-    },
-    {
-      "id": "daily-b3fd3b68412c",
-      "type": "research",
-      "source": "American Journal of Educational Leadership &amp; Policy Studies",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-08-19T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Barriers to Mental Health Service Accessibility Among University Students in Malawi: A Qualitative Multi-Stakeholder Study",
-      "url": "https://doi.org/10.54536/ajelps.v2i2.7951",
-      "summary": "Background: Mental health challenges among university students represent a growing public health concern across sub-Saharan Africa. Despite documented high rates of depression, anxiety, and psychological distress in this population, the accessibility of mental health services within Malawian higher education…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-08-19T15:46:17.944Z"
     }
   ]
 }
