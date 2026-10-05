@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-10-04T18:38:26.465Z",
+  "updatedAt": "2026-10-05T22:01:04.011Z",
   "articles": [
+    {
+      "id": "daily-1702633e511a",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-10-05T11:51:35Z",
+      "label": "Recent industry read",
+      "readingTime": "2 min read",
+      "title": "Designing an EHR Integration Layer for a Telehealth Platform",
+      "url": "https://dev.to/omjariwala/designing-an-ehr-integration-layer-for-a-telehealth-platform-8h5",
+      "summary": "When developers hear “EHR integration,” the first thought is usually an API. But a production...",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-10-05T22:01:04.009Z"
+    },
     {
       "id": "daily-c6043c1e4fd9",
       "type": "industry",
@@ -45,21 +60,6 @@
       "summary": "Building real-time video consultation platforms for healthcare providers requires solving two...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-08-31T20:49:56.923Z"
-    },
-    {
-      "id": "daily-f80e92bfbae2",
-      "type": "industry",
-      "source": "DEV Community",
-      "sourceMark": "DEV",
-      "sourceClass": "market-logo",
-      "date": "2026-08-21T16:00:00Z",
-      "label": "Recent industry read",
-      "readingTime": "5 min read",
-      "title": "Designing a HIPAA Telehealth MVP Stack: 7 Architecture Decisions Developers Must Make",
-      "url": "https://dev.to/kajol_shah/designing-a-hipaa-telehealth-mvp-stack-7-architecture-decisions-developers-must-make-en2",
-      "summary": "A telehealth minimum viable product can look deceptively familiar to a developer: authentication,...",
-      "designValue": "Track emerging product signals",
-      "addedAt": "2026-08-23T15:36:19.285Z"
     },
     {
       "id": "daily-a18709d57080",
