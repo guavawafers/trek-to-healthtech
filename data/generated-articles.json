@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-10-07T20:37:58.010Z",
+  "updatedAt": "2026-10-08T20:41:48.697Z",
   "articles": [
+    {
+      "id": "daily-e29418b55a25",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-10-08T07:20:31Z",
+      "label": "Recent industry read",
+      "readingTime": "3 min read",
+      "title": "From Prompt-and-Response to Agentic Workflows: Engineering an AI Content Platform for Telehealth",
+      "url": "https://dev.to/omjariwala/from-prompt-and-response-to-agentic-workflows-engineering-an-ai-content-platform-for-telehealth-4gjk",
+      "summary": "A healthcare company came to us with an internal AI-powered SEO platform. The prototype already...",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-10-08T20:41:48.696Z"
+    },
     {
       "id": "daily-1702633e511a",
       "type": "industry",
@@ -210,21 +225,6 @@
       "summary": "Background The evaluation of healthcare technologies utilizing standardized usability questionnaires has grown exponentially, reflecting the increasing importance of user-centered design in eHealth. However, the application of these instruments remains fragmented across clinical specialties and target populations.…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-08-29T00:00:52.694Z"
-    },
-    {
-      "id": "daily-08b4eaf8163a",
-      "type": "research",
-      "source": "BMC Medical Informatics and Decision Making",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-08-24T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Persian mHealth app usability questionnaire (P- MAUQ): adaptation and validation study",
-      "url": "https://doi.org/10.1186/s12911-026-03783-9",
-      "summary": "Abstract Background The mHealth app usability questionnaire (MAUQ) is a widely recognized tool for assessing the usability of mHealth applications developed in 2019. However, its effectiveness depends on alignment with the linguistic and cultural context of the target users. A Persian version of the MAUQ is necessary…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-08-24T15:55:47.059Z"
     }
   ]
 }
