@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T22:29:36.700Z",
+  "updatedAt": "2026-10-13T20:41:08.396Z",
   "articles": [
     {
       "id": "daily-e29418b55a25",
@@ -195,21 +195,6 @@
       "summary": "Background: Physical Activity Participation is closely associated with functional health among older women, but this participation is often constrained by multiple perceived barriers. The aim of this study was to examine the association between Perceived Exercise Barriers (PEB) and Basic Activities of Daily Living…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-09-03T18:39:48.378Z"
-    },
-    {
-      "id": "daily-1a927a2f90ea",
-      "type": "research",
-      "source": "Familial Cancer",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-08-29T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "The evolution of hereditary cancer genetic counselling: mainstreaming, service redesign and patient experience in Lynch syndrome",
-      "url": "https://doi.org/10.1007/s10689-026-00597-6",
-      "summary": "Abstract Genetic counselling for hereditary cancer predisposition has evolved substantially over more than three decades, driven by advances in genomic technologies and the growing use of tumour and germline testing. These developments have expanded access to hereditary cancer testing, treatment and prevention, while…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-08-29T18:30:32.331Z"
     }
   ]
 }
