@@ -1,6 +1,36 @@
 {
-  "updatedAt": "2026-10-18T18:05:43.599Z",
+  "updatedAt": "2026-10-19T20:35:15.950Z",
   "articles": [
+    {
+      "id": "daily-28c4f793c455",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-10-19T08:47:18Z",
+      "label": "Recent industry read",
+      "readingTime": "4 min read",
+      "title": "Building Telehealth That Handles Latency, EHR Integration, and HIPAA Safeguards",
+      "url": "https://dev.to/omjariwala/building-telehealth-that-handles-latency-ehr-integration-and-hipaa-safeguards-2f59",
+      "summary": "A telehealth app can pass every demo and still fail in production. The video freezes on a patient's...",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-10-19T20:35:15.948Z"
+    },
+    {
+      "id": "daily-80eb714aa6ce",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-10-19T05:27:35Z",
+      "label": "Recent industry read",
+      "readingTime": "6 min read",
+      "title": "How to Develop HIPAA-Compliant AI Agents for Healthcare Workflows",
+      "url": "https://dev.to/biz4group2003/how-to-develop-hipaa-compliant-ai-agents-for-healthcare-workflows-2ci",
+      "summary": "Healthcare AI agents are evolving beyond chatbots that answer questions. They can now be designed to...",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-10-19T20:35:15.948Z"
+    },
     {
       "id": "daily-e29418b55a25",
       "type": "industry",
@@ -180,21 +210,6 @@
       "summary": "Artificial intelligence (AI) is transforming disease surveillance by enabling early outbreak detection, predictive modeling, and real-time analysis of diverse health data sources. These advances can strengthen epidemic preparedness and improve public health decision-making. However, AI adoption has progressed faster…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-09-09T18:36:59.945Z"
-    },
-    {
-      "id": "daily-64c65da9cba9",
-      "type": "research",
-      "source": "Women's Reproductive Health",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-09-04T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Informed but Not Always Prepared: Patient Experiences of Clinic-Based Medication Abortion in Mississippi",
-      "url": "https://doi.org/10.1080/23293691.2026.2719865",
-      "summary": "Recent research by Kimberly Kelly.",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-09-04T18:24:35.653Z"
     }
   ]
 }
