@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T20:35:15.950Z",
+  "updatedAt": "2026-10-20T19:17:11.723Z",
   "articles": [
     {
       "id": "daily-28c4f793c455",
@@ -90,6 +90,21 @@
       "summary": "A healthcare AI demonstration can generate a convincing summary in seconds. A production system has a...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-09-21T19:59:39.476Z"
+    },
+    {
+      "id": "daily-430875edb763",
+      "type": "research",
+      "source": "BMC Public Health",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-10-20T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "A qualitative evaluation of provider decision-making and patient experiences with 1-step and 2-step gestational diabetes (GDM) screening",
+      "url": "https://doi.org/10.1186/s12889-026-29819-3",
+      "summary": "Abstract Background Gestational diabetes mellitus (GDM) affects approximately 14% of pregnancies worldwide and is associated with substantial long-term risks, including type 2 diabetes and cardiovascular disease. Although the 1-step oral glucose tolerance test (OGTT) is more sensitive and recommended by several…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-10-20T19:17:11.722Z"
     },
     {
       "id": "daily-9e8ccd7be162",
@@ -195,6 +210,21 @@
       "summary": "Recent research by Leqi Weng.",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-09-20T18:11:56.102Z"
+    },
+    {
+      "id": "daily-19b5cbd5efd8",
+      "type": "research",
+      "source": "Mayo Clinic proceedings. Digital health",
+      "sourceMark": "PM",
+      "sourceClass": "rock",
+      "date": "2026-09-17T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Service User Experiences and Perceptions of Virtual Mental Health and Substance Use Care in Canada: A Survey of the Wellness Together Canada Portal.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42898382/",
+      "summary": "Recent research led by Lee H.",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-10-20T19:17:11.722Z"
     },
     {
       "id": "daily-282919e32093",
