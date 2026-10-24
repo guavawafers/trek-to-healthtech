@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T19:13:19.552Z",
+  "updatedAt": "2026-10-24T18:09:30.698Z",
   "articles": [
     {
       "id": "daily-28c4f793c455",
@@ -225,21 +225,6 @@
       "summary": "Recent research led by Lee H.",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-10-20T19:17:11.722Z"
-    },
-    {
-      "id": "daily-282919e32093",
-      "type": "research",
-      "source": "Frontiers in Digital Health",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-09-09T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Artificial intelligence is transforming disease surveillance, but governance is failing to keep pace",
-      "url": "https://doi.org/10.3389/fdgth.2026.1939009",
-      "summary": "Artificial intelligence (AI) is transforming disease surveillance by enabling early outbreak detection, predictive modeling, and real-time analysis of diverse health data sources. These advances can strengthen epidemic preparedness and improve public health decision-making. However, AI adoption has progressed faster…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-09-09T18:36:59.945Z"
     }
   ]
 }
