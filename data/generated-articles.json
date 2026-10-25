@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T18:09:30.698Z",
+  "updatedAt": "2026-10-25T18:24:10.656Z",
   "articles": [
     {
       "id": "daily-28c4f793c455",
@@ -92,6 +92,21 @@
       "addedAt": "2026-09-21T19:59:39.476Z"
     },
     {
+      "id": "daily-e7c84cc49c50",
+      "type": "research",
+      "source": "INTERNATIONAL RESEARCH JOURNAL OF MODERNIZATION IN ENGINEERING TECHNOLOGY AND SCIENCE",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-10-25T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "HUMAN–AI COLLABORATION IN USER EXPERIENCE DESIGN: DEVELOPING AND VALIDATING A FRAMEWORK FOR AI-ASSISTED UI DESIGN",
+      "url": "https://doi.org/10.56726/irjmets102211",
+      "summary": "Recently published healthtech research.",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-10-25T18:24:10.654Z"
+    },
+    {
       "id": "daily-430875edb763",
       "type": "research",
       "source": "BMC Public Health",
@@ -135,6 +150,21 @@
       "summary": "Negative birth experience has been linked to adverse postpartum mental health, yet potentially modifiable contributors such as mode of delivery, perineal trauma, and digital health literacy have not been well described in Central and Eastern Europe. This study examined obstetric factors and digital health literacy as…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-10-15T19:07:43.418Z"
+    },
+    {
+      "id": "daily-cdbb1d503f90",
+      "type": "research",
+      "source": "Contemporary clinical trials communications",
+      "sourceMark": "PM",
+      "sourceClass": "rock",
+      "date": "2026-10-10T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Design of a digital health intervention to promote prediabetes health literacy and behavior change among young adults.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42921223/",
+      "summary": "Recent research led by Harrington CB.",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-10-25T18:24:10.654Z"
     },
     {
       "id": "daily-a18709d57080",
