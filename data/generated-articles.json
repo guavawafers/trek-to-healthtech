@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T20:29:00.599Z",
+  "updatedAt": "2026-10-27T20:05:13.535Z",
   "articles": [
     {
       "id": "daily-28c4f793c455",
@@ -90,6 +90,21 @@
       "summary": "A healthcare AI demonstration can generate a convincing summary in seconds. A production system has a...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-09-21T19:59:39.476Z"
+    },
+    {
+      "id": "daily-028a36f0f745",
+      "type": "research",
+      "source": "European Heart Journal - Digital Health",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-10-27T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Perceptions and Utilisation of Digital Health Technologies Among Healthcare Professionals in South Korea",
+      "url": "https://doi.org/10.1093/ehjdh/ztag171",
+      "summary": "Abstract Aims Digital health technologies are rapidly transforming clinical practice, yet data on clinicians’ real-world adoption and perceptions remain limited. We surveyed Korean healthcare professionals to evaluate awareness, utilisation patterns, perceived needs, and barriers related to digital health. Methods and…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-10-27T20:05:13.533Z"
     },
     {
       "id": "daily-e7c84cc49c50",
