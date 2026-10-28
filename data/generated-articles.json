@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-10-27T20:05:13.535Z",
+  "updatedAt": "2026-10-28T20:15:52.117Z",
   "articles": [
+    {
+      "id": "daily-d71124448816",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-10-28T09:00:00Z",
+      "label": "Recent industry read",
+      "readingTime": "3 min read",
+      "title": "A benchmark score without a method is marketing: six checks for any health AI claim",
+      "url": "https://dev.to/xander-aj3/a-benchmark-score-without-a-method-is-marketing-six-checks-for-any-health-ai-claim-ln2",
+      "summary": "A checklist for reading health AI benchmarks, using one chart I could not verify and one number from my own product that I would rather not have publi",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-10-28T20:15:52.115Z"
+    },
     {
       "id": "daily-28c4f793c455",
       "type": "industry",
