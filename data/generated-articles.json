@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-10-29T20:18:01.455Z",
+  "updatedAt": "2026-10-30T19:55:36.208Z",
   "articles": [
+    {
+      "id": "daily-708b683113f7",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-10-30T12:50:16Z",
+      "label": "Recent industry read",
+      "readingTime": "7 min read",
+      "title": "From Intake to Discharge: How to Build an Integrated Behavioral Health Clinical Workflow",
+      "url": "https://dev.to/nisha_verma_d28f0971cac5f/from-intake-to-discharge-how-to-build-an-integrated-behavioral-health-clinical-workflow-5bm5",
+      "summary": "A patient completes an intake assessment at a behavioral health clinic. The clinician documents...",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-10-30T19:55:36.207Z"
+    },
     {
       "id": "daily-d71124448816",
       "type": "industry",
