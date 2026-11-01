@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T19:17:41.620Z",
+  "updatedAt": "2026-11-01T19:40:51.623Z",
   "articles": [
     {
       "id": "daily-708b683113f7",
@@ -120,6 +120,21 @@
       "summary": "A healthcare AI demonstration can generate a convincing summary in seconds. A production system has a...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-09-21T19:59:39.476Z"
+    },
+    {
+      "id": "daily-a5104b73a10e",
+      "type": "research",
+      "source": "American Heart Journal",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-11-01T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Moving beyond technical capability to regulatory integration for digital health technology devices-brief communication from the Cardiovascular Sciences Research Consortium",
+      "url": "https://doi.org/10.1016/j.ahj.2026.107522",
+      "summary": "Recent research by Jessica N. Holtzman.",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-11-01T19:40:51.622Z"
     },
     {
       "id": "daily-028a36f0f745",
@@ -285,21 +300,6 @@
       "summary": "Recent research by Leqi Weng.",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-09-20T18:11:56.102Z"
-    },
-    {
-      "id": "daily-19b5cbd5efd8",
-      "type": "research",
-      "source": "Mayo Clinic proceedings. Digital health",
-      "sourceMark": "PM",
-      "sourceClass": "rock",
-      "date": "2026-09-17T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Service User Experiences and Perceptions of Virtual Mental Health and Substance Use Care in Canada: A Survey of the Wellness Together Canada Portal.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42898382/",
-      "summary": "Recent research led by Lee H.",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-10-20T19:17:11.722Z"
     }
   ]
 }
