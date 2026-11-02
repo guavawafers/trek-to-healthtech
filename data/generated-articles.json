@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-01T19:40:51.623Z",
+  "updatedAt": "2026-11-02T23:06:20.466Z",
   "articles": [
+    {
+      "id": "daily-772fc700c574",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-11-02T09:00:00Z",
+      "label": "Recent industry read",
+      "readingTime": "2 min read",
+      "title": "“Promising, now prove it”: how NICE's early value assessment works as a rulebook for health AI builders",
+      "url": "https://dev.to/xander-aj3/promising-now-prove-it-how-nices-early-value-assessment-works-as-a-rulebook-for-health-ai-429h",
+      "summary": "Who decides which health AI gets used? Not only the companies. NICE has a middle path between yes and no, and builders can design for it.",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-11-02T23:06:20.464Z"
+    },
     {
       "id": "daily-708b683113f7",
       "type": "industry",
@@ -120,6 +135,36 @@
       "summary": "A healthcare AI demonstration can generate a convincing summary in seconds. A production system has a...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-09-21T19:59:39.476Z"
+    },
+    {
+      "id": "daily-aafca42ce7bf",
+      "type": "research",
+      "source": "Frontiers in Public Health",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-11-02T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Artificial intelligence-enabled healthcare access and user experience: comparative institutional analysis and survey evidence from China",
+      "url": "https://doi.org/10.3389/fpubh.2026.1977062",
+      "summary": "Background Regulatory entry and public experience describe different aspects of artificial intelligence-enabled healthcare access. Methods This health policy study compares institutional arrangements in China, the United States, and the European Union, examines the coverage of equity-related evidence, and analyses an…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-11-02T23:06:20.464Z"
+    },
+    {
+      "id": "daily-764fce4fd5af",
+      "type": "research",
+      "source": "Asian Journal of Geographical Research",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-11-02T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Healthcare Accessibility and Rural Social Inequality in Bahraich District, Uttar Pradesh: A Socio-geographical Methodological Study",
+      "url": "https://doi.org/10.9734/ajgr/2026/v9i4497",
+      "summary": "Healthcare accessibility combines geographical, financial, organisational and household-level conditions. This methodological illustration applies a socio-geographical framework to a 600-record tabulated household dataset attributed to six development blocks of Bahraich District, Uttar Pradesh. The original source…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-11-02T23:06:20.464Z"
     },
     {
       "id": "daily-a5104b73a10e",
@@ -270,36 +315,6 @@
       "summary": "Recent research by Bo Xie.",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-09-24T19:10:35.764Z"
-    },
-    {
-      "id": "daily-c41f126c2c84",
-      "type": "research",
-      "source": "Journal of Radiation Research",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-09-22T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Clinical impact of introducing automated plan checking in radiation therapy: effects on workflow efficiency, cognitive load and usability",
-      "url": "https://doi.org/10.1093/jrr/rrag078",
-      "summary": "Abstract As radiation therapy planning becomes increasingly complex, the risk of human error and the workload associated with plan checking have intensified for medical physicists. This study aimed to develop an automated plan check script using the Eclipse Scripting API and to quantitatively evaluate its impact on…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-09-22T18:54:46.833Z"
-    },
-    {
-      "id": "daily-9aae3a21ca71",
-      "type": "research",
-      "source": "IISE Transactions on Healthcare Systems Engineering",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-09-20T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Improving healthcare equity through tele-health: a spatial accessibility-based optimization approach †",
-      "url": "https://doi.org/10.1080/24725579.2026.2695391",
-      "summary": "Recent research by Leqi Weng.",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-09-20T18:11:56.102Z"
     }
   ]
 }
