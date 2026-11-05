@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-04T21:19:53.675Z",
+  "updatedAt": "2026-11-05T21:28:02.912Z",
   "articles": [
+    {
+      "id": "daily-0d7eef07a590",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-11-05T11:51:17Z",
+      "label": "Recent industry read",
+      "readingTime": "4 min read",
+      "title": "Firefox for Healthcare Workers: EHR Navigation, Reference Lookups, and Clinical Workflow",
+      "url": "https://dev.to/weatherclockdash/firefox-for-healthcare-workers-ehr-navigation-reference-lookups-and-clinical-workflow-1pnb",
+      "summary": "Healthcare workers are power browser users. Between checking EHR systems, referencing clinical...",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-11-05T21:28:02.910Z"
+    },
     {
       "id": "daily-772fc700c574",
       "type": "industry",
@@ -122,21 +137,6 @@
       "addedAt": "2026-10-01T20:21:10.401Z"
     },
     {
-      "id": "daily-0a252cb29c36",
-      "type": "industry",
-      "source": "DEV Community",
-      "sourceMark": "DEV",
-      "sourceClass": "market-logo",
-      "date": "2026-09-21T07:07:42Z",
-      "label": "Recent industry read",
-      "readingTime": "4 min read",
-      "title": "Healthcare AI Starts Before the Model: 5 Companies to Evaluate for Engineering Support",
-      "url": "https://dev.to/arjun_07/healthcare-ai-starts-before-the-model-5-companies-to-evaluate-for-engineering-support-4i36",
-      "summary": "A healthcare AI demonstration can generate a convincing summary in seconds. A production system has a...",
-      "designValue": "Track emerging product signals",
-      "addedAt": "2026-09-21T19:59:39.476Z"
-    },
-    {
       "id": "daily-aafca42ce7bf",
       "type": "research",
       "source": "Frontiers in Public Health",
@@ -150,6 +150,21 @@
       "summary": "Background Regulatory entry and public experience describe different aspects of artificial intelligence-enabled healthcare access. Methods This health policy study compares institutional arrangements in China, the United States, and the European Union, examines the coverage of equity-related evidence, and analyses an…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-11-02T23:06:20.464Z"
+    },
+    {
+      "id": "daily-948cf6eeae37",
+      "type": "research",
+      "source": "Journal of Medical Internet Research",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-11-05T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Application of Digital Health Interventions for Cognitive Management in Children With Cancer: Scoping Review",
+      "url": "https://doi.org/10.2196/104881",
+      "summary": "Abstract Background Advances in the diagnosis and treatment of childhood cancer have substantially improved survival, resulting in a growing population of survivors of childhood cancer who may experience long-term treatment-related sequelae. Cognitive late effects are an important long-term consequence of childhood…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-11-05T21:28:02.910Z"
     },
     {
       "id": "daily-764fce4fd5af",
@@ -300,21 +315,6 @@
       "summary": "Recent research by Noah Rosen.",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-09-25T19:15:03.340Z"
-    },
-    {
-      "id": "daily-c889eef8c41b",
-      "type": "research",
-      "source": "Discover Artificial Intelligence",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-09-24T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Analyzing and redesigning deployment pathways for internally developed artificial intelligence tools in clinical education and health research",
-      "url": "https://doi.org/10.1007/s44163-026-02220-0",
-      "summary": "Recent research by Bo Xie.",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-09-24T19:10:35.764Z"
     }
   ]
 }
