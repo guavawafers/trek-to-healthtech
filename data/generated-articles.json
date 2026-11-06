@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T21:28:02.912Z",
+  "updatedAt": "2026-11-06T20:54:08.467Z",
   "articles": [
     {
       "id": "daily-0d7eef07a590",
@@ -152,6 +152,21 @@
       "addedAt": "2026-11-02T23:06:20.464Z"
     },
     {
+      "id": "daily-c8d7e5456a7c",
+      "type": "research",
+      "source": "BMC Digital Health",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-11-06T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Beyond technology acceptance: relatedness and self-efficacy as correlates of behavioral intention toward digital health application use",
+      "url": "https://doi.org/10.1186/s44247-026-00316-2",
+      "summary": "Recent research by Bindiya M. Varghese.",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-11-06T20:54:08.466Z"
+    },
+    {
       "id": "daily-948cf6eeae37",
       "type": "research",
       "source": "Journal of Medical Internet Research",
@@ -298,21 +313,6 @@
       "title": "Knowledge and Adoption of Digital Health Technologies Among Patients with Cardiovascular Disease Attending a Tertiary Hospital in Southwest Nigeria",
       "url": "https://doi.org/10.71181/actabioscientia12670",
       "summary": "Background: Digital health technologies (DHTs) are increasingly used to support the prevention, monitoring, and self-management of cardiovascular disease (CVD). However, evidence regarding patients' knowledge and adoption of these technologies in Nigeria remains limited. This study assessed the knowledge and adoption…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-09-25T19:15:03.340Z"
-    },
-    {
-      "id": "daily-5bdc8393d24e",
-      "type": "research",
-      "source": "Neurology and Therapy",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-09-25T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Correction: Patient Experience with 10 mg Intranasally Administered Zavegepant as an Acute Treatment of Migraine Attacks: Qualitative Research Findings",
-      "url": "https://doi.org/10.1007/s40120-026-01034-7",
-      "summary": "Recent research by Noah Rosen.",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-09-25T19:15:03.340Z"
     }
