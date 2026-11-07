@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T20:54:08.467Z",
+  "updatedAt": "2026-11-07T19:25:41.551Z",
   "articles": [
     {
       "id": "daily-0d7eef07a590",
@@ -152,6 +152,21 @@
       "addedAt": "2026-11-02T23:06:20.464Z"
     },
     {
+      "id": "daily-cef7493a3217",
+      "type": "research",
+      "source": "Journal of the Endocrine Society",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-11-07T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Improving the patient experience of adrenal vein sampling: a multicentre survey and counselling checklist",
+      "url": "https://doi.org/10.1210/jendso/bvag260",
+      "summary": "Abstract Objectives Adrenal vein sampling (AVS) is the recommended procedure for subtyping primary aldosteronism (PA), yet the patient experience is not well researched. As global guidelines now recommend broader PA screening, AVS demand is expected to rise. This study aimed to explore patient experiences of AVS to…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-11-07T19:25:41.549Z"
+    },
+    {
       "id": "daily-c8d7e5456a7c",
       "type": "research",
       "source": "BMC Digital Health",
@@ -300,21 +315,6 @@
       "summary": "Recent research led by Harrington CB.",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-10-25T18:24:10.654Z"
-    },
-    {
-      "id": "daily-a18709d57080",
-      "type": "research",
-      "source": "Acta Bioscientia: Journal of Biomedical and Biological Science Research",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-09-25T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Knowledge and Adoption of Digital Health Technologies Among Patients with Cardiovascular Disease Attending a Tertiary Hospital in Southwest Nigeria",
-      "url": "https://doi.org/10.71181/actabioscientia12670",
-      "summary": "Background: Digital health technologies (DHTs) are increasingly used to support the prevention, monitoring, and self-management of cardiovascular disease (CVD). However, evidence regarding patients' knowledge and adoption of these technologies in Nigeria remains limited. This study assessed the knowledge and adoption…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-09-25T19:15:03.340Z"
     }
   ]
 }
