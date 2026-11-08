@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T19:25:41.551Z",
+  "updatedAt": "2026-11-08T19:41:12.044Z",
   "articles": [
     {
       "id": "daily-0d7eef07a590",
@@ -152,6 +152,21 @@
       "addedAt": "2026-11-02T23:06:20.464Z"
     },
     {
+      "id": "daily-48c9c0936d0a",
+      "type": "research",
+      "source": "Iconic Research and Engineering Journals",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-11-08T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Beyond Appointment Booking: Designing an Integrated Patient-Centric Digital Healthcare Journey for Apollo SAGE Hospitals, Bhopal",
+      "url": "https://doi.org/10.64388/ire1724938",
+      "summary": "Recent research by Satyud Deb.",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-11-08T19:41:12.043Z"
+    },
+    {
       "id": "daily-cef7493a3217",
       "type": "research",
       "source": "Journal of the Endocrine Society",
@@ -300,21 +315,6 @@
       "summary": "Negative birth experience has been linked to adverse postpartum mental health, yet potentially modifiable contributors such as mode of delivery, perineal trauma, and digital health literacy have not been well described in Central and Eastern Europe. This study examined obstetric factors and digital health literacy as…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-10-15T19:07:43.418Z"
-    },
-    {
-      "id": "daily-cdbb1d503f90",
-      "type": "research",
-      "source": "Contemporary clinical trials communications",
-      "sourceMark": "PM",
-      "sourceClass": "rock",
-      "date": "2026-10-10T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Design of a digital health intervention to promote prediabetes health literacy and behavior change among young adults.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42921223/",
-      "summary": "Recent research led by Harrington CB.",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-10-25T18:24:10.654Z"
     }
   ]
 }
