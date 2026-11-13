@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T21:50:33.615Z",
+  "updatedAt": "2026-11-13T21:25:32.007Z",
   "articles": [
     {
       "id": "daily-0d7eef07a590",
@@ -152,6 +152,21 @@
       "addedAt": "2026-11-02T23:06:20.464Z"
     },
     {
+      "id": "daily-59556d7b5298",
+      "type": "research",
+      "source": "Journal of Renal Care",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-11-13T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Peritoneal Dialysis and Digital Health: An Integrative Review",
+      "url": "https://doi.org/10.1111/jorc.70089",
+      "summary": "ABSTRACT Introduction Peritoneal dialysis has increasingly incorporated digital health resources over the past decade, particularly tools designed to support remote monitoring and self‑care. This integrative review aims to describe how digital applications are used by people undergoing peritoneal dialysis and to…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-11-13T21:25:32.005Z"
+    },
+    {
       "id": "daily-48c9c0936d0a",
       "type": "research",
       "source": "Iconic Research and Engineering Journals",
@@ -298,21 +313,6 @@
       "title": "Identifying facilitators of and barriers to digital health literacy in pediatric rheumatic disease: A scoping review",
       "url": "https://doi.org/10.1371/journal.pdig.0001777",
       "summary": "Digital health (DH) technologies have the potential to benefit pediatric patients with rheumatic diseases and their caregivers. Digital health literacy (DHL) refers to the knowledge and skills necessary to use technology and the internet to manage and communicate about health. The aim of this scoping review is to…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-10-15T19:07:43.418Z"
-    },
-    {
-      "id": "daily-12d918590fe1",
-      "type": "research",
-      "source": "International Journal of Childbirth",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-10-15T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Obstetric Factors and Digital Health Literacy as Predictors of Negative Birth Experience Among Czech Mothers: A Cross-Sectional Study",
-      "url": "https://doi.org/10.1891/ijc-2026-0009",
-      "summary": "Negative birth experience has been linked to adverse postpartum mental health, yet potentially modifiable contributors such as mode of delivery, perineal trauma, and digital health literacy have not been well described in Central and Eastern Europe. This study examined obstetric factors and digital health literacy as…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-10-15T19:07:43.418Z"
     }
