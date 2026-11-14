@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-13T21:25:32.007Z",
+  "updatedAt": "2026-11-14T19:55:57.684Z",
   "articles": [
+    {
+      "id": "daily-65def4c37528",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-11-13T09:00:00Z",
+      "label": "Recent industry read",
+      "readingTime": "2 min read",
+      "title": "A checklist for using a health AI safely, and for building one that earns your trust",
+      "url": "https://dev.to/xander-aj3/a-checklist-for-using-a-health-ai-safely-and-for-building-one-that-earns-your-trust-20md",
+      "summary": "Seven questions that work as a user checklist and as a build spec, drawn from weeks of reading how health AI products are built.",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-11-14T19:55:57.682Z"
+    },
     {
       "id": "daily-0d7eef07a590",
       "type": "industry",
