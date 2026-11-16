@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T20:23:35.877Z",
+  "updatedAt": "2026-11-16T23:44:24.825Z",
   "articles": [
     {
       "id": "daily-65def4c37528",
@@ -152,6 +152,21 @@
       "addedAt": "2026-11-02T23:06:20.464Z"
     },
     {
+      "id": "daily-8e1052a9f4f5",
+      "type": "research",
+      "source": "Green Health",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-11-16T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Artificial Intelligence in Environmental Epidemiology: Current Applications, Methodological Risks, and Future Directions",
+      "url": "https://doi.org/10.3390/greenhealth2040029",
+      "summary": "Background: Artificial intelligence (AI) and machine learning (ML) are increasingly used in environmental epidemiology to integrate satellite, geographic, sensor, health-record, biomonitoring, and multi-omics data. Existing reviews are organized mainly by technology or domain; less explicit is how validation design,…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-11-16T23:44:24.824Z"
+    },
+    {
       "id": "daily-59556d7b5298",
       "type": "research",
       "source": "Journal of Renal Care",
@@ -300,21 +315,6 @@
       "summary": "Abstract Background Gestational diabetes mellitus (GDM) affects approximately 14% of pregnancies worldwide and is associated with substantial long-term risks, including type 2 diabetes and cardiovascular disease. Although the 1-step oral glucose tolerance test (OGTT) is more sensitive and recommended by several…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-10-20T19:17:11.722Z"
-    },
-    {
-      "id": "daily-9e8ccd7be162",
-      "type": "research",
-      "source": "PLOS Digital Health",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-10-15T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Identifying facilitators of and barriers to digital health literacy in pediatric rheumatic disease: A scoping review",
-      "url": "https://doi.org/10.1371/journal.pdig.0001777",
-      "summary": "Digital health (DH) technologies have the potential to benefit pediatric patients with rheumatic diseases and their caregivers. Digital health literacy (DHL) refers to the knowledge and skills necessary to use technology and the internet to manage and communicate about health. The aim of this scoping review is to…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-10-15T19:07:43.418Z"
     }
   ]
 }
