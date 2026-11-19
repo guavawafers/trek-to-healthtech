@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-11-18T22:35:29.003Z",
+  "updatedAt": "2026-11-19T22:39:58.316Z",
   "articles": [
+    {
+      "id": "daily-3e2b3653f7d8",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-11-18T20:00:00Z",
+      "label": "Recent industry read",
+      "readingTime": "8 min read",
+      "title": "10 Best MVP Development Companies for Healthcare Startups to Build Digital Health Products in 2026",
+      "url": "https://dev.to/vrunda_chauhan_a52cc23b11/10-best-mvp-development-companies-for-healthcare-startups-to-build-digital-health-products-in-2026-4kmc",
+      "summary": "TL;DR: Quick Engineering Breakdown Best for Lean Budgets &amp; AI-Driven Telehealth:...",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-11-19T22:39:58.315Z"
+    },
     {
       "id": "daily-65def4c37528",
       "type": "industry",
@@ -120,21 +135,6 @@
       "summary": "A healthcare company came to us with an internal AI-powered SEO platform. The prototype already...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-10-08T20:41:48.696Z"
-    },
-    {
-      "id": "daily-1702633e511a",
-      "type": "industry",
-      "source": "DEV Community",
-      "sourceMark": "DEV",
-      "sourceClass": "market-logo",
-      "date": "2026-10-05T11:51:35Z",
-      "label": "Recent industry read",
-      "readingTime": "2 min read",
-      "title": "Designing an EHR Integration Layer for a Telehealth Platform",
-      "url": "https://dev.to/omjariwala/designing-an-ehr-integration-layer-for-a-telehealth-platform-8h5",
-      "summary": "When developers hear “EHR integration,” the first thought is usually an API. But a production...",
-      "designValue": "Track emerging product signals",
-      "addedAt": "2026-10-05T22:01:04.009Z"
     },
     {
       "id": "daily-aafca42ce7bf",
