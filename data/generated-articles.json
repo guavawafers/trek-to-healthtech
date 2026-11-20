@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T22:39:58.316Z",
+  "updatedAt": "2026-11-20T22:14:28.509Z",
   "articles": [
     {
       "id": "daily-3e2b3653f7d8",
@@ -152,6 +152,21 @@
       "addedAt": "2026-11-02T23:06:20.464Z"
     },
     {
+      "id": "daily-bd1cfeee6871",
+      "type": "research",
+      "source": "Frontiers in Public Health",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-11-20T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Usability evaluation of a mobile health platform for post-discharge older adults with cardiometabolic multimorbidity: a mixed-methods study",
+      "url": "https://doi.org/10.3389/fpubh.2026.1985504",
+      "summary": "Background During the transition from hospital to home, older adults with cardiometabolic multimorbidity (CMM) encounter inadequate social support and limited capacity for health information management. We developed a mobile health (mHealth) platform to deliver health management support for post-discharge older adults…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-11-20T22:14:28.508Z"
+    },
+    {
       "id": "daily-8e1052a9f4f5",
       "type": "research",
       "source": "Green Health",
@@ -300,21 +315,6 @@
       "summary": "Recently published healthtech research.",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-10-25T18:24:10.654Z"
-    },
-    {
-      "id": "daily-430875edb763",
-      "type": "research",
-      "source": "BMC Public Health",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-10-20T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "A qualitative evaluation of provider decision-making and patient experiences with 1-step and 2-step gestational diabetes (GDM) screening",
-      "url": "https://doi.org/10.1186/s12889-026-29819-3",
-      "summary": "Abstract Background Gestational diabetes mellitus (GDM) affects approximately 14% of pregnancies worldwide and is associated with substantial long-term risks, including type 2 diabetes and cardiovascular disease. Although the 1-step oral glucose tolerance test (OGTT) is more sensitive and recommended by several…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-10-20T19:17:11.722Z"
     }
   ]
 }
