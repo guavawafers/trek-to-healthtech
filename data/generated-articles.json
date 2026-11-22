@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T20:54:38.641Z",
+  "updatedAt": "2026-11-22T21:03:10.375Z",
   "articles": [
     {
       "id": "daily-3e2b3653f7d8",
@@ -122,21 +122,6 @@
       "addedAt": "2026-10-19T20:35:15.948Z"
     },
     {
-      "id": "daily-e29418b55a25",
-      "type": "industry",
-      "source": "DEV Community",
-      "sourceMark": "DEV",
-      "sourceClass": "market-logo",
-      "date": "2026-10-08T07:20:31Z",
-      "label": "Recent industry read",
-      "readingTime": "3 min read",
-      "title": "From Prompt-and-Response to Agentic Workflows: Engineering an AI Content Platform for Telehealth",
-      "url": "https://dev.to/omjariwala/from-prompt-and-response-to-agentic-workflows-engineering-an-ai-content-platform-for-telehealth-4gjk",
-      "summary": "A healthcare company came to us with an internal AI-powered SEO platform. The prototype already...",
-      "designValue": "Track emerging product signals",
-      "addedAt": "2026-10-08T20:41:48.696Z"
-    },
-    {
       "id": "daily-aafca42ce7bf",
       "type": "research",
       "source": "Frontiers in Public Health",
@@ -150,6 +135,21 @@
       "summary": "Background Regulatory entry and public experience describe different aspects of artificial intelligence-enabled healthcare access. Methods This health policy study compares institutional arrangements in China, the United States, and the European Union, examines the coverage of equity-related evidence, and analyses an…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-11-02T23:06:20.464Z"
+    },
+    {
+      "id": "daily-8324f0bb8241",
+      "type": "research",
+      "source": "JAMIA open",
+      "sourceMark": "PM",
+      "sourceClass": "rock",
+      "date": "2026-11-20T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Clinical research resources and researcher-facing query tools: a scoping review of maturity, usability, and implications for oral health.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43066109/",
+      "summary": "Recent research led by Tokede B.",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-11-22T21:03:10.374Z"
     },
     {
       "id": "daily-bd1cfeee6871",
@@ -300,21 +300,6 @@
       "summary": "Abstract Aims Digital health technologies are rapidly transforming clinical practice, yet data on clinicians’ real-world adoption and perceptions remain limited. We surveyed Korean healthcare professionals to evaluate awareness, utilisation patterns, perceived needs, and barriers related to digital health. Methods and…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-10-27T20:05:13.533Z"
-    },
-    {
-      "id": "daily-e7c84cc49c50",
-      "type": "research",
-      "source": "INTERNATIONAL RESEARCH JOURNAL OF MODERNIZATION IN ENGINEERING TECHNOLOGY AND SCIENCE",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-10-25T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "HUMAN–AI COLLABORATION IN USER EXPERIENCE DESIGN: DEVELOPING AND VALIDATING A FRAMEWORK FOR AI-ASSISTED UI DESIGN",
-      "url": "https://doi.org/10.56726/irjmets102211",
-      "summary": "Recently published healthtech research.",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-10-25T18:24:10.654Z"
     }
   ]
 }
