@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T21:03:10.375Z",
+  "updatedAt": "2026-11-24T02:12:05.481Z",
   "articles": [
     {
       "id": "daily-3e2b3653f7d8",
@@ -15,6 +15,21 @@
       "summary": "TL;DR: Quick Engineering Breakdown Best for Lean Budgets &amp; AI-Driven Telehealth:...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-11-19T22:39:58.315Z"
+    },
+    {
+      "id": "daily-d9c05126f368",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-11-23T22:12:12Z",
+      "label": "Recent industry read",
+      "readingTime": "3 min read",
+      "title": "Building Digital Healthcare Solutions: How Technology Can Improve Healthcare in Bangladesh",
+      "url": "https://dev.to/b_llcg/building-digital-healthcare-solutions-how-technology-can-improve-healthcare-in-bangladesh-aa4",
+      "summary": "Building Digital Healthcare Solutions: How Technology Can Improve Healthcare in...",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-11-24T02:12:05.478Z"
     },
     {
       "id": "daily-65def4c37528",
@@ -135,6 +150,21 @@
       "summary": "Background Regulatory entry and public experience describe different aspects of artificial intelligence-enabled healthcare access. Methods This health policy study compares institutional arrangements in China, the United States, and the European Union, examines the coverage of equity-related evidence, and analyses an…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-11-02T23:06:20.464Z"
+    },
+    {
+      "id": "daily-844b1a92533c",
+      "type": "research",
+      "source": "Australian Journal of Primary Health",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-11-24T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "General practitioner attitudes towards the utility of artificial intelligence-augmented clinical decision support for hypertension in Australia and England: a qualitative study",
+      "url": "https://doi.org/10.1071/py26089",
+      "summary": "Background Hypertension remains a persistent global health concern; in Australia, over half of hypertensive patients experience poor blood pressure control (≥140/90 mmHg). Given that hypertension is predominantly managed in primary care, it may represent an ideal setting for implementing novel artificial intelligence…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-11-24T02:12:05.478Z"
     },
     {
       "id": "daily-8324f0bb8241",
@@ -285,21 +315,6 @@
       "summary": "Recent research by Jessica N. Holtzman.",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-11-01T19:40:51.622Z"
-    },
-    {
-      "id": "daily-028a36f0f745",
-      "type": "research",
-      "source": "European Heart Journal - Digital Health",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-10-27T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Perceptions and Utilisation of Digital Health Technologies Among Healthcare Professionals in South Korea",
-      "url": "https://doi.org/10.1093/ehjdh/ztag171",
-      "summary": "Abstract Aims Digital health technologies are rapidly transforming clinical practice, yet data on clinicians’ real-world adoption and perceptions remain limited. We surveyed Korean healthcare professionals to evaluate awareness, utilisation patterns, perceived needs, and barriers related to digital health. Methods and…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-10-27T20:05:13.533Z"
     }
   ]
 }
