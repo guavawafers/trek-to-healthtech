@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T23:53:35.072Z",
+  "updatedAt": "2026-11-25T23:37:08.112Z",
   "articles": [
     {
       "id": "daily-3e2b3653f7d8",
@@ -152,6 +152,21 @@
       "addedAt": "2026-11-02T23:06:20.464Z"
     },
     {
+      "id": "daily-e2320590eb69",
+      "type": "research",
+      "source": "Economica",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-11-25T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "No debt, no health? Public healthcare accessibility and medical loan uptake",
+      "url": "https://doi.org/10.1111/ecca.70085",
+      "summary": "Abstract This study examines how accessibility to publicly provided healthcare in European universal healthcare systems affects the uptake of medical loans. We first combine a large dataset of securitized consumer loans with data on Italian healthcare services from 2017 to 2022. We find that a decline in the…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-11-25T23:37:08.111Z"
+    },
+    {
       "id": "daily-844b1a92533c",
       "type": "research",
       "source": "Australian Journal of Primary Health",
@@ -300,21 +315,6 @@
       "summary": "Healthcare accessibility combines geographical, financial, organisational and household-level conditions. This methodological illustration applies a socio-geographical framework to a 600-record tabulated household dataset attributed to six development blocks of Bahraich District, Uttar Pradesh. The original source…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-11-02T23:06:20.464Z"
-    },
-    {
-      "id": "daily-a5104b73a10e",
-      "type": "research",
-      "source": "American Heart Journal",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-11-01T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Moving beyond technical capability to regulatory integration for digital health technology devices-brief communication from the Cardiovascular Sciences Research Consortium",
-      "url": "https://doi.org/10.1016/j.ahj.2026.107522",
-      "summary": "Recent research by Jessica N. Holtzman.",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-11-01T19:40:51.622Z"
     }
   ]
 }
