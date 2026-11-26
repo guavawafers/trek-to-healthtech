@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T23:37:08.112Z",
+  "updatedAt": "2026-11-26T23:51:00.912Z",
   "articles": [
     {
       "id": "daily-3e2b3653f7d8",
@@ -15,6 +15,21 @@
       "summary": "TL;DR: Quick Engineering Breakdown Best for Lean Budgets &amp; AI-Driven Telehealth:...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-11-19T22:39:58.315Z"
+    },
+    {
+      "id": "daily-2359312d8930",
+      "type": "industry",
+      "source": "DEV Community",
+      "sourceMark": "DEV",
+      "sourceClass": "market-logo",
+      "date": "2026-11-26T11:12:21Z",
+      "label": "Recent industry read",
+      "readingTime": "3 min read",
+      "title": "5 Companies Building Connected Patient Experiences and the Engineering Behind Them",
+      "url": "https://dev.to/raj_07/5-companies-building-connected-patient-experiences-and-the-engineering-behind-them-2k8k",
+      "summary": "A patient moves an appointment from Tuesday to Thursday. The portal shows Thursday, but an SMS queued...",
+      "designValue": "Track emerging product signals",
+      "addedAt": "2026-11-26T23:51:00.910Z"
     },
     {
       "id": "daily-d9c05126f368",
@@ -150,6 +165,21 @@
       "summary": "Background Regulatory entry and public experience describe different aspects of artificial intelligence-enabled healthcare access. Methods This health policy study compares institutional arrangements in China, the United States, and the European Union, examines the coverage of equity-related evidence, and analyses an…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-11-02T23:06:20.464Z"
+    },
+    {
+      "id": "daily-4c74ea287ad0",
+      "type": "research",
+      "source": "Journal of Health Informatics",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-11-26T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Usability as a feature of an information system for health status measures: the DataCIF concept",
+      "url": "https://doi.org/10.59681/2175-4411.v18.iespecial.2026.1823",
+      "summary": "Objective: To evaluate the perceived usability of DataCIF 2.0, a health information system based on the International Classification of Functioning, Disability and Health. Method: Ten healthcare professionals with expertise in the ICF and/or health information systems explored DataCIF 2.0 for 15 days and subsequently…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-11-26T23:51:00.910Z"
     },
     {
       "id": "daily-e2320590eb69",
@@ -300,21 +330,6 @@
       "summary": "Abstract Background Advances in the diagnosis and treatment of childhood cancer have substantially improved survival, resulting in a growing population of survivors of childhood cancer who may experience long-term treatment-related sequelae. Cognitive late effects are an important long-term consequence of childhood…",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-11-05T21:28:02.910Z"
-    },
-    {
-      "id": "daily-764fce4fd5af",
-      "type": "research",
-      "source": "Asian Journal of Geographical Research",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-11-02T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Healthcare Accessibility and Rural Social Inequality in Bahraich District, Uttar Pradesh: A Socio-geographical Methodological Study",
-      "url": "https://doi.org/10.9734/ajgr/2026/v9i4497",
-      "summary": "Healthcare accessibility combines geographical, financial, organisational and household-level conditions. This methodological illustration applies a socio-geographical framework to a 600-record tabulated household dataset attributed to six development blocks of Bahraich District, Uttar Pradesh. The original source…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-11-02T23:06:20.464Z"
     }
   ]
 }
