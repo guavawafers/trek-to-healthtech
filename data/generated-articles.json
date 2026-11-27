@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T23:51:00.912Z",
+  "updatedAt": "2026-11-27T23:27:27.837Z",
   "articles": [
     {
       "id": "daily-3e2b3653f7d8",
@@ -150,6 +150,21 @@
       "summary": "Healthcare AI agents are evolving beyond chatbots that answer questions. They can now be designed to...",
       "designValue": "Track emerging product signals",
       "addedAt": "2026-10-19T20:35:15.948Z"
+    },
+    {
+      "id": "daily-61c33a457a6a",
+      "type": "research",
+      "source": "Annals of Global Health",
+      "sourceMark": "CR",
+      "sourceClass": "future-logo",
+      "date": "2026-11-27T00:00:00.000Z",
+      "label": "Recent research",
+      "readingTime": "Research paper",
+      "title": "Space and Telehealth Link to Tackle Equity (SaTelLiTE): A Governance Framework",
+      "url": "https://doi.org/10.5334/aogh.5551",
+      "summary": "The Lower Earth Orbit (LEO) space satellite telecommunications systems can advance global health goals through the expansion of digital connectivity, thereby accelerating the adoption of digital health technologies and improving telehealth access worldwide. However, the increasing complexity and rapid…",
+      "designValue": "Review emerging evidence",
+      "addedAt": "2026-11-27T23:27:27.836Z"
     },
     {
       "id": "daily-aafca42ce7bf",
@@ -315,21 +330,6 @@
       "summary": "Recent research by Bindiya M. Varghese.",
       "designValue": "Review emerging evidence",
       "addedAt": "2026-11-06T20:54:08.466Z"
-    },
-    {
-      "id": "daily-948cf6eeae37",
-      "type": "research",
-      "source": "Journal of Medical Internet Research",
-      "sourceMark": "CR",
-      "sourceClass": "future-logo",
-      "date": "2026-11-05T00:00:00.000Z",
-      "label": "Recent research",
-      "readingTime": "Research paper",
-      "title": "Application of Digital Health Interventions for Cognitive Management in Children With Cancer: Scoping Review",
-      "url": "https://doi.org/10.2196/104881",
-      "summary": "Abstract Background Advances in the diagnosis and treatment of childhood cancer have substantially improved survival, resulting in a growing population of survivors of childhood cancer who may experience long-term treatment-related sequelae. Cognitive late effects are an important long-term consequence of childhood…",
-      "designValue": "Review emerging evidence",
-      "addedAt": "2026-11-05T21:28:02.910Z"
     }
   ]
 }
